@@ -80,6 +80,8 @@
     const type = project.visual || project.category;
     if (type === 'ai') return `<div class="scene-inner" aria-hidden="true"><div class="scene-top"><span>API // SPEC</span><span class="scene-dots"><i></i><i></i><i></i></span></div><div class="scene-code"><span></span><span></span><span></span><span></span><span></span><span></span></div><div class="scene-bottom"><span>↗ EXPLORING</span><span>STATUS: READY</span></div></div>`;
     if (type === 'web') return `<div class="scene-inner" aria-hidden="true"><div class="mock-top"><i></i><i></i><i></i><span>WEB APPLICATION ↗</span></div><div class="mock-body"><span class="mock-eyebrow">DESIGN / DEVELOP</span><div class="mock-heading"></div><div class="mock-heading short"></div><div class="mock-lines"><b></b><b></b></div><div class="mock-tiles"><i></i><i></i><i></i></div></div></div>`;
+    if (type === 'branding') return `<div class="scene-inner" aria-hidden="true"><img src="./assets/logo-xin.svg" alt=""><span>DESIGN IS IDENTITY</span></div>`;
+    if (type === 'editorial') return `<div class="scene-inner" aria-hidden="true"><span class="editorial-top">XIN / VISUAL NOTES</span><strong>Aa.</strong><span class="editorial-lines"></span><span class="editorial-bottom">COMPOSITION IS EVERYTHING ↗</span></div>`;
     if (type === 'design') return `<div class="scene-inner" aria-hidden="true"><div class="vector-circle"></div><div class="vector-diag"></div><div class="vector-sticker">✳</div></div>`;
     if (type === 'study') return `<div class="scene-inner" aria-hidden="true"><span class="notebook-mini">UNICA / 2026</span><div class="notebook-head">STUDY<br>NOTES.</div><div class="notebook-line"></div><div class="notebook-line"></div><div class="notebook-line"></div><div class="notebook-line"></div><span class="notebook-tag">PDF ↗</span></div>`;
     return `<div class="scene-inner" aria-hidden="true">✳</div>`;
@@ -161,9 +163,9 @@
   // Command menu: Ctrl/Command+K, accessible links, local-only navigation.
   const command=$('#commandDialog'),commandSearch=$('#commandSearch'),commandResults=$('#commandResults');
   const destinations=[{name:'Homepage',url:'#top',detail:'Torna all’inizio'},
-    {name:'Portfolio e progetti',url:'#work',detail:'Lavori selezionati'},
-    {name:'Illustrazione e fotografia',url:'#disciplines',detail:'Discipline creative'},
-    {name:'Materiale universitario',url:'./studio.html',detail:'Appunti, PDF e materie'},
+    {name:'Portfolio grafico',url:'#work',detail:'Identità, illustrazione, fotografia, editoriale'},
+    {name:'Discipline grafiche',url:'#disciplines',detail:'Branding, illustrazione, fotografia, editoriale'},
+    {name:'Università — sezione separata',url:'./studio.html',detail:'Appunti personali, PDF e materie'},
     {name:'Chi sono',url:'#about',detail:'Conosci Xinmin'},
     {name:'Contatti',url:'#contact',detail:'Scrivi un messaggio'},
     {name:'Privacy',url:'./privacy.html',detail:'Trattamento dei dati'},

@@ -33,3 +33,39 @@ dialog{border:0;padding:0;color:var(--ink);background:var(--surface)}dialog::bac
 .project-card:hover,.project-card:focus-visible{color:inherit}
 /* Keep a white logo against the dark mobile/desktop footer if dark theme is active. */
 html[data-theme="dark"] .brand>img,html[data-theme="dark"] .footer-brand>img,html[data-theme="dark"] .legal-logo>img{filter:brightness(0) invert(1)}
+
+/* -----------------------------------------------------
+   PORTFOLIO GRAFICO / L'università è una pagina separata
+   ----------------------------------------------------- */
+.brand-icon{font:900 76px/1 var(--display)!important;position:relative;letter-spacing:-.12em}
+.brand-icon span{font-size:19px;position:absolute;right:-14px;top:4px;letter-spacing:0;color:#c1cef9}
+.editorial-icon{font:italic 65px/.8 var(--serif)!important;letter-spacing:-.09em}
+.editorial-icon span{font:600 24px var(--display);position:absolute;right:-25px;top:-3px;color:#bfd0fc}
+.visual-branding{background:#d7e0fc}
+.visual-branding:before{content:'XIN / GRAPHIC DESIGN';position:absolute;left:8%;bottom:8%;font:800 12px var(--display);letter-spacing:.24em;color:#1423487f}
+.visual-branding .project-image{object-fit:contain;background:#f8f9ff;max-width:54%;max-height:69%;padding:7%;border:1px solid #bccafa;box-shadow:30px 33px 0 #4867ae3d;transform:rotate(-7deg);transition:transform .6s cubic-bezier(.2,.8,.2,1)}
+.project-card:hover .visual-branding .project-image{transform:rotate(-1deg) scale(1.03)}
+.visual-editorial{background:#e6bb9f}
+.visual-editorial:before{content:'DESIGN IS A PROCESS';color:#ffffff57;font:800 clamp(75px,10vw,170px)/.82 var(--display);letter-spacing:-.09em;position:absolute;inset:15% -10%;transform:rotate(-10deg)}
+.visual-editorial .scene-inner{position:relative;width:min(54%,380px);height:76%;transform:rotate(8deg);background:#f9f2e8;box-shadow:22px 23px 0 #ae695b77;border:1px solid #fff;display:flex;flex-direction:column;align-items:start;justify-content:space-between;padding:30px;color:#142348}
+.editorial-top,.editorial-bottom{font:800 10px var(--display);letter-spacing:.12em}
+.visual-editorial strong{font:italic 120px/.9 var(--serif);letter-spacing:-.1em}
+.editorial-lines{width:85%;height:21px;border-top:3px solid #142348;border-bottom:3px solid #142348;align-self:start}
+/* Dedicated University bridge: NOT a project, NOT a creative discipline */
+.university-bridge{padding:70px 0 120px;background:var(--bg)}
+.university-bridge-layout{border:1px solid var(--line);display:grid;grid-template-columns:1.25fr .75fr;background:var(--surface);border-radius:12px;overflow:hidden}
+.university-bridge-copy{padding:clamp(32px,6vw,86px)}
+.university-bridge-copy h2{font:800 clamp(36px,4vw,61px)/1.12 var(--display);letter-spacing:-.075em;margin:27px 0 21px}
+.university-bridge-copy h2 em{font:italic 400 1.1em var(--serif);color:var(--blue)}
+.university-bridge-copy p{max-width:620px;font:400 16px/1.8 var(--body);color:var(--muted);margin-bottom:30px}
+.university-bridge-copy p strong{color:var(--ink)}
+.university-bridge-art{background:#17264a;display:flex;flex-direction:column;justify-content:space-between;min-height:390px;padding:27px 35px;color:#f5f7ff;transition:background .3s}
+.university-bridge-art:hover{background:#385ce6}
+.university-bridge-art>span:first-child,.university-bridge-art>span:last-child{font:800 11px var(--display);letter-spacing:.13em}
+.university-bridge-art>span:last-child{display:flex;align-items:center;justify-content:space-between}
+.university-bridge-art>span:last-child b{font-size:26px;font-weight:400}
+.uni-glyph{align-self:center;position:relative;font:600 clamp(90px,12vw,170px) var(--display);letter-spacing:-.15em;color:#bcc9ff;transition:transform .4s}
+.university-bridge-art:hover .uni-glyph{transform:rotate(-8deg) scale(1.07)}
+.uni-glyph i{position:absolute;top:-4px;right:-34px;font-size:40px;color:#f5bdaf;letter-spacing:0;font-style:normal}
+@media(max-width:930px){.university-bridge-layout{grid-template-columns:1fr}.university-bridge-art{min-height:230px}.uni-glyph{font-size:95px}}
+@media(max-width:650px){.university-bridge{padding:35px 0 80px}.university-bridge-copy{padding:34px 23px}.university-bridge-copy h2{font-size:39px}.university-bridge-copy p{font-size:14px}.university-bridge-art{padding:22px;min-height:210px}.university-bridge-copy .button{font-size:10px;white-space:normal;text-align:left}.visual-editorial strong{font-size:90px}.visual-branding .project-image{max-width:67%}}
