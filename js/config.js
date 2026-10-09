@@ -4,5 +4,5 @@
    3. Fai un invio di prova e conferma l'email di attivazione di FormSubmit.
    Senza un'email valida il sito funziona, ma il modulo non invia messaggi. */
 window.XIN_CONFIG = {
-  contactEmail: ''
+  contactEmail: 'x1ngraphic1@gmail.com'
 };
