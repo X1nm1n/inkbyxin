@@ -1,4 +1,2 @@
-XIN — VERSIONE AGGIORNATA: 20261009-ABOUT-NUOVO
-La sezione Chi sono mostra il laboratorio tipografico NON / RESTO / FERMO e il pulsante RIMESCOLA.
-Il vecchio cerchio con il logo e la tabella Competenze/Base/Universita sono rimossi.
-Se leggi questo file su GitHub Pages, i file della nuova release sono stati pubblicati.
+20261009-MATERIAL-ATELIER
+Nuova scena hero con stampe, carta, nastro e dettagli cartacei. Nuovo stile gallery editoriale.

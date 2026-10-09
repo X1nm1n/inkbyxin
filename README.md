@@ -1,6 +1,6 @@
-# XIN — release 2026-10-09 / sezione Chi sono corretta
+# XIN — Material Atelier, release 20261009-MATERIAL-ATELIER
 
-**IMPORTANTE: leggi `AGGIORNAMENTO-GITHUB.md` se vedi ancora il vecchio cerchio.**
+**Per aggiornare il sito online, leggi `AGGIORNAMENTO-MATERIAL.md`**.
 
 # XIN — Portfolio grafico immersivo (2026)
 
@@ -10,7 +10,7 @@ Progetto statico HTML + CSS + JavaScript pronto da aprire in **PyCharm** e pubbl
 
 - **Tema chiaro:** carta sabbia `#eee3d5`, superfici avorio `#faf5ed`, blu XIN `#17264b`, accento terracotta `#9c6448`.
 - **Tema scuro:** blu notte `#101c35`, superfici `#172644`, testi chiari e riflessi caldi.
-- **Hero interattiva:** poster a più livelli con il tuo logo XIN, movimento al passaggio del puntatore, un tasto «Cambia prospettiva» e animazioni CSS. L'elemento funziona anche con tastiera.
+- **Hero interattiva:** stampe e poster a più livelli, dettagli cartacei, movimento al passaggio del puntatore e il tasto «Scomponi le stampe» e animazioni CSS. L'elemento funziona anche con tastiera.
 - **Percorso verticale:** una composizione visiva rimane ferma mentre il racconto cambia in tre capitoli: branding, illustrazione, fotografia. Il tutto risponde allo scroll; i pallini consentono di saltare direttamente a una scena.
 - **Portfolio:** galleria filtrabile, ricerca, schede progetto apribili; soltanto la tua identità XIN è presentata come progetto reale. Gli altri lavori sono segnaposto dichiarati.
 - **Università:** archivio completamente autonomo, ordinato per anno e materia, predisposto per PDF originali personali.
@@ -40,3 +40,7 @@ L'accessibilità include rispetto di `prefers-reduced-motion`, navigazione con t
 La sezione Chi sono ora ospita una composizione tipografica interattiva, senza il logo gigante. I tre elementi si possono trascinare con mouse o touch (oppure spostare con i tasti freccia), e **Rimescola** alterna i layout. Al passaggio del puntatore compaiono tracce grafiche che svaniscono. Il nastro tipografico che precede la sezione reagisce allo scorrimento.
 
 Implementazione solo HTML/CSS/JavaScript, nessuna libreria né backend: `css/experimental.css` e `js/experimental.js`. Su dispositivi con preferenza di movimento ridotto gli effetti di movimento automatico sono disattivati. La composizione iniziale rimane visibile anche senza JavaScript.
+
+## Nuovo — XIN Material Atelier
+
+Leggi **`AGGIORNAMENTO-MATERIAL.md`**. La nuova scena cartacea della homepage usa `css/material.css` e `js/material.js`; tutti i suoi elementi sono realizzati in HTML/CSS e funzionano senza servizi esterni. Un nuovo intermezzo di campioni grafici, nastri, carte e impaginazione editoriale caratterizza la sezione dei progetti. Per verificare la release online visita `verifica-versione.txt` e cerca `20261009-MATERIAL-ATELIER`.
