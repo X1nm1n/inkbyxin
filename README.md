@@ -1,3 +1,7 @@
+# XIN — release 2026-10-09 / sezione Chi sono corretta
+
+**IMPORTANTE: leggi `AGGIORNAMENTO-GITHUB.md` se vedi ancora il vecchio cerchio.**
+
 # XIN — Portfolio grafico immersivo (2026)
 
 Progetto statico HTML + CSS + JavaScript pronto da aprire in **PyCharm** e pubblicare su **GitHub Pages**. Il sito principale è un portfolio di **graphic design**; gli appunti universitari non appaiono nella galleria dei lavori, ma nella pagina indipendente `studio.html`.
