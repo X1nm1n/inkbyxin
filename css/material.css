@@ -92,8 +92,6 @@ html[data-theme="dark"] .hero-new-canvas {background:radial-gradient(circle at 6
 /* Printed sheets rather than templated equal-sized cards. */
 .work {position:relative}
 .work .section-heading {position:relative}
-.work-side-note {position:absolute;right:2.5%;top:-20px;transform:rotate(9deg);display:flex;flex-direction:column;align-items:flex-start;background:#e8d2bc;color:#17264b;box-shadow:8px 12px 0 #664a3321;padding:14px 20px 13px;font:800 10px/1.4 var(--display);letter-spacing:.12em}
-.work-side-note em {font:italic 400 31px/1.05 var(--serif);letter-spacing:0}.work-side-note b {font-size:24px;align-self:end}
 .projects-grid {grid-template-columns:repeat(12,minmax(0,1fr));gap:65px clamp(14px,2vw,33px);align-items:start}
 .project-card {grid-column:span 6;position:relative;transition:transform .4s cubic-bezier(.2,.8,.2,1)}
 .project-card:nth-child(4n+1) {grid-column:span 7}
@@ -131,7 +129,7 @@ html[data-theme="dark"] .exp-stage {border-color:#243351;box-shadow:17px 24px 38
 .contact-form-card {position:relative;box-shadow:11px 13px 0 #1d29495c,24px 30px 42px #070d1e48;border-radius:3px}
 .contact-form-card:before {content:'';position:absolute;z-index:2;top:-12px;right:16%;width:111px;height:28px;background:#e8d9bb9e;transform:rotate(5deg);pointer-events:none}
 /* Keep animation smooth, interaction accessible, and artwork legible on small screens. */
-@media(max-width:1150px){.desk-sheet-back b{font-size:clamp(41px,5vw,66px)}.poster-composition strong{font-size:clamp(44px,5.1vw,65px)}.desk-ticket{width:100px;height:81px;bottom:10%}.work-side-note{display:none}}
+@media(max-width:1150px){.desk-sheet-back b{font-size:clamp(41px,5vw,66px)}.poster-composition strong{font-size:clamp(44px,5.1vw,65px)}.desk-ticket{width:100px;height:81px;bottom:10%}}
 @media(max-width:930px){
  .hero-new-canvas{min-height:650px}
  .material-interlude-heading{flex-wrap:wrap}

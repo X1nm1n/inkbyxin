@@ -2,8 +2,8 @@
 
 <html data-theme="light" lang="it">
 <head>
-<!-- XIN: release 20261009-WALK-MASCOT; intro logo e mascotte che cammina -->
-<meta content="20261009-WALK-MASCOT" name="xin-release"/>
+<!-- XIN: release 20261009-RIG02; intro logo e mascotte che cammina -->
+<meta content="20261009-RIG02" name="xin-release"/>
 <meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/>
 <meta content="XIN Atelier — portfolio di graphic design di Xinmin Giuseppe Farano. Identità visiva, illustrazioni e fotografia in una mostra digitale con materiali e stampe interattive. Archivio universitario separato." name="description"/>
 <meta content="#eee3d5" name="theme-color"/><meta content="website" property="og:type"/>
@@ -14,8 +14,9 @@
 <link href="./css/style.css?v=20261009-INTRO-STATIC" rel="stylesheet"/><link href="./css/atelier.css?v=20261009-INTRO-STATIC" rel="stylesheet"/><link href="./css/experimental.css?v=20261009-INTRO-STATIC" rel="stylesheet"/><link href="./css/material.css?v=20261009-INTRO-STATIC" rel="stylesheet"/>
 <script>(function(){try{var forced=new URLSearchParams(location.search).has('intro');var seen=sessionStorage.getItem('xin-intro-seen');if(!matchMedia('(prefers-reduced-motion: reduce)').matches && (forced||!seen)){document.documentElement.classList.add('xin-intro-enabled');}}catch(e){}})();</script>
 <link href="./css/portfolio-classico.css?v=20261009-RESTORED" rel="stylesheet"/>
+<link href="./css/mascot-rig.css?v=20261009-RIG02" rel="stylesheet"/>
 <script>try{document.documentElement.dataset.theme=localStorage.getItem('xin-theme')==='dark'?'dark':'light'}catch(e){}</script>
-<script defer="" src="./js/config.js?v=20261009-WALKMASCOT"></script><script defer="" src="./js/projects.js?v=20261009-WALKMASCOT"></script><script defer="" src="./js/main.js?v=20261009-WALKMASCOT"></script><script defer="" src="./js/atelier.js?v=20261009-WALKMASCOT"></script><script defer="" src="./js/experimental.js?v=20261009-WALKMASCOT"></script><script defer="" src="./js/material.js?v=20261009-WALKMASCOT"></script><script defer="" src="./js/mascot.js?v=20261009-WALKMASCOT"></script>
+<script defer="" src="./js/config.js?v=20261009-RIG02"></script><script defer="" src="./js/projects.js?v=20261009-RIG02"></script><script defer="" src="./js/main.js?v=20261009-RIG02"></script><script defer="" src="./js/atelier.js?v=20261009-RIG02"></script><script defer="" src="./js/experimental.js?v=20261009-RIG02"></script><script defer="" src="./js/material.js?v=20261009-RIG02"></script><script defer="" src="./js/mascot.js?v=20261009-RIG02"></script>
 <link href="./css/intro.css?v=20261009-INTRO-STATIC" rel="stylesheet"/>
 <script defer src="./js/intro.js?v=20261009-INTRO-STATIC"></script>
 <title>XIN — Graphic Design Portfolio | Xinmin Farano</title>
@@ -94,7 +95,92 @@
 <div class="hero-vertical-end wrap"><span class="vertical-index">01 — 05 / SCORRI IL RACCONTO</span><div aria-hidden="true" class="ink-stem"><i></i></div><span>NON UN TEMPLATE. UN SEGNO.</span></div>
 </section>
 <div aria-hidden="true" class="marquee"><div class="marquee-track"><span>IMAGINE <i>✳</i> DESIGN <i>✳</i> ILLUSTRATE <i>✳</i> CAPTURE <i>✳</i></span><span>IMAGINE <i>✳</i> DESIGN <i>✳</i> ILLUSTRATE <i>✳</i> CAPTURE <i>✳</i></span><span>IMAGINE <i>✳</i> DESIGN <i>✳</i> ILLUSTRATE <i>✳</i> CAPTURE <i>✳</i></span></div></div><section aria-labelledby="storyTitle" class="visual-story" id="journey">
-<div class="wrap story-header"><div class="story-eyebrow">✳ UN UNICO FILO VISIVO</div><div class="story-mascot-hero mascot-walk-stage" id="storyMascotStage" tabindex="0" aria-label="Mascotte animata di XIN che entra camminando, lascia un tratto di pennino e poi si ferma."><h2 class="sr-only" id="storyTitle">Tre linguaggi. Una visione.</h2><div class="mascot-copy-mini"><span class="mascot-label">XIN MASCOT / WALK CYCLE</span><p>Una piccola mascotte entra in scena, corre, lascia il segno e porta il racconto dentro il portfolio.</p></div><div class="mascot-stage-note mascot-stage-note-top">ORIGINAL MASCOT ✳ WALK • DRAW • PAUSE</div><div class="mascot-stage-area"><div class="mascot-footprints" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div><div class="mascot-runner" id="mascotRunner"><img src="./assets/mascotte-xin.png" alt="Mascotte originale XIN con pennino" class="story-mascot walk-mascot" id="storyMascot" width="540" height="540"/></div><svg class="mascot-stroke" viewBox="0 0 820 240" aria-hidden="true"><path class="mascot-stroke-path" d="M468 166 C 534 190, 580 184, 650 166 S 760 136, 790 150"/><path class="mascot-stroke-path accent" d="M505 127 C 548 108, 595 112, 640 126"/></svg><div class="mascot-ground" aria-hidden="true"></div></div><button class="mascot-trigger" id="mascotTrigger" type="button" aria-label="Fai rifare la corsa alla mascotte">Rifai il giro ↗</button></div><p>Scorri: la composizione cambia insieme al racconto. Ogni disciplina ha il suo carattere, ma parla la stessa lingua.</p></div>
+<div class="wrap story-header">
+ <div class="story-eyebrow">✳ UN UNICO FILO VISIVO</div>
+ <div class="xin-mascot-stage" id="storyMascotStage" aria-label="Mascotte XIN animata: entra correndo con passi articolati, compie una capriola, atterra, disegna con il pennino e riposa.">
+   <h2 class="sr-only" id="storyTitle">Tre linguaggi. Una visione.</h2>
+   <div class="xin-stage-top"><span>XIN / MOTION STUDIO</span><span>01—03 &nbsp; ✳ &nbsp; ILLUSTRATE THE WORLD</span></div>
+   <div class="xin-mascot-scene" id="xinMascotScene">
+     <svg class="xin-drawn-art" viewBox="0 0 670 235" aria-hidden="true" preserveAspectRatio="none">
+       <path class="xin-drawn-line" d="M365 175 C403 158 435 181 470 149 S555 108 620 128 L647 124" pathLength="100" />
+       <path class="xin-drawn-line xin-drawn-accent" d="M427 143 Q458 94 518 106" pathLength="100" />
+       <path class="xin-drawn-flourish" d="M548 104 Q584 70 610 95 Q636 128 604 150" pathLength="100" />
+     </svg>
+     <div class="xin-ground"></div>
+     <div class="xin-actor" id="xinMascotActor"><svg class="xin-rig" viewBox="0 0 320 385" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Mascotte XIN stilizzata: muove realmente gambe, piedi, braccia e occhi mentre cammina e disegna" focusable="false">
+ <defs>
+  <linearGradient id="xinHelm" x1=".15" x2=".86" y1="0" y2="1"><stop stop-color="#263b70"/><stop offset=".5" stop-color="#15264a"/><stop offset="1" stop-color="#0e1b36"/></linearGradient>
+  <linearGradient id="xinSkin" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff6e9"/><stop offset="1" stop-color="#eacfb4"/></linearGradient>
+  <linearGradient id="xinInk" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#324e83"/><stop offset="1" stop-color="#0b1833"/></linearGradient>
+  <filter id="softShadow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="4"/></filter>
+ </defs>
+ <g class="xin-character">
+   <!-- limbs drawn behind body. Each group has an independent rotation pivot. -->
+   <g class="xin-leg xin-leg-back">
+     <path d="M183 254 Q201 279 199 307" fill="none" stroke="#15264a" stroke-width="30" stroke-linecap="round"/>
+     <g class="xin-shin xin-shin-back">
+       <path d="M199 301 L208 341" fill="none" stroke="#142449" stroke-width="25" stroke-linecap="round"/>
+       <path d="M196 340 Q215 330 239 347 Q248 363 229 369 L196 365 Q188 356 196 340" fill="url(#xinInk)" stroke="#0f1e3c" stroke-width="3"/>
+       <path d="M200 356 Q213 359 230 356" fill="none" stroke="#f5e7d8" stroke-opacity=".7" stroke-width="3"/>
+     </g>
+   </g>
+   <g class="xin-leg xin-leg-front">
+     <path d="M133 258 Q126 276 123 303" fill="none" stroke="#243a6a" stroke-width="32" stroke-linecap="round"/>
+     <g class="xin-shin xin-shin-front">
+       <path d="M123 300 L108 339" fill="none" stroke="#243a6a" stroke-width="26" stroke-linecap="round"/>
+       <path d="M100 341 Q118 333 134 348 Q144 362 129 370 L94 370 Q81 355 100 341" fill="url(#xinInk)" stroke="#0f1e3c" stroke-width="3"/>
+       <path d="M95 361 Q108 357 125 360" stroke="#e8d4ba" stroke-width="3" fill="none"/>
+     </g>
+   </g>
+   <g class="xin-scarf" aria-hidden="true">
+     <path d="M117 188 C85 171 65 166 33 178 Q56 183 80 199 L45 207 C78 219 108 213 128 198Z" fill="#b9674b"/>
+     <path d="M121 193 C88 177 63 186 49 194" fill="none" stroke="#df9878" stroke-width="5" stroke-linecap="round"/>
+   </g>
+   <!-- arm back -->
+   <g class="xin-arm xin-arm-back">
+     <path d="M196 206 Q219 219 237 243" fill="none" stroke="#172a51" stroke-width="28" stroke-linecap="round"/>
+     <ellipse cx="241" cy="246" rx="16" ry="15" fill="#ead4be" stroke="#14254c" stroke-width="5"/>
+     <path d="M245 236 l13 -9 M249 241 l16 -3" fill="none" stroke="#14254c" stroke-width="8" stroke-linecap="round"/>
+   </g>
+   <ellipse cx="163" cy="239" rx="64" ry="65" fill="url(#xinHelm)" stroke="#0c1936" stroke-width="4"/>
+   <path d="M112 241 Q164 265 213 232" fill="none" stroke="#5d76a6" stroke-opacity=".35" stroke-width="11"/>
+   <path d="M130 185 Q157 202 191 188 Q183 204 160 208 Q141 205 130 185Z" fill="#bb6e51"/>
+   <!-- left arm with fountain pen. Rotates independently to draw -->
+   <g class="xin-arm xin-arm-pen">
+     <path d="M125 210 Q101 225 91 248" fill="none" stroke="#213663" stroke-width="30" stroke-linecap="round"/>
+     <path d="M103 234 Q95 247 91 249" fill="none" stroke="#f1dbc4" stroke-width="8" stroke-linecap="round"/>
+     <ellipse cx="84" cy="251" rx="18" ry="16" fill="#15284c" stroke="#f8e4ca" stroke-width="4"/>
+     <g class="xin-pen" transform="translate(79 266) rotate(15)">
+       <rect x="-9" y="-13" width="18" height="35" rx="7" fill="#f5e6d6" stroke="#16274e" stroke-width="4"/>
+       <path d="M-11 18 L0 79 L11 18Z" fill="url(#xinInk)" stroke="#f5e9db" stroke-width="3" stroke-linejoin="round"/>
+       <circle cx="0" cy="35" r="4" fill="#f8eadb"/>
+       <path d="M0 39 L0 79" stroke="#f8eadb" stroke-width="2"/>
+     </g>
+   </g>
+   <!-- X helmet is two separate rounded forms -->
+   <g class="xin-helmet">
+     <rect x="57" y="88" width="206" height="51" rx="22" fill="url(#xinHelm)" transform="rotate(45 160 112)" stroke="#0d1d3d" stroke-width="3"/>
+     <rect x="57" y="88" width="206" height="51" rx="22" fill="url(#xinHelm)" transform="rotate(-45 160 112)" stroke="#0d1d3d" stroke-width="3"/>
+     <path d="M87 43 Q124 73 148 100" fill="none" stroke="#6e85b9" stroke-opacity=".4" stroke-width="7" stroke-linecap="round"/>
+   </g>
+   <!-- cream face, separate for blink -->
+   <ellipse cx="159" cy="147" rx="70" ry="59" fill="url(#xinSkin)" stroke="#14264a" stroke-width="5"/>
+   <ellipse cx="133" cy="157" rx="18" ry="24" fill="#102041"/>
+   <ellipse cx="127" cy="150" rx="6" ry="9" fill="#fff"/>
+   <path class="xin-wink" d="M176 155 Q190 145 205 155" stroke="#112146" stroke-width="7" fill="none" stroke-linecap="round"/>
+   <path d="M145 177 Q160 190 171 176" stroke="#17264b" stroke-width="5" fill="none" stroke-linecap="round"/>
+   <ellipse cx="106" cy="177" rx="10" ry="6" fill="#d78162" opacity=".82"/>
+   <ellipse cx="206" cy="178" rx="10" ry="6" fill="#d78162" opacity=".82"/>
+   <path d="M118 120 Q132 107 148 120" stroke="#203358" stroke-width="6" fill="none" stroke-linecap="round"/>
+ </g>
+</svg></div>
+     <div class="xin-impact" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+     <div class="xin-ink-drops" aria-hidden="true"><i></i><i></i><i></i></div>
+   </div>
+   <div class="xin-stage-bottom"><span>CAMMINA <b>→</b> SALTA <b>→</b> DISEGNA</span><button type="button" class="xin-replay" id="mascotTrigger" aria-label="Rivedi la corsa e il disegno della mascotte"><span aria-hidden="true">↻</span> Riguarda l'animazione</button></div>
+ </div>
+ <p>Scorri: la composizione cambia insieme al racconto. Ogni disciplina ha il suo carattere, ma parla la stessa lingua.</p>
+</div>
 <div class="story-layout wrap" id="storyLayout">
 <div class="story-pin-wrap"><div aria-live="off" class="story-pin" id="storyPin">
 <div class="story-scene scene-brand is-active" data-scene="0">

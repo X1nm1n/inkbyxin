@@ -1,0 +1,86 @@
+/* XIN — articulated SVG character: separate feet, calves, arms, head and pen. */
+.story-header{grid-template-columns:minmax(0,1fr) 310px;align-items:center}
+.xin-mascot-stage{
+  --xin-blue:#14284e;position:relative;isolation:isolate;min-height:485px;overflow:hidden;
+  border:1px solid color-mix(in srgb,var(--ink) 15%,transparent);
+  background:linear-gradient(160deg,#e9dbcb 2%,#f3e9dc 48%,#eadbcb 100%);
+  box-shadow:12px 15px 0 color-mix(in srgb,var(--ink) 8%,transparent);
+  color:var(--ink)
+}
+html[data-theme="dark"] .xin-mascot-stage{background:linear-gradient(145deg,#192b4f,#223657 62%,#172741);border-color:#ffffff24;box-shadow:12px 15px 0 #0611277d}
+.xin-mascot-stage:before{content:'';inset:0;position:absolute;z-index:-1;background:radial-gradient(ellipse at 75% 28%,#fffcf1b8,transparent 43%);opacity:.47}
+html[data-theme="dark"] .xin-mascot-stage:before{background:radial-gradient(circle at 70% 25%,#8193bf28,transparent 50%);opacity:1}
+.xin-mascot-stage:after{content:'';position:absolute;inset:0;pointer-events:none;z-index:-1;opacity:.12;background-image:linear-gradient(#22395d30 1px, transparent 1px),linear-gradient(90deg,#22395d30 1px,transparent 1px);background-size:26px 26px;mask-image:linear-gradient(to bottom,black,transparent 98%)}
+.xin-stage-top{position:absolute;left:26px;right:26px;top:23px;z-index:3;display:flex;justify-content:space-between;gap:16px;color:var(--ink);font:800 10px var(--display);letter-spacing:.17em}
+html[data-theme="dark"] .xin-stage-top{color:#f4e8da}
+.xin-stage-bottom{display:flex;position:absolute;left:25px;right:24px;bottom:17px;justify-content:space-between;align-items:center;gap:12px;z-index:8}
+.xin-stage-bottom>span{font:700 9px var(--display);letter-spacing:.12em;color:var(--muted)}
+html[data-theme="dark"] .xin-stage-bottom>span{color:#d0cfdf}
+.xin-stage-bottom b{margin:0 4px;color:var(--accent)}
+.xin-replay{border:1px solid #16284a22;color:#17264b;background:#fff6eb;padding:13px 16px;border-radius:50px;display:flex;gap:10px;align-items:center;font:800 10px var(--display);letter-spacing:.02em;transition:transform .2s ease, background .2s ease}
+.xin-replay:hover{background:#17264b;color:#fff;transform:translateY(-3px)}
+.xin-replay:focus-visible{outline:3px solid #c18b69;outline-offset:3px}
+html[data-theme="dark"] .xin-replay{background:#f2e9de;color:#13274b}
+.xin-mascot-scene{position:absolute;inset:55px 20px 67px;overflow:hidden;isolation:isolate;--actor-width:214px}
+.xin-ground{position:absolute;z-index:0;left:20px;right:20px;bottom:23px;height:2px;background:linear-gradient(to right,transparent, #17264b3d 15%,#17264b3d 87%, transparent)}
+html[data-theme="dark"] .xin-ground{background:linear-gradient(to right,transparent,#ddd9d47a 15%,#ddd9d47a 87%,transparent)}
+.xin-actor{width:var(--actor-width);height:auto;position:absolute;left:0;bottom:16px;z-index:4;transform:translate3d(-245px,0,0);will-change:transform;filter:drop-shadow(5px 15px 10px #17264b21)}
+.xin-rig{width:100%;height:auto;display:block;overflow:visible}
+.xin-character{transform-box:view-box;transform-origin:50% 70%;will-change:transform}
+.xin-leg-front{transform-origin:133px 258px;transform-box:view-box}
+.xin-leg-back{transform-origin:183px 256px;transform-box:view-box}
+.xin-shin-front{transform-origin:123px 301px;transform-box:view-box}
+.xin-shin-back{transform-origin:199px 301px;transform-box:view-box}
+.xin-arm-pen{transform-origin:126px 210px;transform-box:view-box}
+.xin-arm-back{transform-origin:195px 207px;transform-box:view-box}
+.xin-scarf{transform-origin:115px 194px;transform-box:view-box}
+.xin-wink{transform-origin:190px 157px;transform-box:view-box}
+.xin-actor.is-running .xin-leg-front{animation:xin-gait-front .44s ease-in-out infinite alternate}
+.xin-actor.is-running .xin-leg-back{animation:xin-gait-back .44s ease-in-out infinite alternate}
+.xin-actor.is-running .xin-shin-front{animation:xin-shin-front .44s ease-in-out infinite alternate}
+.xin-actor.is-running .xin-shin-back{animation:xin-shin-back .44s ease-in-out infinite alternate}
+.xin-actor.is-running .xin-arm-pen{animation:xin-arm-forward .44s ease-in-out infinite alternate}
+.xin-actor.is-running .xin-arm-back{animation:xin-arm-behind .44s ease-in-out infinite alternate}
+.xin-actor.is-running .xin-scarf{animation:xin-scarf-flutter .28s ease-in-out infinite alternate}
+.xin-actor.is-running .xin-character{animation:xin-run-body .22s ease-in-out infinite alternate}
+.xin-actor.is-flipping .xin-leg-front{transform:rotate(58deg)}
+.xin-actor.is-flipping .xin-leg-back{transform:rotate(-58deg)}
+.xin-actor.is-flipping .xin-shin-front,.xin-actor.is-flipping .xin-shin-back{transform:rotate(65deg)}
+.xin-actor.is-drawing .xin-arm-pen{animation:xin-sketch-hand .7s ease-in-out infinite alternate}
+.xin-actor.is-drawing .xin-scarf{animation:xin-scarf-flutter 1.2s ease-in-out infinite alternate}
+.xin-actor.is-idle .xin-character{animation:xin-idle-breathe 3s ease-in-out infinite}
+.xin-actor.is-idle .xin-wink{animation:xin-blink 5.2s ease-in-out infinite}
+.xin-drawn-art{position:absolute;z-index:3;left:0;bottom:0;width:100%;height:75%;overflow:visible;pointer-events:none}
+.xin-drawn-line,.xin-drawn-flourish{fill:none;stroke:#172b54;stroke-linecap:round;stroke-linejoin:round;stroke-width:9;stroke-dasharray:100;stroke-dashoffset:100}
+.xin-drawn-accent{stroke:#b77453;stroke-width:5}
+.xin-drawn-flourish{stroke:#c08464;stroke-width:5}
+html[data-theme="dark"] .xin-drawn-line{stroke:#f8e9d9}html[data-theme="dark"] .xin-drawn-accent,html[data-theme="dark"] .xin-drawn-flourish{stroke:#cfa085}
+.xin-drawn-art.is-drawing .xin-drawn-line{animation:xin-draw-line 1.55s ease-out forwards}
+.xin-drawn-art.is-drawing .xin-drawn-accent{animation:xin-draw-line 1.1s ease-out .4s forwards}
+.xin-drawn-art.is-drawing .xin-drawn-flourish{animation:xin-draw-line .9s ease-out 1s forwards}
+.xin-impact{position:absolute;z-index:5;left:67%;bottom:32px;opacity:0;pointer-events:none}
+.xin-impact i{position:absolute;left:0;bottom:0;background:#ba825f;width:19px;height:5px;border-radius:50%;transform-origin:center}
+.xin-impact i:nth-child(1){transform:translate(-38px,-14px) rotate(-36deg)}.xin-impact i:nth-child(2){transform:translate(38px,-15px) rotate(34deg)}.xin-impact i:nth-child(3){transform:translate(-21px,-24px) rotate(-85deg)}.xin-impact i:nth-child(4){transform:translate(21px,-28px) rotate(80deg)}
+.xin-mascot-stage.is-landing .xin-impact{animation:xin-impact-pop .5s ease-out forwards}
+.xin-ink-drops{position:absolute;right:16%;bottom:110px;z-index:4;opacity:0;pointer-events:none}
+.xin-ink-drops i{display:block;position:absolute;left:0;top:0;width:10px;height:12px;border-radius:60% 30% 60% 30%;background:var(--accent)}
+.xin-ink-drops i:nth-child(1){transform:rotate(20deg) translate(28px,-14px)}.xin-ink-drops i:nth-child(2){transform:rotate(-30deg) translate(-26px,-25px)}.xin-ink-drops i:nth-child(3){transform:rotate(80deg) translate(38px,18px)}
+.xin-mascot-stage.is-drawing .xin-ink-drops{animation:xin-ink-pop .9s ease-out .7s both}
+@keyframes xin-gait-front{0%{transform:rotate(-28deg)}100%{transform:rotate(31deg)}}
+@keyframes xin-gait-back{0%{transform:rotate(31deg)}100%{transform:rotate(-28deg)}}
+@keyframes xin-shin-front{0%{transform:rotate(28deg)}100%{transform:rotate(-12deg)}}
+@keyframes xin-shin-back{0%{transform:rotate(-12deg)}100%{transform:rotate(28deg)}}
+@keyframes xin-arm-forward{0%{transform:rotate(-20deg)}100%{transform:rotate(16deg)}}
+@keyframes xin-arm-behind{0%{transform:rotate(16deg)}100%{transform:rotate(-20deg)}}
+@keyframes xin-scarf-flutter{0%{transform:rotate(-5deg)}100%{transform:rotate(4deg)}}
+@keyframes xin-run-body{0%{transform:translateY(0)}100%{transform:translateY(-6px)}}
+@keyframes xin-sketch-hand{0%{transform:rotate(-3deg)}50%{transform:rotate(18deg)}100%{transform:rotate(-3deg)}}
+@keyframes xin-idle-breathe{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-3px) scale(1.008)}}
+@keyframes xin-blink{0%,42%,46%,90%,100%{transform:scaleY(1)}44%,92%{transform:scaleY(.28)}}
+@keyframes xin-draw-line{to{stroke-dashoffset:0}}
+@keyframes xin-impact-pop{0%{opacity:0;transform:scale(.3)}30%{opacity:1;transform:scale(1)}100%{opacity:0;transform:scale(1.7)}}
+@keyframes xin-ink-pop{0%{opacity:0;transform:scale(.4)}40%{opacity:1;transform:scale(1.1)}100%{opacity:.4;transform:scale(1)}}
+@media(max-width:1180px){.story-header{grid-template-columns:minmax(0,1fr) 260px}.xin-mascot-stage{min-height:425px}.xin-mascot-scene{--actor-width:175px}.xin-stage-top{font-size:8px;left:18px;right:18px}}
+@media(max-width:930px){.story-header{grid-template-columns:1fr;gap:18px}.xin-mascot-stage{min-height:425px;order:1}.story-header>p{order:2;max-width:580px}.xin-mascot-scene{--actor-width:200px}}
+@media(max-width:650px){.xin-mascot-stage{min-height:365px}.xin-mascot-scene{inset:43px 8px 65px;--actor-width:160px}.xin-stage-top{top:14px;left:13px;right:13px;font-size:7px;letter-spacing:.07em}.xin-stage-top span:last-child{font-size:6px;text-align:right}.xin-stage-bottom{left:13px;right:13px;bottom:12px;flex-wrap:wrap}.xin-stage-bottom>span{font-size:7px}.xin-replay{font-size:8px;padding:11px 12px}.xin-impact{left:62%}.xin-drawn-art{height:66%}}
+@media(prefers-reduced-motion:reduce){.xin-actor,.xin-character,.xin-actor *,.xin-impact,.xin-ink-drops,.xin-drawn-art *{animation:none!important;transition:none!important}.xin-actor{transform:translate3d(48%,0,0)}.xin-drawn-art path{stroke-dashoffset:0}}

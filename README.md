@@ -1,18 +1,18 @@
-# XIN — Portfolio grafico con intro animata (GitHub Pages)
+# XIN — Portfolio grafico con mascotte articolata
 
-Portfolio di Xinmin Giuseppe Farano. Sito statico in HTML, CSS e JavaScript: **non include pannelli amministrativi, login, CMS o strumenti di monitoraggio delle visite**.
+Portfolio personale di Xinmin Giuseppe Farano per **GitHub Pages**, apribile in **PyCharm**.
 
-## Contenuti
-- `index.html` — homepage con logo animato, galleria e modulo contatti.
-- `studio.html` — archivio appunti universitari, materia per materia.
-- `js/projects.js` — catalogo dei lavori grafici. Modifica qui i progetti.
-- `js/materie.js` — catalogo delle materie. Modifica qui i PDF e gli argomenti.
-- `assets/media/` — fotografie, illustrazioni, copertine e appunti da caricare.
-- `js/intro.js`, `css/intro.css` — animazione iniziale del logo. `?intro=1` la riproduce nuovamente.
-- `privacy.html` e `diritti.html` — documentazione informativa e diritti.
-- `documenti/` — moduli di liberatoria non compilati (non pubblicare mai quelli firmati).
+## Nuova mascotte
+La sequenza nella sezione “Un unico filo visivo” è realizzata con un SVG riggato. Gambe, polpacci e braccia oscillano in modo indipendente durante la camminata. Dopo l'ingresso, la mascotte fa un salto con capriola, atterra, disegna un tratto e rimane in idle con un occhiolino periodico. Il pulsante “Riguarda l'animazione” ripete la sequenza.
 
-## Lavorare con PyCharm e GitHub
-Leggi `GUIDA-CARICAMENTO.md` e `AGGIORNAMENTO-GITHUB.md`. L'aggiornamento dei contenuti avviene modificando il progetto con PyCharm e facendo commit e push su GitHub; GitHub Pages pubblica le modifiche.
+Leggi `GUIDA-MASCOTTE.md` per il dettaglio tecnico.
 
-La casella del modulo contatti resta `X1ngraphic1@gmail.com`. L'invio via FormSubmit richiede verifica e attivazione dall'indirizzo email indicato.
+## Pubblicazione
+Apri la cartella con PyCharm, carica **i file estratti** sul repository GitHub collegato a Pages, con `index.html` in radice, e fai Commit + Push. Le modifiche sono statiche: non serve un backend.
+
+## Modifica dei contenuti
+- Grafica e illustrazioni: `js/projects.js`, con file in `assets/`
+- Appunti universitari per materia: `js/materie.js`, con PDF nei percorsi configurati
+- Email contatti: `js/config.js`
+
+Non sono presenti dashboard amministrative né sistemi di statistiche integrati. Il modulo contatti richiede l'attivazione di FormSubmit, se non già eseguita. Privacy e liberatorie rimangono nel progetto.
