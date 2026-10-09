@@ -1,0 +1,82 @@
+/* XIN Portfolio / ripristino galleria pulita.
+   Elimina l'estetica delle stampe, senza toccare gli altri effetti Material Atelier. */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 49px 24px;
+  align-items: start;
+}
+.projects-grid .project-card,
+.projects-grid .project-card:nth-child(n) {
+  min-width: 0;
+  grid-column: auto;
+  padding: 0;
+  transform: none;
+  transition: none;
+}
+.projects-grid .project-card::before,
+.projects-grid .project-card:nth-child(n)::before {
+  content: none;
+  display: none;
+}
+.projects-grid .project-card .project-visual,
+.projects-grid .project-card:nth-child(n) .project-visual {
+  height: clamp(300px, 31vw, 470px);
+  padding: 0;
+  border: 0;
+  border-radius: 3px;
+  outline: 0;
+  box-shadow: none;
+  transform: none;
+  transition: box-shadow .3s ease;
+}
+.projects-grid .project-card:hover .project-visual,
+.projects-grid .project-card:nth-child(n):hover .project-visual {
+  transform: none;
+  box-shadow: 0 25px 55px #17264b30;
+}
+.projects-grid .project-card .project-information,
+.projects-grid .project-card:nth-child(n) .project-information {
+  padding: 19px 1px;
+}
+.projects-grid .project-card .visual-branding {background: #d3bea8}
+.projects-grid .project-card .visual-design {background: #ad8d75}
+.projects-grid .project-card .visual-editorial {background: #b98669}
+.projects-grid .project-card .visual-photo {background: #d1ab91}
+html[data-theme="dark"] .projects-grid .project-card .visual-branding {background: #354462}
+html[data-theme="dark"] .projects-grid .project-card .visual-design {background: #715e62}
+html[data-theme="dark"] .projects-grid .project-card .visual-editorial {background: #7d5752}
+html[data-theme="dark"] .projects-grid .project-card .visual-photo {background: #514b5d}
+.projects-grid .project-card .visual-branding .project-image,
+.projects-grid .project-card:nth-child(n) .visual-branding .project-image {
+  width: 100%;
+  height: 100%;
+  max-width: 54%;
+  max-height: 69%;
+  object-fit: contain;
+  background: #f7eee4;
+  padding: 7%;
+  border: 1px solid #bccafa;
+  box-shadow: 30px 33px 0 #4867ae3d;
+  transform: rotate(-7deg);
+}
+.projects-grid .project-card:hover .visual-branding .project-image,
+.projects-grid .project-card:nth-child(n):hover .visual-branding .project-image {
+  transform: rotate(-1deg) scale(1.03);
+}
+@media(max-width:650px) {
+  .projects-grid {grid-template-columns: minmax(0,1fr); gap: 43px}
+  .projects-grid .project-card .project-visual,
+  .projects-grid .project-card:nth-child(n) .project-visual {
+    height: clamp(300px, 78vw, 450px);
+    border: 0;
+  }
+  .projects-grid .project-card .visual-branding .project-image,
+  .projects-grid .project-card:nth-child(n) .visual-branding .project-image {max-width: 67%}
+  .projects-grid .project-card .project-information,
+  .projects-grid .project-card:nth-child(n) .project-information {padding: 19px 1px}
+}
+@media(prefers-reduced-motion:reduce) {
+  .projects-grid .project-card .project-visual,
+  .projects-grid .project-card .project-image {transition: none}
+}
