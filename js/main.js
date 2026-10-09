@@ -30,8 +30,8 @@
       'contact.available': 'APERTI A NUOVE CONNESSIONI', 'contact.formtitle': 'Scrivimi due righe.',
       'form.name': 'COME TI CHIAMI? *', 'form.email': 'LA TUA EMAIL *', 'form.topic': 'DI COSA PARLIAMO? *', 'form.message': 'RACCONTAMI LA TUA IDEA * ',
       'form.choose': 'Scegli un argomento', 'form.collab': 'Collaborazione', 'form.web': 'Progetto web', 'form.ai': 'AI / Automazione', 'form.design': 'Design', 'form.other': 'Altro',
-      'form.consent': 'Acconsento alla conservazione dei miei dati per ricevere una risposta. Il messaggio viene salvato sul server che ospita questo sito.',
-      'form.submit': 'Invia il messaggio', 'form.required': '* CAMPI OBBLIGATORI',
+      'form.consent': 'Acconsento all’invio dei dati tramite FormSubmit per ricevere una risposta.',
+      'form.submit': 'Invia il messaggio', 'form.required': '* CAMPI OBBLIGATORI', 'privacy.link': 'Informativa privacy ↗',
       'footer.tagline': 'Idee audaci. Codice pulito. Un dettaglio alla volta.', 'footer.explore': 'ESPLORA', 'footer.next': 'PROSSIMO PASSO', 'footer.write': 'Scrivimi ↗',
       'footer.shortcuts': 'Scorciatoie ↗', 'footer.crafted': 'PROGETTATO E SVILUPPATO CON CURA.', 'footer.back': 'TORNA SU',
       'dialog.role': 'RUOLO', 'dialog.status': 'STATO', 'dialog.highlights': 'PUNTI CHIAVE',
@@ -39,7 +39,7 @@
       'ui.project': 'Apri il progetto', 'ui.search': 'Cerca un progetto...', 'ui.command': 'Dove vuoi andare?', 'ui.name': 'Il tuo nome', 'ui.email': 'nome@esempio.it', 'ui.message': 'Ciao Xin, mi piacerebbe...',
       'ui.loading': 'Invio in corso...', 'ui.sent': 'Messaggio ricevuto! Grazie per avermi scritto.', 'ui.error': 'Non sono riuscito a inviare il messaggio. Riprova.',
       'ui.invalid': 'Completa correttamente tutti i campi obbligatori.', 'ui.short': 'Scrivi almeno 15 caratteri nel messaggio.', 'ui.limit': 'Troppi tentativi: riprova fra qualche minuto.',
-      'ui.loadError': 'Impossibile caricare i progetti. Controlla che il server Python sia avviato.', 'ui.retry': 'Riprova', 'ui.noResults': 'Nessuna corrispondenza'
+      'ui.configureContact': 'Per ricevere messaggi, configura prima la tua email nel file js/config.js.', 'ui.loadError': 'Impossibile caricare i progetti. Controlla il file js/projects.js.', 'ui.retry': 'Riprova', 'ui.noResults': 'Nessuna corrispondenza'
     },
     en: {
       'nav.work': 'Work', 'nav.about': 'About', 'nav.expertise': 'Expertise', 'nav.contact': 'Contact', 'nav.talk': "Let's talk",
@@ -64,8 +64,8 @@
       'contact.available': 'OPEN TO NEW CONNECTIONS', 'contact.formtitle': 'Drop me a message.',
       'form.name': 'YOUR NAME *', 'form.email': 'YOUR EMAIL *', 'form.topic': 'WHAT IS IT ABOUT? *', 'form.message': 'TELL ME ABOUT YOUR IDEA * ',
       'form.choose': 'Choose a topic', 'form.collab': 'Collaboration', 'form.web': 'Web project', 'form.ai': 'AI / Automation', 'form.design': 'Design', 'form.other': 'Other',
-      'form.consent': 'I agree to have my details stored so I can receive a reply. The message is saved on the server hosting this website.',
-      'form.submit': 'Send message', 'form.required': '* REQUIRED FIELDS',
+      'form.consent': 'I agree to send my details via FormSubmit so I can receive a reply.',
+      'form.submit': 'Send message', 'form.required': '* REQUIRED FIELDS', 'privacy.link': 'Privacy notice ↗',
       'footer.tagline': 'Bold ideas. Clean code. One detail at a time.', 'footer.explore': 'EXPLORE', 'footer.next': 'NEXT STEP', 'footer.write': 'Message me ↗',
       'footer.shortcuts': 'Quick navigation ↗', 'footer.crafted': 'DESIGNED AND BUILT WITH CARE.', 'footer.back': 'BACK TO TOP',
       'dialog.role': 'ROLE', 'dialog.status': 'STATUS', 'dialog.highlights': 'HIGHLIGHTS',
@@ -73,7 +73,7 @@
       'ui.project': 'Open project', 'ui.search': 'Search projects...', 'ui.command': 'Where to?', 'ui.name': 'Your name', 'ui.email': 'name@example.com', 'ui.message': 'Hi Xin, I would love to...',
       'ui.loading': 'Sending...', 'ui.sent': 'Message received! Thanks for reaching out.', 'ui.error': 'Your message could not be sent. Please try again.',
       'ui.invalid': 'Please fill in all the required fields correctly.', 'ui.short': 'Please write at least 15 characters.', 'ui.limit': 'Too many attempts. Please try again in a few minutes.',
-      'ui.loadError': 'Could not load projects. Make sure the Python server is running.', 'ui.retry': 'Retry', 'ui.noResults': 'No matching results'
+      'ui.configureContact': 'To receive messages, configure your email in js/config.js first.', 'ui.loadError': 'Could not load projects. Check js/projects.js.', 'ui.retry': 'Retry', 'ui.noResults': 'No matching results'
     }
   };
   const projectEnglish = {
@@ -105,7 +105,7 @@
   /* Accent previews are vector / CSS-only to look good even offline. */
   function projectArt(p) {
     if (p.visual === 'ai') return `<div class="ai-network"><span class="network-ring one"></span><span class="network-ring two"></span><span class="network-ring three"></span><span class="network-route r1"></span><span class="network-route r2"></span><span class="network-route r3"></span><span class="network-node n1"></span><span class="network-node n2"></span><span class="network-node n3"></span><span class="network-node n4"></span><span class="network-core"></span></div><div class="ai-code-badge">&gt; discover_endpoints() <span class="ai-purple-dot">●</span></div>`;
-    if (p.visual === 'web') return `<div class="mini-browser"><div class="browser-top"><i></i><i></i><i></i><span class="browser-address">localhost:8000/docs</span></div><div class="browser-content"><div class="browser-status">● API STATUS: 200 OK</div><div class="browser-code"><span class="code-purple">GET</span> /api/projects<br>{<br><span class="code-indent"><span class="code-property">"status"</span>: <span class="code-string">"success"</span>,</span><br><span class="code-indent"><span class="code-property">"data"</span>: [ ... ]</span><br>}</div></div></div><div class="browser-sidebadge">FASTAPI ↗<small>PYTHON BACKEND</small></div>`;
+    if (p.visual === 'web') return `<div class="mini-browser"><div class="browser-top"><i></i><i></i><i></i><span class="browser-address">REST API /docs</span></div><div class="browser-content"><div class="browser-status">● API STATUS: 200 OK</div><div class="browser-code"><span class="code-purple">GET</span> /api/projects<br>{<br><span class="code-indent"><span class="code-property">"status"</span>: <span class="code-string">"success"</span>,</span><br><span class="code-indent"><span class="code-property">"data"</span>: [ ... ]</span><br>}</div></div></div><div class="browser-sidebadge">FASTAPI ↗<small>PYTHON BACKEND</small></div>`;
     return `<div class="design-art"><span class="shape big-circle"></span><span class="shape donut"></span><span class="shape triangle"></span><span class="shape small-star">✳</span><span class="shape squiggle">~</span><span class="art-caption">CREATE SOMETHING DIFFERENT ↗</span></div>`;
   }
   function renderProjects() {
@@ -125,18 +125,13 @@
     $('#projectsEmpty').hidden = filtered.length > 0;
     $('#allCount').textContent = String(state.projects.length).padStart(2, '0');
   }
-  async function fetchProjects() {
-    try {
-      const response = await fetch('/api/projects', { headers: { Accept: 'application/json' } });
-      if (!response.ok) throw new Error('HTTP ' + response.status);
-      const data = await response.json();
-      if (!Array.isArray(data)) throw new Error('Invalid projects format');
-      state.projects = data;
+  // Projects ship with the static site: no Python server or API is needed.
+  function loadProjects() {
+    if (Array.isArray(window.XIN_PROJECTS)) {
+      state.projects = window.XIN_PROJECTS;
       renderProjects();
-    } catch (err) {
-      console.error('Projects could not be loaded:', err);
-      $('#projectsGrid').innerHTML = `<div class="projects-loading"><div style="text-align:center;line-height:2"><p>${escapeHTML(t('ui.loadError'))}</p><button class="button button-outline" id="retryProjects">${escapeHTML(t('ui.retry'))}</button></div></div>`;
-      $('#retryProjects').addEventListener('click', fetchProjects);
+    } else {
+      $('#projectsGrid').innerHTML = `<div class="projects-loading"><p>${escapeHTML(t('ui.loadError'))}</p></div>`;
     }
   }
   function showProject(id) {
@@ -255,25 +250,44 @@
       textarea.focus();
       return;
     }
+    // The recipient address is intentionally public: never put passwords or API secrets in a static site.
+    const recipient = String(window.XIN_CONFIG?.contactEmail || '').trim();
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(recipient)) {
+      status.textContent = t('ui.configureContact');
+      status.classList.add('is-error');
+      return;
+    }
+    // Honeypot to stop basic scripted submissions.
+    if ($('#contactWebsite').value.trim()) return;
     const payload = {
-      name: $('#contactName').value.trim(), email: $('#contactEmail').value.trim(),
-      topic: $('#contactTopic').value, message: textarea.value.trim(),
-      consent: $('#contactConsent').checked, website: $('#contactWebsite').value
+      name: $('#contactName').value.trim(),
+      email: $('#contactEmail').value.trim(),
+      topic: $('#contactTopic').value,
+      message: textarea.value.trim(),
+      _subject: 'Nuovo messaggio dal sito XIN',
+      _template: 'table',
+      _honey: ''
     };
     btn.disabled = true;
     btn.querySelector('span').textContent = t('ui.loading');
     try {
-      const response = await fetch('/api/contact', {
-        method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept':'application/json' }, body: JSON.stringify(payload)
+      const response = await fetch('https://formsubmit.co/ajax/' + encodeURIComponent(recipient), {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify(payload)
       });
-      if (!response.ok) throw new Error(String(response.status));
+      const result = await response.json();
+      if (!response.ok || result?.success === false || result?.success === 'false') {
+        throw new Error('FormSubmit rejected the request');
+      }
       form.reset();
       $('#messageCount').textContent = '0 / 3000';
       status.textContent = t('ui.sent');
       status.classList.add('is-success');
       toast(t('ui.sent'));
     } catch (error) {
-      status.textContent = error.message === '429' ? t('ui.limit') : t('ui.error');
+      console.error('Contact submission failed:', error);
+      status.textContent = t('ui.error');
       status.classList.add('is-error');
     } finally {
       btn.disabled = false;
@@ -426,6 +440,6 @@
   initEvents();
   setLanguage(readStored('xin-language')==='en'?'en':'it');
   setTheme(readStored('xin-theme')==='light'?'light':'dark');
-  fetchProjects();
+  loadProjects();
   initAnimations();
 })();

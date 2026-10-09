@@ -339,3 +339,7 @@ dialog::backdrop { background:rgba(0,0,0,.78);backdrop-filter:blur(12px); }
   *,*::before,*::after { scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important; }
   .reveal {opacity:1;transform:none;}
 }
+
+/* Informativa privacy, a supporto del form statico su GitHub Pages. */
+.privacy-link { display:inline-block; margin:11px 0 0 25px; font:11px var(--body); color:var(--muted); text-decoration:underline; text-underline-offset:4px; transition:color .2s; }
+.privacy-link:hover { color:var(--lime); }

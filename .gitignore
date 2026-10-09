@@ -1,10 +1,13 @@
+# PyCharm / IDE
+.idea/
+*.iml
+# Python per anteprima locale (facoltativo)
 .venv/
 __pycache__/
-*.py[cod]
-.pytest_cache/
-.idea/
-.env
-*.db
-*.db-shm
-*.db-wal
+# Sistema operativo
 .DS_Store
+Thumbs.db
+# Non pubblicare password o file privati
+.env
+.env.*
+*.db
