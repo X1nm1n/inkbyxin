@@ -9,9 +9,9 @@
 <link href="./assets/favicon.svg" rel="icon" type="image/svg+xml"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@400;500;600;700;800&amp;family=Instrument+Serif:ital@0;1&amp;display=swap" rel="stylesheet"/>
-<link href="./css/style.css" rel="stylesheet"/><link href="./css/atelier.css" rel="stylesheet"/>
+<link href="./css/style.css" rel="stylesheet"/><link href="./css/atelier.css" rel="stylesheet"/><link href="./css/experimental.css" rel="stylesheet"/>
 <script>try{document.documentElement.dataset.theme=localStorage.getItem('xin-theme')==='dark'?'dark':'light'}catch(e){}</script>
-<script defer="" src="./js/config.js"></script><script defer="" src="./js/projects.js"></script><script defer="" src="./js/main.js"></script><script defer="" src="./js/atelier.js"></script>
+<script defer="" src="./js/config.js"></script><script defer="" src="./js/projects.js"></script><script defer="" src="./js/main.js"></script><script defer="" src="./js/atelier.js"></script><script defer="" src="./js/experimental.js"></script>
 <title>XIN — Graphic Design Portfolio | Xinmin Farano</title>
 </head>
 <body>
@@ -108,11 +108,40 @@
 </div>
 </section>
 
-<section aria-labelledby="aboutTitle" class="about section-space" id="about">
-<div class="wrap about-layout">
-<div class="about-left" data-reveal=""><span class="section-kicker"><span class="dot-index"></span>03 — CHI SONO</span><div aria-hidden="true" class="about-stamp"><div class="stamp-ring">IDEAS • MADE • TANGIBLE •</div><img alt="" src="./assets/logo-xin.svg"/></div><div class="about-number">39° 13′ N <span>↗</span></div></div>
-<div class="about-content" data-reveal=""><h2 id="aboutTitle">Mi chiamo <em>Xinmin.</em><br/>Creo con gli occhi,<br/>penso con le mani.</h2><p>Sono Xinmin Giuseppe Farano. Il mio portfolio è dedicato alla grafica: identità visive, illustrazioni, fotografia e nuove sperimentazioni creative.</p><p>Studio anche Ingegneria Informatica, ma qui lascio parlare soprattutto le immagini e il progetto visivo. Agli appunti universitari ho riservato una sezione indipendente.</p><div class="about-meta"><div><span>COMPETENZE</span><strong>Graphic Design / Illustrazione / Fotografia</strong></div><div><span>BASE</span><strong>Sardegna, Italia</strong></div><div><span>UNIVERSITÀ</span><a href="./studio.html">Sezione appunti e materie ↗</a></div></div></div>
-</div>
+<section aria-label="Intermezzo tipografico" class="kinetic-divider" id="creativeBreak">
+  <div class="kinetic-line" aria-hidden="true"><span>LE IDEE CAMBIANO FORMA <i>✳</i> LE IDEE CAMBIANO FORMA <i>✳</i> LE IDEE CAMBIANO FORMA <i>✳</i></span></div>
+  <div class="kinetic-meta wrap"><span>MOVE / EXPERIMENT / REPEAT</span><span>↗ SEMPRE IN MOVIMENTO</span></div>
+</section>
+<section aria-labelledby="aboutTitle" class="about about-experimental" id="about">
+  <div class="wrap">
+    <div class="experiment-intro" data-reveal="">
+      <div class="section-kicker"><span class="dot-index"></span> 03 — IL MIO MONDO / ABOUT</div>
+      <span class="experiment-intro-number">✳ NOT YOUR USUAL ABOUT PAGE</span>
+    </div>
+    <div class="experiment-grid">
+      <div class="exp-stage" id="expStage" aria-label="Laboratorio grafico interattivo. Trascina le forme con il mouse o toccale. Premi Rimescola per creare una nuova composizione.">
+        <canvas id="expInk" class="exp-ink" aria-hidden="true"></canvas>
+        <div class="exp-dots" aria-hidden="true"></div>
+        <div class="exp-stage-top"><span>THE CREATIVE LAB / 001</span><span class="exp-flash">LIVE EXPERIMENT <i></i></span></div>
+        <div class="exp-type" aria-hidden="true"><span>NON</span><span>RESTO</span><span class="exp-type-last">FERMO<span class="exp-punctuation">.</span></span></div>
+        <div class="exp-crosshair exp-crosshair-one" aria-hidden="true">+</div><div class="exp-crosshair exp-crosshair-two" aria-hidden="true">+</div>
+        <button class="exp-piece exp-piece-1" type="button" aria-label="Muovi la forma arancione"><span>↗</span><small>MAKE / 01</small></button>
+        <button class="exp-piece exp-piece-2" type="button" aria-label="Muovi la tessera IDEA"><span>IDEA<br>LAB.</span></button>
+        <button class="exp-piece exp-piece-3" type="button" aria-label="Muovi la forma grafica a stella"><span>✳</span></button>
+        <div class="exp-stage-bottom"><span><b>↖</b> TRASCINA / GIOCA / SPERIMENTA</span><button id="expRemix" class="exp-remix" type="button" aria-label="Cambia la composizione del laboratorio"><span class="exp-remix-symbol">⤨</span> RIMESCOLA <span>↗</span></button></div>
+      </div>
+      <div class="exp-copy" data-reveal="">
+        <span class="exp-copy-top">DESIGNER / ILLUSTRATOR / CURIOUS MIND</span>
+        <h2 id="aboutTitle">Ciao, sono<br><em>Xinmin.</em><br>Le idee non<br>stanno <span class="exp-underline">ferme.</span></h2>
+        <p class="exp-lead">Mi piace prendere un'intuizione, scomporla e darle una forma che non ti aspetti.</p>
+        <p>Sono Xinmin Giuseppe Farano. Creo identità visive, illustrazioni e fotografie. Mi interessano le idee che incuriosiscono, invitano a guardare due volte e continuano a raccontare qualcosa anche dopo il primo sguardo.</p>
+        <div class="exp-disciplines"><span>01 / BRAND IDENTITY</span><span>02 / ILLUSTRAZIONE</span><span>03 / FOTOGRAFIA</span></div>
+        <div class="exp-copy-actions"><a href="#work" class="exp-action-primary">Guarda cosa creo <span>↗</span></a><a href="#contact" class="exp-action-text">Lavoriamo insieme ↗</a></div>
+        <div class="exp-signature">A volte basta cambiare prospettiva. <span>✳</span></div>
+      </div>
+    </div>
+    <div class="exp-bridge-note"><span>FINE DELL'ESPERIMENTO?</span><span>MAI. <b>↓</b></span></div>
+  </div>
 </section>
 <section aria-labelledby="universityTitle" class="university-bridge" id="university">
 <div class="wrap university-bridge-layout" data-reveal="">

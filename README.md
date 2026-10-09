@@ -30,3 +30,9 @@ Progetto statico HTML + CSS + JavaScript pronto da aprire in **PyCharm** e pubbl
 - `privacy.html`, `diritti.html`, `documenti/` — informative e modelli di liberatoria. Devono essere verificati rispetto ai trattamenti reali prima dell'uso con clienti. **Non pubblicare PDF firmati dai clienti nel repository.**
 
 L'accessibilità include rispetto di `prefers-reduced-motion`, navigazione con tastiera e fallback statici per l'esperienza animata. È un sito senza pannello admin: nuovi file e contenuti vengono pubblicati modificando il progetto e inviandolo a GitHub.
+
+
+## XIN / Experimental Type Lab (2026)
+La sezione Chi sono ora ospita una composizione tipografica interattiva, senza il logo gigante. I tre elementi si possono trascinare con mouse o touch (oppure spostare con i tasti freccia), e **Rimescola** alterna i layout. Al passaggio del puntatore compaiono tracce grafiche che svaniscono. Il nastro tipografico che precede la sezione reagisce allo scorrimento.
+
+Implementazione solo HTML/CSS/JavaScript, nessuna libreria né backend: `css/experimental.css` e `js/experimental.js`. Su dispositivi con preferenza di movimento ridotto gli effetti di movimento automatico sono disattivati. La composizione iniziale rimane visibile anche senza JavaScript.
