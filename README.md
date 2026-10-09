@@ -1,74 +1,131 @@
-# XIN® — Portfolio online con GitHub Pages
+# XIN — Portfolio redesign 2026
 
-**Questo è il progetto giusto per PyCharm + GitHub Pages.** Il sito è composto soltanto da HTML, CSS e JavaScript: per pubblicarlo **non servono Python, FastAPI, SQLite, Node.js o server da mantenere attivi**. GitHub Pages lo rende pubblico online e aggiorna il sito a ogni push sulla branch configurata.
+Nuova versione del portfolio di **Xinmin Giuseppe Farano**, con il suo **logo blu a forma di X e pennino**. Il sito è statico e può essere pubblicato gratuitamente tramite GitHub Pages.
 
-## 1. Aprilo in PyCharm
+## Come usarlo in PyCharm
 
-1. Decomprimi lo ZIP.
-2. PyCharm → **File → Open** → seleziona la cartella `XIN-Portfolio-GitHub-Pages`.
-3. Modifica il codice. Apri `index.html` con la funzione anteprima browser di PyCharm, oppure per un'anteprima con server di sviluppo apri il terminale ed esegui `py -m http.server 8000`, poi visita `http://localhost:8000`. **Questo server serve soltanto a controllare le modifiche sul PC**: il sito finale sarà online su GitHub Pages.
+1. Estrai lo ZIP.
+2. In PyCharm scegli **File > Open** e apri la cartella `XIN-Portfolio-Redesign-2026`.
+3. Per visualizzare il sito durante lo sviluppo, fai clic destro su `index.html` e scegli **Open in Browser**; se PyCharm non offre l'anteprima, puoi usare il terminale con `python -m http.server 8000` e aprire `http://localhost:8000` nel tuo browser.
+4. Modifica HTML, CSS e JavaScript. **Non servono pip, Flask o un backend Python** per GitHub Pages.
 
-## 2. Pubblica online su GitHub (senza altri hosting)
+## Pubblica con GitHub Pages
 
-1. Accedi a **github.com** e crea un nuovo repository **pubblico**, per esempio `xin-portfolio`.
-2. Carica **il contenuto** della cartella (non una cartella esterna) nella root del repository: `index.html`, `css/`, `js/`, `assets/`, `.nojekyll`, `privacy.html` ecc.
-3. Apri il repository e vai in **Settings → Pages**.
-4. In **Build and deployment → Source** scegli **Deploy from a branch**.
-5. Seleziona **main** e **/(root)**, poi **Save**.
-6. Il sito sarà pubblicato all'indirizzo `https://TUO-USERNAME.github.io/xin-portfolio/` (il nome dipende dal repository). Il primo deploy può richiedere qualche minuto.
-7. Per aggiornare il sito: modifica i file in PyCharm, fai commit e push su `main` (Git → Commit, Git → Push), e GitHub Pages pubblicherà i cambiamenti.
+1. Crea un repository pubblico, per esempio `portfolio`.
+2. Carica il **contenuto della cartella**, non la cartella come sottocartella: `index.html` deve trovarsi alla radice del repository.
+3. Apri **Settings > Pages > Build and deployment**, imposta **Deploy from a branch**, branch `main`, cartella `/(root)`, poi **Save**.
+4. Il sito apparirà su `https://TUO-USERNAME.github.io/portfolio/` dopo la pubblicazione.
+5. Per modifiche successive esegui commit e push da PyCharm: il sito si aggiorna tramite GitHub Pages.
 
-> Se scegli invece come repository `TUO-USERNAME.github.io`, il sito risponderà direttamente su `https://TUO-USERNAME.github.io/`. Non inventare un URL: il link effettivo appare in Settings → Pages dopo la pubblicazione.
+I percorsi dei file sono relativi (`./css/...`, `./assets/...`), quindi funzionano anche nei project site `username.github.io/portfolio/`.
 
-## 3. Collega il modulo contatti (una sola configurazione)
+## Il tuo logo
 
-**Il modulo non può inviare email direttamente con GitHub Pages.** Per questo è pronto per [FormSubmit](https://formsubmit.co/), che inoltra i messaggi attraverso un servizio esterno. Non contiene password e non richiede backend personale.
+- `assets/logo-xin.svg`: vettoriale ottenuto dal simbolo inviato; usato nel sito e come favicon.
+- `assets/logo-xin.png`: versione PNG con sfondo trasparente.
+- **Non è inclusa la scritta** `Xinmin Farano — Graphic Designer` nell'emblema.
+- Se vuoi cambiare logo, sostituisci il file SVG mantenendo il nome del file, o aggiorna i riferimenti all'immagine nei file HTML.
 
-1. ✅ Indirizzo già configurato in `js/config.js`: `contactEmail: 'X1ngraphic1@gmail.com'`. Non devi cambiare nulla per l’inoltro alla tua Gmail.
-2. Pubblica i file aggiornati su GitHub Pages.
-3. Dal sito **online** invia un primo messaggio di prova; nella casella **X1ngraphic1@gmail.com** apri l’email di attivazione che FormSubmit invia e conferma il collegamento. **Fino all'attivazione non puoi considerare la ricezione operativa.** Verifica poi che il messaggio di prova arrivi (controlla anche spam).
-4. Il modulo mostra errori se l'indirizzo non è configurato o l'invio fallisce; non finge di aver ricevuto il messaggio.
+## Aggiungere progetti, fotografie e illustrazioni
 
-**Attenzione privacy:** la tua email configurata in `js/config.js` è visibile nel codice sorgente del sito. Usa un indirizzo dedicato, non inserire mai password o token. I dati del modulo passano a FormSubmit e non sono salvati in un tuo database. **Prima della pubblicazione completa `privacy.html`**, dove ho già aggiunto l’indirizzo Gmail: mancano ancora il nome del titolare, la base giuridica, i tempi di conservazione e la verifica delle informazioni sul trattamento e sui fornitori. Controlla anche il consenso nel modulo.
+Apri `js/projects.js`. Ogni elemento di `window.XIN_PROJECTS` corrisponde a una scheda. Puoi usare le categorie:
 
-## 4. Personalizza il portfolio
+- `ai`: ricerca AI / OpenAPI
+- `web`: sviluppo e programmazione
+- `design`: illustrazioni e graphic design
+- `photo`: fotografia
+- `study`: studio e appunti
 
-| Cosa | File |
-| --- | --- |
-| Titoli, testi e link | `index.html` (italiano) e `js/main.js` (traduzioni IT/EN) |
-| Progetti mostrati con schede e filtri | `js/projects.js` |
-| Email del modulo contatti (già impostata) | `js/config.js` |
-| Colori, griglie, animazioni, mobile | `css/style.css` |
-| Logo/favicon | `assets/favicon.svg` |
-| Informativa privacy | `privacy.html` |
+Per aggiungere una foto originale, prima inserisci l'immagine in `assets/media/fotografie/`, quindi aggiungi all'oggetto desiderato:
 
-La pagina iniziale include esempi di progetti: verifica titoli, descrizioni e risultati prima di presentarli come portfolio professionale.
-
-## 5. Cosa funziona su GitHub Pages
-
-- Home animata, grafica orbitale, particelle, transizioni
-- Menu mobile, navigazione, scorciatoie `Ctrl+K` / `⌘+K`
-- Progetti da `js/projects.js`, filtri, ricerca e finestre di dettaglio
-- Italiano/inglese, modalità scura/chiara persistente
-- Form contatti con controlli di validazione e invio tramite FormSubmit **dopo configurazione e attivazione dell'email**
-- Percorsi relativi compatibili sia con `username.github.io/repo/` che con un dominio personale
-
-## Struttura del progetto
-
-```text
-XIN-Portfolio-GitHub-Pages/
-├── index.html
-├── privacy.html
-├── .nojekyll
-├── .gitignore
-├── css/
-│   └── style.css
-├── js/
-│   ├── config.js         # Imposta l'email contatti
-│   ├── projects.js       # Modifica i progetti
-│   └── main.js           # UI, lingua, animazioni, modulo
-└── assets/
-    └── favicon.svg
+```js
+image: './assets/media/fotografie/ritratto-01.jpg',
+alt: 'Ritratto fotografico di una persona in esterni',
+credit: 'Fotografia: Xinmin Giuseppe Farano',
+license: 'Tutti i diritti riservati'
 ```
 
-**Differenza tecnica importante:** GitHub *ospita i file e pubblica il sito con GitHub Pages*, ma non esegue `app.py`. Se in futuro vorrai login, area riservata, database o API Python personalizzate, serve un backend ospitato a parte (per esempio Render o un altro hosting Python) e il frontend può continuare a rimanere su GitHub Pages.
+Le **copertine astratte presenti adesso sono illustrazioni segnaposto del layout**, non fotografie o illustrazioni commissionate realmente. Gli esempi `SpecTrace`, `Servercraft` e `Vector Playground` vanno personalizzati con titolo, descrizione, immagini e crediti coerenti con il lavoro effettivamente pubblicato. Evita di presentare prototipi e concept come incarichi conclusi.
+
+Per fotografie di persone riconoscibili, verifica diritti, autorizzazioni e base giuridica prima della pubblicazione; vedi `diritti.html` e i PDF nella cartella `documenti/`.
+
+## Appunti, materia per materia
+
+I dati della pagina `studio.html` si trovano nel file `js/materie.js`. Ogni materia ha `anno` (1, 2, 3), `titolo`, `descrizione`, `argomenti` e un elenco `risorse`. La struttura permette un numero qualsiasi di materie per anno; **al momento ci sono solo due schede di esempio del terzo anno e nessun PDF pubblicato**.
+
+Per aggiungere un nuovo corso:
+
+```js
+{
+  id: 'algoritmi',
+  anno: 2,
+  titolo: 'Algoritmi e strutture dati',
+  descrizione: 'I miei appunti originali',
+  argomenti: ['Algoritmi', 'Complessità'],
+  risorse: [
+    { titolo: 'Appunti', tipo: 'PDF', file: './assets/media/studio/2-anno/algoritmi.pdf' }
+  ]
+}
+```
+
+Copia il PDF originale nella cartella `assets/media/studio/2-anno/`. Se i file sono grandi, rispetta i limiti del tuo repository e di GitHub Pages. **Non caricare materiale dei docenti o colleghi senza autorizzazione**, né dati personali non necessari.
+
+## Modulo contatti Gmail
+
+Il destinatario è già configurato in `js/config.js`:
+
+```js
+window.XIN_CONFIG = { contactEmail: 'X1ngraphic1@gmail.com' };
+```
+
+Il modulo invia i dati con la API AJAX HTTPS di **FormSubmit**. Non occorre un backend Python. Per abilitarlo in produzione:
+
+1. Pubblica su GitHub Pages.
+2. Compila il modulo e invia un **primo messaggio di test** dal sito online.
+3. Controlla la casella Gmail del destinatario e completa la conferma di attivazione inviata da FormSubmit (controlla anche Spam).
+4. Invia un **secondo messaggio di prova** e verifica che arrivi.
+
+Nota: **non è stato effettuato un invio reale alla tua Gmail** da questo progetto. La consegna dipende dal servizio esterno e dall'attivazione. L'indirizzo destinatario resta leggibile nel JavaScript pubblico, come in qualunque modulo di questo tipo con destinatario non mascherato.
+
+## Privacy e documenti fotografici
+
+- `privacy.html`: informativa dei trattamenti dichiarati e dei servizi del sito.
+- `diritti.html`: informazioni su copyright, ritratti e materiali universitari.
+- `documenti/Liberatoria_XIN_Adulti.pdf` e `documenti/Liberatoria_XIN_Minori.pdf`: modelli da stampare e adattare al singolo incarico. Non pubblicare mai PDF già compilati o firmati nel repository!
+- La privacy deve corrispondere ai trattamenti effettivi, alle modalità di conservazione e ai servizi in uso: prima dell'utilizzo professionale è opportuno verificarla con un legale esperto del settore.
+
+## Funzioni interattive
+
+- Modale progetto con dettagli, crediti e collegamenti ai file.
+- Filtri per categoria e ricerca testuale.
+- Menu hamburger accessibile su smartphone.
+- Tema chiaro/scuro memorizzato nel browser (`xin-theme`).
+- Navigazione rapida `Ctrl+K` / `Cmd+K` nella homepage.
+- Micro-animazioni, effetto leggero al movimento del mouse e rispetto delle preferenze `prefers-reduced-motion`.
+- Layout responsive, nessuna API Python locale necessaria.
+
+## Architettura
+
+```
+index.html
+studio.html
+privacy.html
+diritti.html
+css/style.css
+css/studio.css
+css/legal.css
+js/main.js
+js/shared.js
+js/projects.js
+js/materie.js
+js/studio.js
+js/config.js
+assets/logo-xin.svg
+assets/logo-xin.png
+assets/favicon.svg
+assets/media/{fotografie,illustrazioni,progetti,studio}/
+documenti/*.pdf
+.nojekyll
+```
+
+© 2026 Xinmin Giuseppe Farano — XIN. File di progetto preparati per poter essere modificati in PyCharm.

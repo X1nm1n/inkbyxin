@@ -11,3 +11,13 @@ Thumbs.db
 .env
 .env.*
 *.db
+
+# MAI pubblicare liberatorie firmate o materiale privato
+liberatorie-firmate/
+clienti-privati/
+*.p12
+
+# Dati e moduli dei clienti (mai nel repo pubblico)
+liberatorie_firmate/
+clienti_privati/
+*.secret

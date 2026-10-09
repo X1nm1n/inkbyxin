@@ -1,4 +1,13 @@
-/* Personalizza i progetti qui. Salva il file e pubblica le modifiche su GitHub. */
+/* CATEGORIE: ai, web, design (illustrazioni), photo (fotografie), study (materiali universitari).
+   Per pubblicare un nuovo contenuto copia un oggetto tra quelli esistenti e modifica tutti i campi.
+   Opzioni facoltative:
+      image: "./assets/media/fotografie/foto.jpg", // copertina della scheda
+      alt: "Descrizione accessibile della fotografia",
+      file: "./assets/media/studio/formulario.pdf", // link PDF/ZIP visibile nel dettaglio
+      credit: "Foto e illustrazione: Nome autore",
+      license: "Tutti i diritti riservati" // oppure una licenza effettivamente concessa.
+   Non aggiungere immagini identificabili di altre persone senza le verifiche e autorizzazioni necessarie.
+   NON pubblicare materiali didattici di terzi senza diritti di distribuzione. */
 window.XIN_PROJECTS = [
   {
     "id": "spec-trace",
@@ -76,5 +85,18 @@ window.XIN_PROJECTS = [
     "visual": "design",
     "size": "wide",
     "status": "Esplorazione"
+  }
+,
+  {
+    id: 'appunti-triennale', number: '04', category: 'study', year: '2026',
+    title: 'Appunti di Ingegneria Informatica', eyebrow: 'STUDY ARCHIVE / UNICA',
+    summary: 'Un archivio per materia e anno di corso, con appunti personali e risorse in PDF.',
+    description: 'Catalogo di studio organizzato per singola materia. Le schede delle materie sono predisposte; i PDF originali saranno aggiunti progressivamente dopo la verifica dei contenuti e dei metadati.',
+    role: 'Redazione e organizzazione di materiali personali',
+    tech: ['Appunti originali', 'PDF', 'Ingegneria Informatica'],
+    highlights: ['Catalogo per singola materia', 'Ricerca e filtri per anno', 'Materiali caricati progressivamente'],
+    visual: 'study', size: 'standard', status: 'In allestimento',
+    file: './studio.html', credit: 'Appunti originali: Xinmin Giuseppe Farano',
+    license: 'Tutti i diritti riservati, salvo diversa indicazione sul documento.'
   }
 ];
