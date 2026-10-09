@@ -24,12 +24,12 @@
 
 **Il modulo non può inviare email direttamente con GitHub Pages.** Per questo è pronto per [FormSubmit](https://formsubmit.co/), che inoltra i messaggi attraverso un servizio esterno. Non contiene password e non richiede backend personale.
 
-1. Apri `js/config.js` e imposta `contactEmail: 'latuaemail@esempio.it'`.
+1. ✅ Indirizzo già configurato in `js/config.js`: `contactEmail: 'X1ngraphic1@gmail.com'`. Non devi cambiare nulla per l’inoltro alla tua Gmail.
 2. Pubblica i file aggiornati su GitHub Pages.
-3. Dal sito **online** invia un primo messaggio di prova; segui l'email di attivazione che FormSubmit ti invia. **Fino all'attivazione non puoi considerare la ricezione operativa.** Verifica poi che il messaggio di prova arrivi (controlla anche spam).
+3. Dal sito **online** invia un primo messaggio di prova; nella casella **X1ngraphic1@gmail.com** apri l’email di attivazione che FormSubmit invia e conferma il collegamento. **Fino all'attivazione non puoi considerare la ricezione operativa.** Verifica poi che il messaggio di prova arrivi (controlla anche spam).
 4. Il modulo mostra errori se l'indirizzo non è configurato o l'invio fallisce; non finge di aver ricevuto il messaggio.
 
-**Attenzione privacy:** la tua email configurata in `js/config.js` è visibile nel codice sorgente del sito. Usa un indirizzo dedicato, non inserire mai password o token. I dati del modulo passano a FormSubmit e non sono salvati in un tuo database. **Prima della pubblicazione modifica `privacy.html`**, inserendo i dati del titolare e le informazioni corrette sul trattamento, poi controlla il consenso nel modulo.
+**Attenzione privacy:** la tua email configurata in `js/config.js` è visibile nel codice sorgente del sito. Usa un indirizzo dedicato, non inserire mai password o token. I dati del modulo passano a FormSubmit e non sono salvati in un tuo database. **Prima della pubblicazione completa `privacy.html`**, dove ho già aggiunto l’indirizzo Gmail: mancano ancora il nome del titolare, la base giuridica, i tempi di conservazione e la verifica delle informazioni sul trattamento e sui fornitori. Controlla anche il consenso nel modulo.
 
 ## 4. Personalizza il portfolio
 
@@ -37,7 +37,7 @@
 | --- | --- |
 | Titoli, testi e link | `index.html` (italiano) e `js/main.js` (traduzioni IT/EN) |
 | Progetti mostrati con schede e filtri | `js/projects.js` |
-| Email del modulo contatti | `js/config.js` |
+| Email del modulo contatti (già impostata) | `js/config.js` |
 | Colori, griglie, animazioni, mobile | `css/style.css` |
 | Logo/favicon | `assets/favicon.svg` |
 | Informativa privacy | `privacy.html` |
