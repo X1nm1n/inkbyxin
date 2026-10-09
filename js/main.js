@@ -19,7 +19,7 @@
   function syncTheme() {
     const dark = document.documentElement.dataset.theme === 'dark';
     if (themeBtn) themeBtn.setAttribute('aria-label', dark ? 'Passa al tema chiaro' : 'Passa al tema scuro');
-    document.querySelector('meta[name="theme-color"]')?.setAttribute('content', dark ? '#121c32' : '#f6f4ef');
+    document.querySelector('meta[name="theme-color"]')?.setAttribute('content', dark ? '#101c35' : '#eee3d5');
   }
   syncTheme();
   themeBtn?.addEventListener('click', () => {
@@ -164,7 +164,7 @@
   const command=$('#commandDialog'),commandSearch=$('#commandSearch'),commandResults=$('#commandResults');
   const destinations=[{name:'Homepage',url:'#top',detail:'Torna all’inizio'},
     {name:'Portfolio grafico',url:'#work',detail:'Identità, illustrazione, fotografia, editoriale'},
-    {name:'Discipline grafiche',url:'#disciplines',detail:'Branding, illustrazione, fotografia, editoriale'},
+    {name:'Il processo creativo',url:'#journey',detail:'Esperienza interattiva: branding, illustrazione e fotografia'},
     {name:'Università — sezione separata',url:'./studio.html',detail:'Appunti personali, PDF e materie'},
     {name:'Chi sono',url:'#about',detail:'Conosci Xinmin'},
     {name:'Contatti',url:'#contact',detail:'Scrivi un messaggio'},

@@ -1,30 +1,32 @@
-# XIN — Portfolio grafico con archivio universitario separato
+# XIN — Portfolio grafico immersivo (2026)
 
-## Gerarchia del sito
+Progetto statico HTML + CSS + JavaScript pronto da aprire in **PyCharm** e pubblicare su **GitHub Pages**. Il sito principale è un portfolio di **graphic design**; gli appunti universitari non appaiono nella galleria dei lavori, ma nella pagina indipendente `studio.html`.
 
-- **Homepage (`index.html`)**: esclusivamente il portfolio grafico di Xinmin Giuseppe Farano: brand identity, illustrazioni, fotografia e design editoriale.
-- **Area universitaria (`studio.html`)**: sezione separata, con materie organizzate per anno, PDF e appunti originali. Accessibile dal menu e da un piccolo invito sotto «Chi sono». Gli appunti **non** entrano nelle categorie del portfolio grafico.
-- `privacy.html` e `diritti.html`: informative e diritti d’uso.
+## Novità: direzione visiva ATELIER
 
-## Avvio e pubblicazione
+- **Tema chiaro:** carta sabbia `#eee3d5`, superfici avorio `#faf5ed`, blu XIN `#17264b`, accento terracotta `#9c6448`.
+- **Tema scuro:** blu notte `#101c35`, superfici `#172644`, testi chiari e riflessi caldi.
+- **Hero interattiva:** poster a più livelli con il tuo logo XIN, movimento al passaggio del puntatore, un tasto «Cambia prospettiva» e animazioni CSS. L'elemento funziona anche con tastiera.
+- **Percorso verticale:** una composizione visiva rimane ferma mentre il racconto cambia in tre capitoli: branding, illustrazione, fotografia. Il tutto risponde allo scroll; i pallini consentono di saltare direttamente a una scena.
+- **Portfolio:** galleria filtrabile, ricerca, schede progetto apribili; soltanto la tua identità XIN è presentata come progetto reale. Gli altri lavori sono segnaposto dichiarati.
+- **Università:** archivio completamente autonomo, ordinato per anno e materia, predisposto per PDF originali personali.
+- **Contatti:** FormSubmit verso `X1ngraphic1@gmail.com`. La ricezione richiede l'attivazione dell'indirizzo e una prova reale dopo la pubblicazione.
 
-Apri questa cartella in PyCharm. Non serve installare Python o un server per la pubblicazione. Carica il contenuto della cartella nella root di un repository GitHub pubblico, poi abilita GitHub Pages da **Settings → Pages → Deploy from a branch → main / (root)**.
+## Pubblica su GitHub Pages
 
-## Aggiungere lavori grafici
+1. Estrai lo ZIP. In PyCharm scegli **File → Open** e apri la cartella.
+2. Non servono `pip install`, FastAPI, Python o Node in produzione. Il browser esegue direttamente gli script JavaScript.
+3. Carica il contenuto della cartella (incluso `index.html` nella root) in un repository GitHub pubblico.
+4. **Settings → Pages → Deploy from a branch → main / (root)**. Attendi l'indirizzo pubblico.
+5. Verifica navigazione, tema, immagini, PDF e modulo contatti. Conferma la prima richiesta di attivazione FormSubmit nella tua Gmail.
 
-1. Salva le immagini nella cartella `assets/media/progetti`, `assets/media/illustrazioni` o `assets/media/fotografie`.
-2. Apri `js/projects.js` e sostituisci le schede **«in arrivo»** con lavori reali, mettendo `image:'./assets/media/...'`, un titolo e una descrizione.
-3. Usa le categorie `branding`, `design`, `photo` o `editorial`.
-4. Carica le modifiche su GitHub.
+## Dove modificare i contenuti
 
-Il logo XIN che hai inviato è già utilizzato sia in homepage sia nella prima scheda di identità visiva.
+- `index.html` — testi e struttura; `css/style.css` è lo stile legacy, **`css/atelier.css`** contiene la nuova direzione visiva.
+- `js/main.js` — funzionalità della galleria, menu, contatti e ricerca; `js/atelier.js` — esperienza verticale e composizione interattiva.
+- `js/projects.js` — aggiungi progetti grafici e copertine in `assets/media/{progetti,fotografie,illustrazioni}`.
+- `js/materie.js` — aggiungi le materie della triennale; i PDF originali vanno in `assets/media/studio/`.
+- `assets/logo-xin.svg` — simbolo XIN blu con pennino fornito dall'autore, senza scritta sottostante.
+- `privacy.html`, `diritti.html`, `documenti/` — informative e modelli di liberatoria. Devono essere verificati rispetto ai trattamenti reali prima dell'uso con clienti. **Non pubblicare PDF firmati dai clienti nel repository.**
 
-## Materiale universitario
-
-Le schede delle materie si gestiscono esclusivamente da `js/materie.js` e i PDF originali da `assets/media/studio`. Segui `GUIDA-PUBBLICAZIONE.md` per esempi. Non pubblicare dispense di altri o PDF firmati dai clienti.
-
-## Modulo contatti
-
-È configurato per inviare tramite FormSubmit a `X1ngraphic1@gmail.com`; la prima attivazione richiede una conferma nella casella email. Verifica l'invio dopo aver pubblicato il sito.
-
-Le sezioni «Illustrazioni», «Fotografia» ed «Editoriale» contengono segnaposto dichiarati, **non** lavori inventati. L'informativa privacy e le liberatorie richiedono sempre verifica rispetto al trattamento effettivo dei dati e alle pubblicazioni effettuate.
+L'accessibilità include rispetto di `prefers-reduced-motion`, navigazione con tastiera e fallback statici per l'esperienza animata. È un sito senza pannello admin: nuovi file e contenuti vengono pubblicati modificando il progetto e inviandolo a GitHub.
