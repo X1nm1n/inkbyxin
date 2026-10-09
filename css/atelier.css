@@ -71,3 +71,54 @@ html[data-theme="dark"] .mascot-trigger:hover{background:#f4e6d7;color:#10203d}
 @media(max-width:930px){.story-mascot-hero{min-height:430px;order:1}.story-header>p{order:2;max-width:100%}.story-mascot{width:min(72vw,340px);right:18px;bottom:56px}.mascot-trigger{bottom:18px}.mascot-badges{left:20px;bottom:18px;right:132px}.mascot-copy-mini{max-width:270px}.story-header{gap:18px}}
 @media(max-width:650px){.story-mascot-hero{min-height:390px;padding:20px 18px 92px;box-shadow:10px 10px 0 #17264b08}.mascot-copy-mini{max-width:220px}.mascot-copy-mini p{font-size:13px;line-height:1.55}.mascot-stage-note-top{top:16px;right:18px;font-size:7px}.mascot-badges{left:16px;right:125px;bottom:16px;gap:7px}.mascot-badges span{padding:8px 9px;font-size:7px;box-shadow:4px 4px 0 #17264b0a}.story-mascot{width:min(76vw,300px);right:-2px;bottom:56px}.mascot-trigger{right:16px;bottom:15px;min-height:38px;padding:0 12px;font-size:8px}.mascot-stroke{left:12px;right:12px;width:calc(100% - 24px);bottom:24px}.mascot-spark.spark-one{top:78px;right:94px}.mascot-spark.spark-two{top:130px;right:42px}.mascot-spark.spark-three{bottom:98px;left:42%}}
 @media(prefers-reduced-motion:reduce){.story-mascot,.mascot-spark{animation:none!important}.mascot-stroke-path{animation:none!important;stroke-dasharray:none;stroke-dashoffset:0}.story-mascot-hero.is-animate .story-mascot,.story-mascot-hero.is-trick .story-mascot{animation:none!important}}
+
+/* --- v2 Walking mascot stage --- */
+.story-header{grid-template-columns:minmax(0,1fr) 320px;align-items:end}
+.mascot-walk-stage{position:relative;min-height:clamp(330px,34vw,440px);padding:28px 28px 86px;border:1px solid var(--line);background:linear-gradient(180deg,#efe4d7 0%,#e6d7c8 100%);box-shadow:16px 16px 0 #17264b0c;overflow:hidden;isolation:isolate}
+html[data-theme="dark"] .mascot-walk-stage{background:linear-gradient(180deg,#152746 0%,#1e3157 100%);border-color:#ffffff1a;box-shadow:16px 16px 0 #0711276b}
+.mascot-walk-stage:before{content:'';position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle at 78% 24%,#ffffff88,transparent 26%),linear-gradient(180deg,#ffffff12,transparent 42%);z-index:0}
+.mascot-walk-stage:after{content:'';position:absolute;inset:0;pointer-events:none;opacity:.12;background-image:linear-gradient(#17264b12 1px,transparent 1px),linear-gradient(90deg,#17264b10 1px,transparent 1px);background-size:26px 26px}
+.mascot-stage-area{position:absolute;left:16px;right:16px;bottom:14px;top:90px;z-index:1}
+.mascot-copy-mini{position:relative;z-index:3;max-width:300px}
+.mascot-label{display:inline-flex;align-items:center;gap:9px;font:800 10px var(--display);letter-spacing:.16em;color:var(--accent)}
+.mascot-copy-mini p{margin:10px 0 0;font:400 14px/1.65 var(--body);color:var(--muted)}
+html[data-theme="dark"] .mascot-copy-mini p{color:#d5d9e3}
+.mascot-stage-note{position:absolute;z-index:2;font:800 9px var(--display);letter-spacing:.16em;color:#17264b8b}
+html[data-theme="dark"] .mascot-stage-note{color:#f2eadfb5}
+.mascot-stage-note-top{top:24px;right:28px}
+.mascot-ground{position:absolute;left:18px;right:18px;bottom:24px;height:2px;background:linear-gradient(90deg,transparent 0%,#17264b30 10%,#17264b40 50%,#17264b30 90%,transparent 100%)}
+html[data-theme="dark"] .mascot-ground{background:linear-gradient(90deg,transparent 0%,#f2e9dd30 10%,#f2e9dd48 50%,#f2e9dd30 90%,transparent 100%)}
+.mascot-footprints{position:absolute;left:48px;right:180px;bottom:16px;height:40px;pointer-events:none}
+.mascot-footprints span{position:absolute;bottom:10px;width:20px;height:8px;border-radius:50%;background:#17264b18;opacity:0;transform:scale(.6) rotate(-18deg)}
+html[data-theme="dark"] .mascot-footprints span{background:#f5e7da24}
+.mascot-footprints span:nth-child(1){left:6%}.mascot-footprints span:nth-child(2){left:18%;transform:scale(.58) rotate(18deg)}.mascot-footprints span:nth-child(3){left:31%}.mascot-footprints span:nth-child(4){left:44%;transform:scale(.58) rotate(18deg)}.mascot-footprints span:nth-child(5){left:57%}.mascot-footprints span:nth-child(6){left:70%;transform:scale(.58) rotate(18deg)}
+.mascot-runner{position:absolute;left:-8%;bottom:26px;z-index:3;width:min(260px,28vw);will-change:transform}
+.story-mascot{position:relative;right:auto;bottom:auto;z-index:auto;display:block;width:100%;height:auto;filter:drop-shadow(12px 14px 18px #17264b30);transform-origin:50% 85%}
+.mascot-stroke{position:absolute;left:42%;right:18px;bottom:30px;width:50%;height:auto;z-index:2;overflow:visible;pointer-events:none}
+.mascot-stroke-path{fill:none;stroke:#17264b;stroke-width:14;stroke-linecap:round;stroke-linejoin:round;opacity:.9;stroke-dasharray:520;stroke-dashoffset:520}
+.mascot-stroke-path.accent{stroke:#b06d4f;stroke-width:8;opacity:.82;stroke-dasharray:220;stroke-dashoffset:220}
+html[data-theme="dark"] .mascot-stroke-path{stroke:#efe4d6}
+html[data-theme="dark"] .mascot-stroke-path.accent{stroke:#d59b79}
+.mascot-trigger{position:absolute;right:24px;bottom:22px;z-index:4;display:inline-flex;align-items:center;gap:10px;min-height:42px;padding:0 16px;border-radius:999px;border:1px solid #17264b18;background:#fff7ef;font:800 10px var(--display);letter-spacing:.08em;color:#17264b;transition:transform .2s ease,background .2s ease,color .2s ease}
+.mascot-trigger:hover{transform:translateY(-2px);background:#17264b;color:#fff}
+html[data-theme="dark"] .mascot-trigger{background:#0f1b34;color:#f8e8d9;border-color:#ffffff24}
+html[data-theme="dark"] .mascot-trigger:hover{background:#f4e6d7;color:#10203d}
+.story-mascot-hero.is-animate .mascot-runner{animation:mascot-run-route 2.4s cubic-bezier(.24,.74,.18,1) forwards}
+.story-mascot-hero.is-animate .walk-mascot{animation:mascot-walk-bob .35s ease-in-out 7, mascot-idle-still 4.4s ease-in-out 2.5s infinite}
+.story-mascot-hero.is-draw .mascot-stroke-path{animation:mascot-draw .85s cubic-bezier(.2,.76,.3,1) forwards}
+.story-mascot-hero.is-animate .mascot-footprints span:nth-child(1){animation:footprint-pop .22s linear .18s forwards}
+.story-mascot-hero.is-animate .mascot-footprints span:nth-child(2){animation:footprint-pop .22s linear .48s forwards}
+.story-mascot-hero.is-animate .mascot-footprints span:nth-child(3){animation:footprint-pop .22s linear .78s forwards}
+.story-mascot-hero.is-animate .mascot-footprints span:nth-child(4){animation:footprint-pop .22s linear 1.08s forwards}
+.story-mascot-hero.is-animate .mascot-footprints span:nth-child(5){animation:footprint-pop .22s linear 1.38s forwards}
+.story-mascot-hero.is-animate .mascot-footprints span:nth-child(6){animation:footprint-pop .22s linear 1.68s forwards}
+@keyframes mascot-run-route{0%{transform:translate3d(0,0,0)}68%{transform:translate3d(270%,0,0)}84%{transform:translate3d(315%,-14px,0)}100%{transform:translate3d(332%,0,0)}}
+@keyframes mascot-walk-bob{0%,100%{transform:translateY(0) rotate(0deg)}25%{transform:translateY(-8px) rotate(-6deg)}50%{transform:translateY(0) rotate(0deg)}75%{transform:translateY(-7px) rotate(6deg)}}
+@keyframes mascot-idle-still{0%,100%{transform:translateY(0) rotate(-1deg)}50%{transform:translateY(-4px) rotate(1deg)}}
+@keyframes footprint-pop{0%{opacity:0;transform:scale(.45)}40%{opacity:.45;transform:scale(1)}100%{opacity:.18;transform:scale(.95)}}
+@keyframes mascot-draw{to{stroke-dashoffset:0}}
+@media(max-width:1180px){.mascot-runner{width:min(230px,28vw)}.story-mascot-hero.is-animate .mascot-runner{animation-duration:2.55s}}
+@media(max-width:930px){.story-mascot-hero{min-height:420px;order:1}.story-header>p{order:2;max-width:100%}.mascot-copy-mini{max-width:270px}.mascot-stage-area{top:108px}.mascot-runner{width:min(230px,46vw)}.mascot-stroke{left:34%;width:60%}.mascot-footprints{right:130px}}
+@media(max-width:650px){.mascot-walk-stage{padding:20px 18px 80px;min-height:370px;box-shadow:10px 10px 0 #17264b08}.mascot-copy-mini{max-width:220px}.mascot-copy-mini p{font-size:13px;line-height:1.55}.mascot-stage-note-top{top:16px;right:18px;font-size:7px}.mascot-stage-area{top:118px;left:10px;right:10px;bottom:12px}.mascot-runner{width:min(215px,58vw)}.story-mascot-hero.is-animate .mascot-runner{animation-name:mascot-run-route-mobile}.mascot-stroke{left:28%;width:68%;bottom:34px}.mascot-ground{left:10px;right:10px;bottom:22px}.mascot-footprints{left:16px;right:88px}.mascot-trigger{right:16px;bottom:16px;min-height:38px;padding:0 12px;font-size:8px}}
+@keyframes mascot-run-route-mobile{0%{transform:translate3d(0,0,0)}70%{transform:translate3d(155%,0,0)}84%{transform:translate3d(175%,-12px,0)}100%{transform:translate3d(186%,0,0)}}
+@media(prefers-reduced-motion:reduce){.story-mascot-hero.is-animate .mascot-runner,.story-mascot-hero.is-animate .walk-mascot,.story-mascot-hero.is-draw .mascot-stroke-path,.story-mascot-hero.is-animate .mascot-footprints span{animation:none!important}.mascot-runner{left:55%;transform:translateX(-40%)}.mascot-stroke-path{stroke-dasharray:none;stroke-dashoffset:0}.mascot-footprints span{opacity:.14}}
