@@ -1,7 +1,7 @@
 /* Catalogo statico. Nessuna richiesta API: compatibile con GitHub Pages. */
 (() => {
   'use strict';
-  const data = Array.isArray(window.XIN_MATERIE) ? window.XIN_MATERIE : [];
+  let data = Array.isArray(window.XIN_MATERIE) ? window.XIN_MATERIE : [];
   const target = document.getElementById('studyGroups');
   const total = document.getElementById('totalSubjects');
   const search = document.getElementById('subjectSearch');
@@ -41,8 +41,8 @@
         if (!resources.length) links.append(make('p','','Nessun PDF pubblicato per ora.'));
         for (const resource of resources) {
           // Use only relative files under the approved public course folder, not javascript: or arbitrary URLs.
-          const relative = './assets/media/studio/' + yr + '-anno/';
-          if (!resource.file.startsWith(relative) || !/\.(pdf|zip)$/i.test(resource.file)) continue;
+          const relative = './assets/media/studio/';
+          if (!resource.file.startsWith(relative) || resource.file.includes('..') || !/\.(pdf|zip)$/i.test(resource.file)) continue;
           const a=make('a','',resource.titolo || 'Apri documento');
           a.href=resource.file;
           a.target='_blank';a.rel='noopener noreferrer';
@@ -62,4 +62,5 @@
   }));
   search.addEventListener('input',render);
   render();
+  // Le materie sono definite in js/materie.js e aggiornate manualmente da PyCharm.
 })();

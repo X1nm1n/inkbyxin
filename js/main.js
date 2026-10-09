@@ -4,7 +4,7 @@
   'use strict';
   const $ = (sel, root=document) => root.querySelector(sel);
   const $$ = (sel, root=document) => [...root.querySelectorAll(sel)];
-  const projects = Array.isArray(window.XIN_PROJECTS) ? window.XIN_PROJECTS : [];
+  let projects = Array.isArray(window.XIN_PROJECTS) ? window.XIN_PROJECTS : [];
   const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
   const safeText = value => typeof value === 'string' ? value : String(value ?? '');
   const el = (tag, className, content) => {
@@ -131,6 +131,7 @@
   $('#resetFilters')?.addEventListener('click',()=>{query.value='';setCategory('all');});
   $$('[data-filter-link]').forEach(link=>link.addEventListener('click',()=>{ if(query) query.value='';setCategory(link.dataset.filterLink); }));
   renderProjects();
+  // I progetti sono definiti in js/projects.js e aggiornati manualmente da PyCharm.
 
   const dialog=$('#projectDialog'), closeButton=$('#closeProject');let returnFocus=null;
   function openProject(project) {

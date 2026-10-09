@@ -1,4 +1,6 @@
-# Pubblicare nuovi lavori e appunti — XIN
+# Pubblicare nuovi lavori e appunti — XIN (solo PyCharm/GitHub)
+
+Nessun pannello admin o CMS: si modificano esclusivamente `js/projects.js` e `js/materie.js`. Non esiste tracciamento statistico integrato.
 
 ## Portfolio grafico
 

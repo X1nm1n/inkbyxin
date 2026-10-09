@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 
 <html data-theme="light" lang="it">
-<head><!-- XIN RELEASE: 20261009-MATERIAL-ATELIER --><meta content="20261009-MATERIAL-ATELIER" name="xin-release"/>
+<head>
+<!-- XIN: release 20261009-INTRO-STATIC; animazione logo e contenuti aggiornabili in PyCharm -->
+<meta content="20261009-INTRO-STATIC" name="xin-release"/>
 <meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/>
 <meta content="XIN Atelier — portfolio di graphic design di Xinmin Giuseppe Farano. Identità visiva, illustrazioni e fotografia in una mostra digitale con materiali e stampe interattive. Archivio universitario separato." name="description"/>
 <meta content="#eee3d5" name="theme-color"/><meta content="website" property="og:type"/>
@@ -9,12 +11,36 @@
 <link href="./assets/favicon.svg" rel="icon" type="image/svg+xml"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@400;500;600;700;800&amp;family=Instrument+Serif:ital@0;1&amp;display=swap" rel="stylesheet"/>
-<link href="./css/style.css?v=20261009-MATERIAL-ATELIER" rel="stylesheet"/><link href="./css/atelier.css?v=20261009-MATERIAL-ATELIER" rel="stylesheet"/><link href="./css/experimental.css?v=20261009-MATERIAL-ATELIER" rel="stylesheet"/><link href="./css/material.css?v=20261009-MATERIAL-ATELIER" rel="stylesheet"/>
+<link href="./css/style.css?v=20261009-INTRO-STATIC" rel="stylesheet"/><link href="./css/atelier.css?v=20261009-INTRO-STATIC" rel="stylesheet"/><link href="./css/experimental.css?v=20261009-INTRO-STATIC" rel="stylesheet"/><link href="./css/material.css?v=20261009-INTRO-STATIC" rel="stylesheet"/>
+<script>(function(){try{var forced=new URLSearchParams(location.search).has('intro');var seen=sessionStorage.getItem('xin-intro-seen');if(!matchMedia('(prefers-reduced-motion: reduce)').matches && (forced||!seen)){document.documentElement.classList.add('xin-intro-enabled');}}catch(e){}})();</script>
 <script>try{document.documentElement.dataset.theme=localStorage.getItem('xin-theme')==='dark'?'dark':'light'}catch(e){}</script>
-<script defer="" src="./js/config.js?v=20261009-MATERIAL-ATELIER"></script><script defer="" src="./js/projects.js?v=20261009-MATERIAL-ATELIER"></script><script defer="" src="./js/main.js?v=20261009-MATERIAL-ATELIER"></script><script defer="" src="./js/atelier.js?v=20261009-MATERIAL-ATELIER"></script><script defer="" src="./js/experimental.js?v=20261009-MATERIAL-ATELIER"></script><script defer="" src="./js/material.js?v=20261009-MATERIAL-ATELIER"></script>
+<script defer="" src="./js/config.js?v=20261009-INTRO-STATIC"></script><script defer="" src="./js/projects.js?v=20261009-INTRO-STATIC"></script><script defer="" src="./js/main.js?v=20261009-INTRO-STATIC"></script><script defer="" src="./js/atelier.js?v=20261009-INTRO-STATIC"></script><script defer="" src="./js/experimental.js?v=20261009-INTRO-STATIC"></script><script defer="" src="./js/material.js?v=20261009-INTRO-STATIC"></script>
+<link href="./css/intro.css?v=20261009-INTRO-STATIC" rel="stylesheet"/>
+<script defer src="./js/intro.js?v=20261009-INTRO-STATIC"></script>
 <title>XIN — Graphic Design Portfolio | Xinmin Farano</title>
 </head>
 <body>
+
+<!-- Animazione d'apertura: disegno del logo originale, poi reveal. Si mostra una volta per sessione. -->
+<div class="xin-intro" id="xinIntro" aria-label="Introduzione animata XIN" role="dialog" aria-modal="true" aria-hidden="true">
+  <div class="xin-intro-grain" aria-hidden="true"></div>
+  <div class="xin-intro-ruler xin-intro-ruler-top" aria-hidden="true"><span>✳ XIN / VISUAL ATELIER</span><span>IDENTITY IN PROGRESS — 001</span></div>
+  <div class="xin-intro-center">
+    <div class="xin-intro-eyebrow" aria-hidden="true"><span class="xin-intro-live"></span> STUDIO / DRAWING MODE</div>
+    <svg viewBox="0 0 293 286" class="xin-intro-mark" role="img" aria-label="La X con pennino stilografico viene disegnata progressivamente">
+      <path class="xin-intro-drawing xin-intro-drawing-a" d="M 36 32 L 236 235" pathLength="100" />
+      <path class="xin-intro-drawing xin-intro-drawing-b" d="M 255 34 L 38 250" pathLength="100" />
+      <path class="xin-intro-outline" d="M 12 25 L 10 28 L 9 35 L 8 36 L 9 43 L 12 49 L 105 143 L 105 144 L 31 218 L 31 219 L 10 241 L 9 244 L 9 255 L 12 261 L 28 277 L 35 280 L 46 280 L 53 277 L 146 184 L 176 216 L 185 229 L 193 248 L 196 252 L 204 259 L 212 263 L 215 263 L 223 266 L 226 266 L 227 267 L 246 271 L 250 273 L 269 277 L 277 280 L 237 240 L 230 243 L 224 243 L 219 241 L 213 235 L 210 226 L 213 217 L 220 211 L 223 210 L 231 210 L 238 214 L 243 222 L 243 231 L 240 236 L 283 279 L 283 276 L 276 255 L 276 252 L 274 248 L 274 245 L 272 241 L 272 238 L 270 234 L 270 231 L 268 227 L 268 224 L 266 220 L 264 210 L 259 201 L 248 191 L 235 186 L 222 177 L 206 162 L 205 162 L 187 144 L 190 139 L 280 49 L 284 39 L 284 35 L 283 34 L 282 28 L 264 9 L 257 6 L 247 6 L 237 11 L 147 102 L 146 102 L 56 12 L 52 9 L 44 6 L 36 6 L 30 8 Z" pathLength="1000" />
+      <path class="xin-intro-solid" fill-rule="evenodd" d="M 12 25 L 10 28 L 9 35 L 8 36 L 9 43 L 12 49 L 105 143 L 105 144 L 31 218 L 31 219 L 10 241 L 9 244 L 9 255 L 12 261 L 28 277 L 35 280 L 46 280 L 53 277 L 146 184 L 176 216 L 185 229 L 193 248 L 196 252 L 204 259 L 212 263 L 215 263 L 223 266 L 226 266 L 227 267 L 246 271 L 250 273 L 269 277 L 277 280 L 237 240 L 230 243 L 224 243 L 219 241 L 213 235 L 210 226 L 213 217 L 220 211 L 223 210 L 231 210 L 238 214 L 243 222 L 243 231 L 240 236 L 283 279 L 283 276 L 276 255 L 276 252 L 274 248 L 274 245 L 272 241 L 272 238 L 270 234 L 270 231 L 268 227 L 268 224 L 266 220 L 264 210 L 259 201 L 248 191 L 235 186 L 222 177 L 206 162 L 205 162 L 187 144 L 190 139 L 280 49 L 284 39 L 284 35 L 283 34 L 282 28 L 264 9 L 257 6 L 247 6 L 237 11 L 147 102 L 146 102 L 56 12 L 52 9 L 44 6 L 36 6 L 30 8 Z" />
+    </svg>
+    <div class="xin-intro-logo-title" aria-hidden="true">XIN<span>.</span></div>
+    <div class="xin-intro-tagline" aria-hidden="true">DESIGN IS A PROCESS / LET IT UNFOLD</div>
+    <div class="xin-intro-loading" aria-hidden="true"><i></i></div>
+  </div>
+  <div class="xin-intro-ruler xin-intro-ruler-bottom" aria-hidden="true"><span>CRAFTED WITH INTENTION ↗</span><span>GRAPHIC DESIGN &amp; VISUAL STORIES</span></div>
+  <button class="xin-intro-skip" id="skipIntro" type="button">Salta introduzione <span>↗</span></button>
+</div>
+
 <div aria-hidden="true" class="progress" id="scrollProgress"></div>
 <a class="skip-link" href="#main">Vai al contenuto</a>
 <header class="site-header" id="top">
@@ -50,7 +76,7 @@
 <div aria-hidden="true" class="desk-sheet desk-sheet-side"><span class="sheet-reference">STUDIES / 03</span><div class="side-art"><i></i><i></i><i></i><span>FORM</span></div><span class="sheet-footer">COLOUR / COMPOSITION</span></div>
 <div aria-hidden="true" class="desk-sheet desk-sheet-main">
 <div class="sheet-head"><span>XIN / VISUAL ATELIER</span><span>NO. 001 — 2026</span></div>
-<div class="poster-composition"><div class="poster-disc"></div><div class="poster-slab"></div><div class="poster-handline"></div><strong><span>MAKE</span><em>ideas</em><span>REAL<b>.</b></span></strong><span class="poster-asterisk">✳</span></div>
+<div class="poster-composition"><div class="poster-disc"></div><div class="poster-slab"></div><div class="poster-handline"></div><strong>MAKE<br/><em>it</em> REAL<span>.</span></strong><span class="poster-asterisk">✳</span></div>
 <div class="sheet-bottom"><span>PROCESS BEFORE PERFECTION.</span><span>01—04 ↗</span></div>
 </div>
 <div aria-hidden="true" class="desk-tape desk-tape-top"></div>
@@ -67,7 +93,7 @@
 <div class="hero-vertical-end wrap"><span class="vertical-index">01 — 05 / SCORRI IL RACCONTO</span><div aria-hidden="true" class="ink-stem"><i></i></div><span>NON UN TEMPLATE. UN SEGNO.</span></div>
 </section>
 <div aria-hidden="true" class="marquee"><div class="marquee-track"><span>IMAGINE <i>✳</i> DESIGN <i>✳</i> ILLUSTRATE <i>✳</i> CAPTURE <i>✳</i></span><span>IMAGINE <i>✳</i> DESIGN <i>✳</i> ILLUSTRATE <i>✳</i> CAPTURE <i>✳</i></span><span>IMAGINE <i>✳</i> DESIGN <i>✳</i> ILLUSTRATE <i>✳</i> CAPTURE <i>✳</i></span></div></div><section aria-labelledby="storyTitle" class="visual-story" id="journey">
-<div class="wrap story-header"><div class="story-eyebrow">✳ UN UNICO FILO VISIVO</div><h2 id="storyTitle">Tre linguaggi.<br/><em>Una visione.</em></h2><p>Scorri: la composizione cambia insieme al racconto. Ogni disciplina ha il suo carattere, ma parla la stessa lingua.</p></div>
+<div class="wrap story-header"><div class="story-eyebrow">✳ UN UNICO FILO VISIVO</div><div class="story-mascot-hero" id="storyMascotStage" tabindex="0" aria-label="Mascotte animata di XIN che fa acrobazie con il pennino e lascia un segno di inchiostro."><h2 class="sr-only" id="storyTitle">Tre linguaggi. Una visione.</h2><div class="mascot-copy-mini"><span class="mascot-label">XIN MASCOT / LIVE ACTION</span><p>Design, illustrazione e fotografia raccontati da una mascotte che lascia il segno.</p></div><div class="mascot-stage-note mascot-stage-note-top">ORIGINAL MASCOT ✳ TRANSPARENT STAGE</div><svg class="mascot-stroke" viewBox="0 0 760 320" aria-hidden="true"><path class="mascot-stroke-path" d="M63 240 C 150 298, 236 148, 334 214 S 486 314, 590 205 S 692 108, 726 147"/><path class="mascot-stroke-path accent" d="M144 214 C 191 135, 272 119, 358 160"/></svg><div class="mascot-badges" aria-hidden="true"><span>DESIGN</span><span>ILLUSTRATE</span><span>CAPTURE</span></div><button class="mascot-trigger" id="mascotTrigger" type="button" aria-label="Fai rifare l'acrobazia alla mascotte">Rifai l'acrobazia ↗</button><img src="./assets/mascotte-xin.png" alt="Mascotte originale XIN con pennino in volo" class="story-mascot" id="storyMascot" width="540" height="540"/><span class="mascot-spark spark-one" aria-hidden="true"></span><span class="mascot-spark spark-two" aria-hidden="true"></span><span class="mascot-spark spark-three" aria-hidden="true"></span></div><p>Scorri: la composizione cambia insieme al racconto. Ogni disciplina ha il suo carattere, ma parla la stessa lingua.</p></div>
 <div class="story-layout wrap" id="storyLayout">
 <div class="story-pin-wrap"><div aria-live="off" class="story-pin" id="storyPin">
 <div class="story-scene scene-brand is-active" data-scene="0">
@@ -97,6 +123,7 @@
 </div>
 <div class="story-outro wrap"><div aria-hidden="true" class="outro-spine"></div><span>OGNI SEGNO PORTA AL PROSSIMO</span><span>↓</span></div>
 </section>
+
 <section aria-label="Campioni grafici dal laboratorio XIN" class="material-interlude">
 <div class="wrap material-interlude-heading"><span>DAL TAVOLO DA LAVORO / 001—003</span><p>Un'idea non è mai piatta. Carta, inchiostro, materia: anche lo spazio digitale può avere una consistenza.</p><span>SCOPRI I LAVORI ↓</span></div>
 <div aria-hidden="true" class="material-swatch-reel" id="materialReel">
@@ -164,7 +191,7 @@
 <div class="wrap university-bridge-layout" data-reveal="">
 <div class="university-bridge-copy">
 <span class="section-kicker"><span class="dot-index"></span> UNA SEZIONE A PARTE / UNIVERSITÀ</span>
-<h2 id="universityTitle">C’è anche un lato<br/><em>universitario.</em></h2>
+<h2 id="universityTitle">C’è anche un lato<br><em>universitario.</em></br></h2>
 <p>Oltre alla grafica, studio Ingegneria Informatica all’Università di Cagliari. Ho dedicato uno spazio indipendente ai miei appunti originali, ordinati <strong>anno per anno e materia per materia</strong>.</p>
 <a class="button button-dark" href="./studio.html">Entra nell'archivio universitario <span class="button-arrow">↗</span></a>
 </div>
@@ -176,7 +203,7 @@
 </section>
 <section aria-labelledby="contactTitle" class="contact-section" id="contact">
 <div class="wrap contact-panel" data-reveal="">
-<div class="contact-left"><div class="section-kicker light-kicker"><span class="dot-index"></span>05 — CONTATTI</div><h2 id="contactTitle">Facciamo<br/><em>qualcosa</em><br/>di bello.</h2><p>Un’identità visiva, un’illustrazione, uno shooting fotografico o una collaborazione. Raccontami la tua idea.</p><a class="mail-link" href="mailto:X1ngraphic1@gmail.com">X1ngraphic1@gmail.com <span>↗</span></a><div class="contact-mini"><span class="green-indicator"></span> MESSAGGI APERTI / XIN STUDIO</div></div>
+<div class="contact-left"><div class="section-kicker light-kicker"><span class="dot-index"></span>05 — CONTATTI</div><h2 id="contactTitle">Facciamo<br><em>qualcosa</em><br>di bello.</br></br></h2><p>Un’identità visiva, un’illustrazione, uno shooting fotografico o una collaborazione. Raccontami la tua idea.</p><a class="mail-link" href="mailto:X1ngraphic1@gmail.com">X1ngraphic1@gmail.com <span>↗</span></a><div class="contact-mini"><span class="green-indicator"></span> MESSAGGI APERTI / XIN STUDIO</div></div>
 <div class="contact-form-card"><div class="form-card-heading"><h3>Iniziamo da qui.</h3><span>↗</span></div>
 <form id="contactForm" method="POST" novalidate="">
 <div class="form-row"><label>Il tuo nome <span>*</span><input autocomplete="name" id="contactName" maxlength="100" minlength="2" name="name" placeholder="Come ti chiami?" required=""/></label><label>La tua email <span>*</span><input autocomplete="email" id="contactEmail" maxlength="254" name="email" placeholder="nome@email.it" required="" type="email"/></label></div>

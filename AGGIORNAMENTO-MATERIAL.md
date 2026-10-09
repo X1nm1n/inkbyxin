@@ -14,7 +14,7 @@ Questa versione **sostituisce** la precedente e mantiene la struttura già conco
 2. Nella cartella del repository pubblico **sostituisci anche `index.html`** e carica le **nuove risorse** `css/material.css` e `js/material.js`, insieme al resto dei file.
 3. Commit e push sul branch usato da GitHub Pages. Assicurati che `index.html` sia nella directory principale.
 4. Aspetta che la build Pages sia completata; riapri il sito con `Ctrl + Shift + R`.
-5. Apri `https://TUO-USERNAME.github.io/TUO-REPOSITORY/verifica-versione.txt`: deve contenere `20261009-MATERIAL-ATELIER`.
+5. Apri `https://TUO-USERNAME.github.io/TUO-REPOSITORY/verifica-versione.txt`: deve contenere `20261009-INTRO-STATIC`.
 
 Il sito è statico e non richiede backend o installazioni Python. La form contatti richiede comunque la conferma iniziale FormSubmit e un invio di prova reale sul sito pubblico.
 

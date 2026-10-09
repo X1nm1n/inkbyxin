@@ -1,2 +1,2 @@
-20261009-MATERIAL-ATELIER
-Nuova scena hero con stampe, carta, nastro e dettagli cartacei. Nuovo stile gallery editoriale.
+20261009-INTRO-STATIC
+Logo animato mantenuto. Nessun CMS, login amministratore o script di analisi delle visite.

@@ -1,16 +1,13 @@
-# AGGIORNAMENTO DEFINITIVO — elimina il vecchio "Chi sono"
+# Aggiornare il sito su GitHub Pages
 
-La schermata con il **cerchio lilla, il logo enorme e le righe "Competenze / Base / Università"** appartiene a una versione PRECEDENTE del sito. **Non è presente** in questa release.
+Questa release elimina **Pages CMS e la possibilità di gestione mediante pannello amministrativo**, oltre a qualsiasi predisposizione per statistiche di visita. Rimangono le animazioni, il portfolio grafico, la sezione Università e il modulo contatti.
 
-## Se il sito vecchio continua a comparire
+1. Estrarre questo ZIP e aprire la cartella in PyCharm.
+2. Nel repository GitHub che pubblica il sito, sostituire il progetto precedente con questi file. Assicurarsi che `index.html` sia direttamente nella root pubblicata.
+3. **Eliminare dal repository** anche i vecchi file `.pages.yml`, `content/progetti.json`, `content/materie.json`, `GUIDA-INTRO-ADMIN-STATISTICHE.md`, se presenti: non sono più necessari e non vengono cancellati automaticamente caricando soltanto i file nuovi.
+4. Controllare in **Settings → Pages** la branch e la cartella di pubblicazione (es. `main` / `root`). Eseguire Commit e Push.
+5. Dopo il deploy, controllare `https://TUO-USERNAME.github.io/TUO-REPO/verifica-versione.txt` per la versione `20261009-INTRO-STATIC`, quindi ricaricare con Ctrl+Shift+R.
 
-1. Estrai `XIN-Portfolio-CHI-SONO-CORRETTO.zip` e apri **questa** cartella in PyCharm. Non usare i precedenti ZIP o cartelle del progetto.
-2. Apri `index.html` e usa `Ctrl+F` per trovare `NON RESTO FERMO` (il testo è diviso in tre elementi HTML: `NON`, `RESTO`, `FERMO`). Cerca anche `id="expStage"`. Se li trovi, è il file corretto.
-3. Nel repository GitHub che pubblica il sito, sostituisci **il contenuto della root** con i nuovi file. `index.html`, `css/`, `js/`, `assets/`, `studio.html`, `privacy.html` devono stare direttamente nella root, non dentro una cartella in più. Esegui Commit e Push su `main`.
-4. In GitHub vai in **Settings → Pages** e verifica che l'origine sia **Deploy from a branch → main → /(root)**. Attendi che il deploy risulti completato.
-5. Apri `https://TUO-USERNAME.github.io/NOME-REPO/verifica-versione.txt` (o `https://TUO-USERNAME.github.io/verifica-versione.txt` per un repository username.github.io). Se compare `20261009-ABOUT-NUOVO`, la nuova versione è online.
-6. Apri il sito con `Ctrl+Shift+R` oppure in una finestra anonima. Clicca "Chi sono". Ora compare il **laboratorio tipografico** al posto del cerchio. Se `verifica-versione.txt` dà 404, è ancora pubblicato il repository, la branch o la cartella sbagliati.
+Per aggiungere contenuti in futuro, usa `js/projects.js`, `js/materie.js` e `assets/media/`. Guida completa: `GUIDA-CARICAMENTO.md`.
 
-I query parametri `?v=20261009-ABOUT-NUOVO` sui file CSS e JavaScript permettono di evitare la cache dei vecchi asset. Se nel browser compare ancora la vecchia sezione, è `index.html` a non essere stato pubblicato oppure stai visitando un altro indirizzo.
-
-La pubblicazione GitHub NON avviene scaricando questo ZIP: devi sostituire i file sul repository. Il modulo contatti deve essere testato dopo aver attivato FormSubmit. Non caricare moduli clienti firmati in pubblico.
+L'animazione iniziale del logo è ancora attiva. Modulo contatti e privacy sono invariati: è necessario verificare il recapito con FormSubmit e aggiornare l'informativa se cambiano i servizi usati.
