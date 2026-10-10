@@ -12,9 +12,9 @@
 
   const cues = [
     { time: 0, label: '01 / FOTO ORIGINALE', caption: 'FOTO ORIGINALE' },
-    { time: 4, label: '02 / TRACCIATI', caption: 'TRACCIATI IN COSTRUZIONE' },
-    { time: 15, label: '03 / COLORI', caption: 'COLORI E CAMPITURE' },
-    { time: 24, label: '04 / FINALE', caption: 'LAVORO FINALE' }
+    { time: 10, label: '02 / TRACCIATI', caption: 'TRACCIATI IN COSTRUZIONE' },
+    { time: 30, label: '03 / COLORI', caption: 'COLORI E CAMPITURE' },
+    { time: 50, label: '04 / FINALE', caption: 'LAVORO FINALE' }
   ];
 
   function nearestCueIndex(time) {
