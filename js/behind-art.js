@@ -1,101 +1,91 @@
 (() => {
   'use strict';
   const stage = document.getElementById('behindStage');
+  const video = document.getElementById('behindVideo');
   const range = document.getElementById('behindRange');
-  if (!stage || !range) return;
-  const buttons = [...document.querySelectorAll('.behind-step')];
-  const meta = document.getElementById('behindMetaLabel');
-  const caption = document.getElementById('behindStageCaption');
   const play = document.getElementById('behindPlay');
-  const layers = {
-    photo: stage.querySelector('.behind-layer-photo'),
-    build: stage.querySelector('.behind-layer-build'),
-    final: stage.querySelector('.behind-layer-final')
-  };
-  const states = [
-    {label:'01 / FOTO ORIGINALE', caption:'FOTO ORIGINALE'},
-    {label:'02 / COSTRUZIONE', caption:'COSTRUZIONE'},
-    {label:'03 / VETTORIALE FINALE', caption:'VETTORIALE FINALE'}
+  const restart = document.getElementById('behindRestart');
+  const caption = document.getElementById('behindStageCaption');
+  const meta = document.getElementById('behindMetaLabel');
+  const buttons = [...document.querySelectorAll('.behind-step')];
+  if (!stage || !video || !range) return;
+
+  const cues = [
+    { time: 0, label: '01 / FOTO ORIGINALE', caption: 'FOTO ORIGINALE' },
+    { time: 3.1, label: '02 / DISEGNO', caption: 'DISEGNO E STRUTTURA' },
+    { time: 6.1, label: '03 / COLORI', caption: 'COLORI E VOLUMI' },
+    { time: 9.2, label: '04 / FINALE', caption: 'LAVORO FINALE' }
   ];
-  let raf = 0;
-  let playing = false;
 
-  function lerp(a,b,t){ return a + (b-a)*t; }
-
-  function updateUI(value){
-    const t = Math.max(0, Math.min(100, Number(value)));
-    range.value = String(t);
-    let stepIndex = 0;
-    let pPhoto = 1, pBuild = 0, pFinal = 0;
-    if (t <= 50) {
-      const local = t / 50;
-      pPhoto = 1 - local;
-      pBuild = local;
-      pFinal = 0;
-      stepIndex = t < 25 ? 0 : 1;
-    } else {
-      const local = (t - 50) / 50;
-      pPhoto = 0;
-      pBuild = 1 - local;
-      pFinal = local;
-      stepIndex = t < 75 ? 1 : 2;
+  function nearestCueIndex(time) {
+    let active = 0;
+    for (let i = 0; i < cues.length; i += 1) {
+      if (time >= cues[i].time) active = i;
     }
-    layers.photo.style.opacity = pPhoto.toFixed(3);
-    layers.build.style.opacity = pBuild.toFixed(3);
-    layers.final.style.opacity = pFinal.toFixed(3);
-    stage.dataset.step = String(stepIndex);
-    meta && (meta.textContent = states[stepIndex].label);
-    caption && (caption.textContent = states[stepIndex].caption);
+    return active;
+  }
+
+  function updateStep(index) {
+    const cue = cues[index] || cues[0];
+    stage.dataset.step = String(index);
+    if (caption) caption.textContent = cue.caption;
+    if (meta) meta.textContent = cue.label;
     buttons.forEach((btn, idx) => {
-      const active = idx === stepIndex;
-      btn.classList.toggle('is-active', active);
-      btn.setAttribute('aria-selected', active ? 'true' : 'false');
+      const on = idx === index;
+      btn.classList.toggle('is-active', on);
+      btn.setAttribute('aria-selected', on ? 'true' : 'false');
     });
   }
 
-  function animateTo(target){
-    cancelAnimationFrame(raf);
-    const start = Number(range.value);
-    const delta = target - start;
-    const duration = 520;
-    const startTime = performance.now();
-    function tick(now){
-      const p = Math.min(1, (now - startTime) / duration);
-      const eased = 1 - Math.pow(1 - p, 3);
-      updateUI(lerp(start, target, eased));
-      if (p < 1) raf = requestAnimationFrame(tick);
-    }
-    raf = requestAnimationFrame(tick);
+  function updateProgress() {
+    const dur = video.duration || 1;
+    const pct = (video.currentTime / dur) * 100;
+    range.value = String(pct);
+    updateStep(nearestCueIndex(video.currentTime));
+    play.textContent = video.paused ? '▶ Riproduci' : '❚❚ Pausa';
   }
 
-  buttons.forEach(btn => btn.addEventListener('click', () => animateTo(Number(btn.dataset.progress || 0))));
-  range.addEventListener('input', () => { cancelAnimationFrame(raf); updateUI(range.value); });
+  function seekTo(seconds, autoplay = true) {
+    video.currentTime = seconds;
+    updateProgress();
+    if (autoplay) {
+      video.play().catch(() => {});
+    }
+  }
 
-  play?.addEventListener('click', () => {
-    if (playing) {
-      playing = false;
-      play.textContent = '▶ Riproduci';
-      cancelAnimationFrame(raf);
-      return;
-    }
-    playing = true;
-    play.textContent = '❚❚ Ferma';
-    const duration = 2600;
-    const start = performance.now();
-    function loop(now){
-      if (!playing) return;
-      const p = Math.min(1, (now - start) / duration);
-      const eased = 1 - Math.pow(1 - p, 2.2);
-      updateUI(eased * 100);
-      if (p < 1) {
-        raf = requestAnimationFrame(loop);
-      } else {
-        playing = false;
-        play.textContent = '↻ Rivedi';
-      }
-    }
-    raf = requestAnimationFrame(loop);
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      seekTo(Number(btn.dataset.time || 0), true);
+    });
   });
 
-  updateUI(0);
+  play?.addEventListener('click', () => {
+    if (video.paused) {
+      video.play().catch(() => {});
+    } else {
+      video.pause();
+    }
+  });
+
+  restart?.addEventListener('click', () => {
+    seekTo(0, true);
+  });
+
+  range.addEventListener('input', () => {
+    const dur = video.duration || 1;
+    const t = (Number(range.value) / 100) * dur;
+    video.currentTime = t;
+    updateProgress();
+  });
+
+  video.addEventListener('loadedmetadata', updateProgress);
+  video.addEventListener('timeupdate', updateProgress);
+  video.addEventListener('play', updateProgress);
+  video.addEventListener('pause', updateProgress);
+  video.addEventListener('ended', () => {
+    updateProgress();
+    play.textContent = '↻ Rivedi';
+  });
+
+  updateStep(0);
 })();
