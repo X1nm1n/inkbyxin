@@ -1,0 +1,39 @@
+.about-portrait-lab{padding-top:124px}
+.portrait-about-grid{display:grid;grid-template-columns:minmax(0,1.02fr) minmax(0,.98fr);gap:56px;align-items:start;margin-top:18px}
+.portrait-lab-card{border:1px solid var(--line);background:linear-gradient(180deg,color-mix(in srgb,var(--surface) 90%,transparent),var(--surface));border-radius:26px;padding:22px;box-shadow:var(--shadow);position:relative;overflow:hidden;isolation:isolate}
+.portrait-lab-card::before{content:'';position:absolute;inset:-12% auto auto -15%;width:56%;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,color-mix(in srgb,var(--peach) 18%,transparent),transparent 70%);pointer-events:none}
+.portrait-lab-head{display:flex;justify-content:space-between;gap:12px;align-items:center;font:800 10px var(--display);letter-spacing:.15em;color:var(--muted);margin-bottom:18px}
+.portrait-lab-stage{position:relative;aspect-ratio:2818/3488;border-radius:22px;background:linear-gradient(180deg,#efe5d7,#e7dac8);overflow:hidden;border:1px solid color-mix(in srgb,var(--line) 80%,transparent);box-shadow:inset 0 0 0 1px #ffffff8f;touch-action:none}
+.portrait-lab-stage::before{content:'';position:absolute;inset:16px;border:1px dashed #14234822;border-radius:16px;pointer-events:none;z-index:2}
+.portrait-ghost{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.23;filter:grayscale(.08) saturate(.75) contrast(1.02);pointer-events:none}
+.portrait-piece{position:absolute;left:var(--left);top:var(--top);width:var(--width);height:var(--height);z-index:var(--z);padding:0;border:0;background:none;transform:translate(var(--tx,0px),var(--ty,0px)) rotate(var(--rot,0deg));transform-origin:center center;cursor:grab;transition:box-shadow .22s ease,transform .18s ease,filter .25s ease}
+.portrait-piece:active,.portrait-piece.is-dragging{cursor:grabbing;filter:drop-shadow(0 18px 28px rgba(20,35,72,.18))}
+.portrait-piece img{width:100%;height:100%;object-fit:contain;pointer-events:none;user-select:none;-webkit-user-drag:none}
+.portrait-piece::after{content:attr(data-piece-label);position:absolute;left:50%;bottom:100%;transform:translate(-50%,-8px);padding:7px 10px;border-radius:999px;background:rgba(20,35,72,.92);color:#fff;font:700 9px var(--display);letter-spacing:.12em;white-space:nowrap;opacity:0;pointer-events:none;transition:opacity .18s ease,transform .18s ease}
+.portrait-piece:hover::after,.portrait-piece:focus-visible::after{opacity:1;transform:translate(-50%,-14px)}
+.portrait-lab-note{position:absolute;z-index:6;padding:10px 14px;border-radius:999px;background:color-mix(in srgb,var(--surface) 86%,transparent);border:1px solid #ffffff9b;font:800 10px var(--display);letter-spacing:.14em;color:var(--ink);box-shadow:0 14px 28px #14234810;pointer-events:none;backdrop-filter:blur(10px)}
+.portrait-lab-note-a{left:18px;top:18px}
+.portrait-lab-note-b{right:18px;bottom:18px}
+.portrait-lab-actions{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:18px}
+.portrait-action{border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;min-height:44px;padding:0 17px;font:800 12px var(--display);transition:transform .22s,border-color .2s,background .2s,color .2s}
+.portrait-action:hover{transform:translateY(-2px);border-color:var(--blue)}
+.portrait-action.is-primary{background:#142348;color:#fff;border-color:#142348}
+.portrait-action.is-primary:hover{background:#385ce6;border-color:#385ce6}
+.portrait-lab-hint{font-size:12px;color:var(--muted)}
+.portrait-about-copy{padding-top:16px}
+.portrait-about-copy .exp-copy-top{display:block;margin-bottom:18px}
+.portrait-about-copy h2{font:800 clamp(46px,6vw,92px)/1.02 var(--display);letter-spacing:-.075em;margin:0 0 16px}
+.portrait-about-copy h2 em{font:italic 400 1.05em/1 var(--serif);letter-spacing:-.05em;color:var(--blue)}
+.portrait-about-copy .exp-lead{font-size:20px;line-height:1.62;color:var(--ink);max-width:24ch}
+.portrait-about-copy p:not(.exp-lead){font-size:16px;line-height:1.82;color:var(--muted)}
+@media (max-width: 1080px){
+  .portrait-about-grid{grid-template-columns:1fr;gap:36px}
+  .portrait-about-copy{padding-top:0}
+}
+@media (max-width: 640px){
+  .about-portrait-lab{padding-top:96px}
+  .portrait-lab-card{padding:16px}
+  .portrait-lab-head{flex-direction:column;align-items:flex-start}
+  .portrait-about-copy h2{font-size:clamp(38px,13.2vw,62px)}
+  .portrait-lab-actions{align-items:flex-start}
+}
