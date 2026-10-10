@@ -16,8 +16,8 @@ window.XIN_PROJECTS = [
   {
     id:'illustrazioni-placeholder', number:'02', category:'design', year:'2026',
     title:'Illustrazioni — in arrivo', eyebrow:'ILLUSTRAZIONE / SPAZIO RISERVATO',
-    summary:'Qui pubblicherò i miei lavori vettoriali e le illustrazioni originali.',
-    description:'Questa scheda è uno spazio riservato: non presenta ancora un’illustrazione finita. Quando inserirò i miei lavori autentici, saranno accompagnati da immagini, descrizioni e dettagli del processo creativo.',
+    summary:'Disegni, ritratti e illustrazioni: sto preparando uno spazio tutto per loro.',
+    description:'Uno spazio ancora in allestimento per i miei disegni e le mie illustrazioni. Presto ci sarà qualcosa da sfogliare.',
     role:'Sezione in preparazione', tech:['Vettoriale','Illustrazione','Design'],
     highlights:['Copertine dei lavori originali', 'Schede dettagliate', 'Gallerie da aggiornare'],
     visual:'design', status:'In allestimento'
@@ -26,7 +26,7 @@ window.XIN_PROJECTS = [
     id:'fotografia-placeholder', number:'03', category:'photo', year:'2026',
     title:'Fotografia — in arrivo', eyebrow:'PHOTOGRAPHY / SPAZIO RISERVATO',
     summary:'Ritratti e progetti fotografici avranno qui il loro spazio.',
-    description:'Sezione pronta per ospitare solo fotografie autentiche e pubblicabili nel rispetto dei diritti delle persone rappresentate. Le immagini saranno aggiunte progressivamente.',
+    description:'Ritratti, dettagli e attimi da conservare: qui raccoglierò le mie fotografie, una storia alla volta.',
     role:'Sezione in preparazione', tech:['Fotografia','Ritratto','Post-produzione'],
     highlights:['Gallerie fotografiche', 'Crediti e autorizzazioni', 'Racconti visivi'],
     visual:'photo', status:'In allestimento'
@@ -34,8 +34,8 @@ window.XIN_PROJECTS = [
   {
     id:'editorial-placeholder', number:'04', category:'editorial', year:'2026',
     title:'Editoriale — in arrivo', eyebrow:'EDITORIAL / SPAZIO RISERVATO',
-    summary:'Uno spazio per poster, layout, impaginazioni e tipografia.',
-    description:'Area dedicata ai futuri progetti di comunicazione e design editoriale. Le grafiche mostrate come segnaposto sono composizioni dimostrative del sito, non lavori commissionati.',
+    summary:'Poster, pagine e caratteri: i progetti editoriali troveranno casa qui.',
+    description:'Poster, impaginazioni e piccoli esperimenti tipografici. Uno spazio che prenderà forma con i prossimi lavori.',
     role:'Sezione in preparazione', tech:['Tipografia','Layout','Poster'],
     highlights:['Poster e composizioni', 'Impaginazioni', 'Identità editoriali'],
     visual:'editorial', status:'In allestimento'

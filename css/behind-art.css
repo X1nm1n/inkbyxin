@@ -10,7 +10,6 @@
 .behind-asterisk{font:500 34px/1 var(--serif);color:#b97857}
 .behind-gallery-description p{margin:0;color:var(--muted);font-size:15px;line-height:1.85;max-width:45ch}
 .behind-gallery-description .behind-art-lead{font:650 clamp(17px,1.65vw,22px)/1.54 var(--body);color:var(--ink);max-width:35ch}
-.behind-mini-note{display:block;color:var(--muted);font:750 9px/1.65 var(--display);letter-spacing:.1em;margin-top:4px;opacity:.83}
 .behind-gallery-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(17px,2.4vw,34px);align-items:start}
 .behind-gallery-card{min-width:0;position:relative}
 .behind-gallery-card-top{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:0 1px 14px;color:var(--muted);font:800 10px/1.4 var(--display);letter-spacing:.16em}
