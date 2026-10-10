@@ -30,6 +30,19 @@ Resta invariato il ritratto vettoriale intero sulla sinistra e la presentazione 
 - `js/projects.js`: lavori del portfolio.
 - `js/materie.js`: archivio universitario.
 
+## Università — archivio organizzato per materia
+
+La pagina `studio.html` ora mostra **solo le schede delle materie**, suddivise per anno. I PDF non appaiono più nell'elenco principale.
+
+- Cliccando su una scheda si apre `materia.html?id=<id-materia>`: all'interno ci sono le dispense e i formulari della materia scelta.
+- La pagina interna consente di cercare un titolo, aprire un PDF in una nuova scheda e scaricarlo.
+- **Misure per l'Ingegneria dell'Informazione (3° anno)** include le 15 dispense e il formulario, senza cambiare i file originali.
+- Il collegamento “Torna agli esami” riporta al filtro dell'anno corretto.
+
+Per aggiungere o modificare una materia, intervieni soltanto sul catalogo `js/materie.js` e sui file nella cartella `assets/media/studio/`: l'elenco e la pagina interna si aggiornano automaticamente.
+
+File dedicati: `js/studio.js` (catalogo), `js/materia.js` (dettaglio), `css/studio.css` e `css/materia.css` (stili).
+
 ## Pubblicazione
 
 Apri la cartella estratta in PyCharm. Copia i **contenuti della cartella** alla radice del repository GitHub Pages, non il file ZIP né un'ulteriore cartella contenitore. Verifica che `index.html` sia alla radice. Dopo la pubblicazione ricarica forzatamente la pagina con `Ctrl+Shift+R`.

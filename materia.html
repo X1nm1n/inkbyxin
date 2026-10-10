@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="it" data-theme="light">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="theme-color" content="#eee3d5"/>
+<meta name="description" content="Dispense, appunti e formulari per gli esami di Ingegneria Informatica. Un archivio di studio, materia per materia."/>
+<title>La materia — Università | XIN</title>
+<link rel="icon" type="image/svg+xml" href="./assets/favicon.svg"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@400;500;600;700;800&amp;family=Instrument+Serif:ital@0;1&amp;display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="./css/style.css?v=20261010-MATERIE-SCHEDE"/>
+<link rel="stylesheet" href="./css/studio.css?v=20261010-MATERIE-SCHEDE"/>
+<link rel="stylesheet" href="./css/materia.css?v=20261010-MATERIE-SCHEDE"/>
+<link rel="stylesheet" href="./css/atelier.css?v=20261010-MATERIE-SCHEDE"/>
+<script>try{document.documentElement.dataset.theme=localStorage.getItem('xin-theme')==='dark'?'dark':'light'}catch(e){}</script>
+<script defer src="./js/materie.js?v=20261010-MATERIE-SCHEDE"></script>
+<script defer src="./js/materia.js?v=20261010-MATERIE-SCHEDE"></script>
+<script defer src="./js/shared.js?v=20261010-MATERIE-SCHEDE"></script>
+</head>
+<body class="studio-page subject-detail-page">
+<a class="skip-link" href="#subjectDetails">Vai ai documenti della materia</a>
+<header class="site-header"><div class="nav-wrap wrap">
+  <a aria-label="XIN — Homepage" class="brand" href="./index.html"><img alt="" height="38" width="38" src="./assets/logo-xin.svg"/><span>XIN<span class="brand-dot">.</span></span><small>GRAPHIC STUDIO</small></a>
+  <nav aria-label="Navigazione" class="nav-links" id="mainNav"><a href="./index.html#work">Progetti ↗</a><a href="./index.html#journey">Cosa faccio ↗</a><a href="./index.html#about">Chi sono ↗</a><a href="./index.html#contact">Contatti ↗</a></nav>
+  <div class="nav-actions"><button aria-label="Cambia tema" class="icon-button theme-toggle" id="themeToggle" type="button"><span class="theme-sun">☀</span><span class="theme-moon">☾</span></button><a class="nav-cta" href="./studio.html#subjects">Tutte le materie ↗</a><button aria-controls="mainNav" aria-expanded="false" aria-label="Apri menu" class="icon-button menu-toggle" id="menuToggle" type="button"><span></span><span></span></button></div>
+</div></header>
+<main id="subjectDetails">
+  <div class="wrap subject-breadcrumb"><a id="returnToSubjects" href="./studio.html#subjects">← Torna agli esami</a><span>/</span><span id="crumbYear">Università</span><span>/</span><span id="crumbTitle">Materia</span></div>
+  <section class="wrap subject-hero" aria-labelledby="subjectTitle">
+    <div class="subject-hero-content">
+      <span class="section-kicker"><span class="dot-index"></span><span id="subjectKicker">ARCHIVIO UNIVERSITARIO</span></span>
+      <h1 id="subjectTitle">Caricamento della materia…</h1>
+      <p id="subjectDescription">Appunti, dispense e documenti del corso.</p>
+      <div class="subject-hero-topics" id="subjectTopics"></div>
+      <a class="subject-hero-jump" href="#documents">Vai ai documenti <span>↓</span></a>
+    </div>
+    <aside class="subject-hero-stats" aria-label="Materiali disponibili">
+      <div class="subject-hero-stats-top">ARCHIVIO / XIN <span>✳</span></div>
+      <div class="subject-hero-stat"><strong id="subjectDocsCount">—</strong><span>DOCUMENTI</span></div>
+      <div class="subject-hero-stats-bottom"><span id="subjectPagesCount">— pagine</span><span id="subjectYear">ANNO —</span></div>
+    </aside>
+  </section>
+  <section class="wrap subject-documents" id="documents" aria-labelledby="documentsTitle">
+    <div class="subject-documents-heading"><div><span class="section-kicker"><span class="dot-index"></span> MATERIA / MATERIALI</span><h2 id="documentsTitle">Dentro <em>la materia.</em></h2><p id="documentsIntro">Qui trovi tutto il materiale disponibile per questo corso.</p></div></div>
+    <div class="subject-documents-toolbar"><label class="subject-document-search"><span aria-hidden="true">⌕</span><input id="documentSearch" type="search" aria-label="Cerca un documento della materia" placeholder="Cerca una dispensa…" autocomplete="off"/></label><span id="documentMatchCount" aria-live="polite"></span></div>
+    <div id="documentGroups" aria-live="polite"></div>
+    <div class="subject-end-nav"><a id="bottomBack" href="./studio.html#subjects">← Torna a tutte le materie</a><a href="#subjectDetails">Torna su ↑</a></div>
+  </section>
+  <aside class="wrap study-disclaimer subject-detail-disclaimer"><span class="disclaimer-star">✳</span><div><h3>Una nota importante.</h3><p>Questi sono appunti personali e non documenti ufficiali dell'Università di Cagliari. Per preparare un esame, fai sempre riferimento anche al programma e alle indicazioni del docente.</p><a href="./diritti.html">Diritti e condizioni d’utilizzo ↗</a></div></aside>
+</main>
+<footer class="footer"><div class="wrap"><div class="footer-top"><a class="footer-brand" href="./index.html"><img alt="" src="./assets/logo-xin.svg" width="58"/><span>XIN.</span></a><span>GRAPHIC PORTFOLIO / ACADEMIC ARCHIVE</span><a class="footer-top-btn" href="./studio.html#subjects">TORNA ALLE MATERIE ↑</a></div><div class="footer-base"><span>© <span id="year">2026</span> Xinmin Giuseppe Farano.</span><nav><a href="./index.html">Portfolio</a><a href="./privacy.html">Privacy</a><a href="./diritti.html">Diritti &amp; utilizzo</a></nav><span>STUDY / SHARE / GROW ✳</span></div></div></footer>
+</body>
+</html>

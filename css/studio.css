@@ -39,3 +39,18 @@ html[data-theme="dark"] .study-resource--featured{background:linear-gradient(100
 html[data-theme="dark"] .study-resource--featured .study-resource-content strong{color:#f2e9d9}
 html[data-theme="dark"] .study-resource--featured .study-resource-content small{color:#c3bcc2}
 html[data-theme="dark"] .study-resource--featured .study-resource-download{color:#f2e9d9;border-color:#5f697c}
+
+/* 2026 — Archivio sintetico: le dispense abitano nelle singole materie. */
+.study-card--subject{min-height:324px;isolation:isolate}
+.study-card--subject .study-card-top{margin-bottom:30px}
+.study-card--subject .study-tags{margin-bottom:24px}
+.study-card-visit{margin-top:auto;padding-top:17px;border-top:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:14px;font:800 11px/1.5 var(--display);letter-spacing:.01em;color:var(--ink);text-decoration:none;transition:color .2s}
+.study-card-visit:focus-visible{outline:3px solid var(--blue);outline-offset:6px}
+.study-card-visit:hover{color:var(--blue)}
+.study-card-visit-arrow{display:grid;place-items:center;width:38px;height:38px;flex-shrink:0;border:1px solid var(--line);border-radius:50%;font-size:18px;transition:color .2s,background .2s,transform .2s}
+.study-card-visit:hover .study-card-visit-arrow{background:var(--ink);color:var(--surface);transform:translate(2px,-2px)}
+@media(max-width:650px){.study-card--subject{min-height:265px}}
+.study-card--subject{position:relative}
+.study-card-visit::after{content:"";position:absolute;inset:0;border-radius:9px;cursor:pointer}
+.study-card--subject:hover .study-card-visit-arrow{background:var(--ink);color:var(--surface);transform:translate(2px,-2px)}
+.study-card--subject:focus-within{outline:2px solid var(--blue);outline-offset:3px}
