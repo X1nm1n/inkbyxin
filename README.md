@@ -1,18 +1,25 @@
-# XIN — Portfolio grafico con mascotte articolata
+# XIN — Portfolio grafico · Segno vivo
 
-Portfolio personale di Xinmin Giuseppe Farano per **GitHub Pages**, apribile in **PyCharm**.
+Sito statico per **GitHub Pages**, modificabile in **PyCharm**.
 
-## Nuova mascotte
-La sequenza nella sezione “Un unico filo visivo” è realizzata con un SVG riggato. Gambe, polpacci e braccia oscillano in modo indipendente durante la camminata. Dopo l'ingresso, la mascotte fa un salto con capriola, atterra, disegna un tratto e rimane in idle con un occhiolino periodico. Il pulsante “Riguarda l'animazione” ripete la sequenza.
+## Novità di questa versione
+- Rimossa completamente la mascotte e il relativo sistema di animazione.
+- La sezione tra l’introduzione e il racconto dei tre linguaggi contiene ora **Living Ink**, una composizione SVG originale che cambia forma tra Design, Illustrazione e Fotografia e che viene tracciata da un pennino animato.
+- Non ci sono login amministratore, CMS o script di statistiche.
+- Rimane la galleria Portfolio in versione pulita (senza cornici da stampe), l’introduzione animata del logo, la pagina Università, Privacy, Diritti e il modulo Contatti.
 
-Leggi `GUIDA-MASCOTTE.md` per il dettaglio tecnico.
+## Modifiche
+- `index.html` — sezioni della homepage
+- `css/ink-lab.css` — stile della nuova scena
+- `js/ink-lab.js` — selettore dei tre linguaggi e tracciamento
+- `js/projects.js` — progetti grafici
+- `js/materie.js` — materie e PDF
+- `assets/media/` — immagini e appunti
+
+Il modulo contatti usa FormSubmit e richiede l'attivazione tramite la casella Gmail configurata. Non pubblicare liberatorie firmate dei clienti nel repository.
 
 ## Pubblicazione
-Apri la cartella con PyCharm, carica **i file estratti** sul repository GitHub collegato a Pages, con `index.html` in radice, e fai Commit + Push. Le modifiche sono statiche: non serve un backend.
+Carica **il contenuto della cartella** alla radice del repository GitHub Pages, non lo ZIP come file. Attendi il deploy e fai un refresh forzato (`Ctrl+Shift+R`) sul sito.
 
-## Modifica dei contenuti
-- Grafica e illustrazioni: `js/projects.js`, con file in `assets/`
-- Appunti universitari per materia: `js/materie.js`, con PDF nei percorsi configurati
-- Email contatti: `js/config.js`
-
-Non sono presenti dashboard amministrative né sistemi di statistiche integrati. Il modulo contatti richiede l'attivazione di FormSubmit, se non già eseguita. Privacy e liberatorie rimangono nel progetto.
+## Animazioni e accessibilità
+Usa i pulsanti Design / Illustrazione / Fotografia o le frecce della tastiera per cambiare scena. Il pulsante “Rivedi il tratto” riavvia il disegno. Le preferenze `prefers-reduced-motion` vengono rispettate.
