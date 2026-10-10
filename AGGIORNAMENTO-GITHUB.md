@@ -1,3 +1,5 @@
-# Aggiornamento GitHub Pages
+# Aggiornamento del sito XIN
 
-Questa versione contiene Behind the Art con video di 24 secondi e il nuovo ritratto scomponibile nella sezione Chi sono. Apri `index.html` per anteprima e carica tutti i file aggiornati nel repository GitHub Pages, inclusi `assets/custom/`, `css/behind-art.css`, `css/portrait-lab.css`, `js/behind-art.js` e `js/portrait-lab.js`. Dopo il deploy aggiorna il browser con Ctrl+Shift+R.
+Questa versione elimina il video dalla sezione **Behind the Art** e mostra tre immagini affiancate: fotografia originale, bozza a contorni, ritratto vettoriale finale. La scena sullo sfondo resta visibile in tutte e tre. Il clic sulle immagini apre una visualizzazione ingrandita.
+
+Per aggiornare GitHub Pages, copia tutti i file della cartella estratta alla radice del repository (in particolare `index.html`, `css/behind-art.css`, `js/behind-art.js`, `assets/custom/behind-sketch-contours.png`). Aggiorna la pagina con `Ctrl+Shift+R` dopo il deploy.

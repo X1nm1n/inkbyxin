@@ -1,42 +1,35 @@
 # XIN — Graphic Design Portfolio
 
-Sito statico HTML/CSS/JavaScript, pronto per PyCharm e GitHub Pages.
+Sito statico HTML/CSS/JavaScript per PyCharm e GitHub Pages.
 
-## Modifiche del 10 ottobre 2026
+## Behind the Art — tre immagini
 
-### Behind the Art — Dentro il processo
+La sezione **Behind the Art** presenta tre immagini dello stesso ritratto:
 
-Al posto della vecchia grafica ripetuta trovi un video di **24 secondi** che mostra:
+1. **Foto originale**, con il suo sfondo e le persone presenti nella scena.
+2. **Bozza dei contorni**, ricavata dal vettoriale finale mantenendo anche i tracciati dello sfondo.
+3. **Vettoriale finale**, l'illustrazione completa derivata dal lavoro dell'autore.
 
-1. la fotografia originale;
-2. la comparsa graduale delle linee e dei tracciati;
-3. la costruzione delle campiture cromatiche;
-4. il vettoriale finale.
+Le tre immagini sono visibili nella stessa galleria. Cliccando una fotografia la si può ingrandire e si possono confrontare le fasi con i pulsanti *Precedente/Successiva* o con le frecce della tastiera. Il precedente timelapse è stato rimosso.
 
-Il video è una **ricostruzione dimostrativa** delle fasi, non una registrazione di una vera sessione di Illustrator. Puoi riprodurlo, fermarlo, scorrere la timeline o usare i pulsanti per andare a una delle quattro fasi.
+**Trasparenza sul processo:** la bozza non è un disegno preparatorio storico dell'autore, ma una ricostruzione dei contorni ottenuta a partire dall'immagine vettoriale finale. Le altre due immagini provengono dalla fotografia e dal vettoriale forniti dall'autore. Tutte conservano la scena dello sfondo.
 
-### Chi sono — ritratto interattivo
+## Sezione Chi sono
 
-Sostituito il precedente collage impreciso. Il ritratto viene **ricomposto esattamente** da dieci elementi ricavati dal lavoro fornito in `definitivo.ai`: copricapo, volto, occhi, sopracciglia, naso, bocca, colletto e gilet.
+Resta invariato il ritratto vettoriale intero sulla sinistra e la presentazione sulla destra, con "Xinmin." in marroncino.
 
-Le aree visibili sono indipendenti, i clic attraversano le zone trasparenti e i pezzi possono essere spostati anche su smartphone. Il pulsante **Ricomponi** riporta tutte le parti al loro posto; **Mescola** crea una piccola scomposizione. Usa le frecce della tastiera su un pezzo selezionato per spostarlo.
+## File principali
 
-Il titolo **Xinmin.** è nuovamente marroncino (`#9C6448`). Layout e dimensioni della sezione About sono stati rivisti per desktop e mobile.
-
-## Dove modificare
-
-- `index.html` — contenuto delle sezioni;
-- `css/behind-art.css` e `js/behind-art.js` — video e interazione;
-- `css/portrait-lab.css` e `js/portrait-lab.js` — ritratto interattivo;
-- `assets/custom/behind-process.mp4` — video finale;
-- `assets/custom/portrait-base.png` e `assets/custom/piece-*.png` — tasselli del ritratto;
-- `js/projects.js` — lavori del portfolio;
-- `js/materie.js` — contenuti Università.
-
-La galleria dei lavori rimane nella versione pulita; sono conservati l'introduzione del logo, i temi chiaro/scuro, Università, Privacy, Diritti e Contatti. Non sono stati aggiunti login o statistiche.
+- `index.html`: struttura della homepage e delle sezioni.
+- `css/behind-art.css`: layout desktop/mobile della galleria a tre fasi.
+- `js/behind-art.js`: ingrandimento e navigazione fra le immagini.
+- `assets/custom/behind-photo.jpg`: fotografia originale.
+- `assets/custom/behind-sketch-contours.png`: bozza a contorni ricostruita.
+- `assets/custom/behind-final.png`: illustrazione vettoriale finale (immagine).
+- `css/portrait-lab.css`: sezione Chi sono.
+- `js/projects.js`: lavori del portfolio.
+- `js/materie.js`: archivio universitario.
 
 ## Pubblicazione
 
-Apri la cartella in PyCharm, poi pubblica **i file della cartella alla radice** del repository di GitHub Pages. Non caricare il solo file ZIP. Attendi il deploy e, se vedi la vecchia versione, premi `Ctrl+Shift+R`.
-
-**Nota:** i riferimenti originali e le fasi intermedie sono dimostrazioni visive realizzate a partire dalla foto e dal vettoriale forniti, non vanno presentati come bozze storiche del lavoro.
+Apri la cartella estratta in PyCharm. Copia i **contenuti della cartella** alla radice del repository GitHub Pages, non il file ZIP né un'ulteriore cartella contenitore. Verifica che `index.html` sia alla radice. Dopo la pubblicazione ricarica forzatamente la pagina con `Ctrl+Shift+R`.
