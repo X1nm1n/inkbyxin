@@ -88,7 +88,7 @@
 
   function render() {
     const q = search.value.trim().toLocaleLowerCase('it');
-    const matches = resources.filter(r => [r.titolo, r.gruppo, r.numero].join(' ').toLocaleLowerCase('it').includes(q));
+    const matches = resources.filter(r => [r.titolo, r.gruppo, r.numero, r.argomento || ''].join(' ').toLocaleLowerCase('it').includes(q));
     $('documentMatchCount').textContent = matches.length + (matches.length === 1 ? ' documento' : ' documenti');
     container.replaceChildren();
     if (!resources.length) {
@@ -100,8 +100,18 @@
       return;
     }
     const formula = matches.filter(r => r.gruppo === 'Formulario');
-    const chapters = matches.filter(r => r.gruppo !== 'Formulario');
+    const theory = matches.filter(r => r.gruppo === 'Teoria');
+    const exercises = matches.filter(r => r.gruppo === 'Esercitazioni');
+    const exams = matches.filter(r => r.gruppo === 'Prove d’esame');
+    const tutors = matches.filter(r => r.gruppo === 'Tutorati');
+    const references = matches.filter(r => r.gruppo === 'Riferimenti');
+    const chapters = matches.filter(r => !['Formulario', 'Teoria', 'Esercitazioni', 'Prove d’esame', 'Tutorati', 'Riferimenti'].includes(r.gruppo));
     addGroup(container, 'Formulario', 'DA CONSULTARE', formula, true);
+    addGroup(container, 'Teoria', 'CAPITOLI E APPUNTI', theory);
+    addGroup(container, 'Esercitazioni', 'ESERCIZI E SVOLGIMENTI', exercises);
+    addGroup(container, 'Tutorati', 'ESERCIZI E RIPASSO', tutors);
+    addGroup(container, 'Materiale di riferimento', 'TAVOLE E CONSULTAZIONE', references, true);
+    addGroup(container, 'Prove d’esame', 'SIMULAZIONI E PARZIALI', exams);
     addGroup(container, 'Dispense e appunti', 'ORDINATI PER ARGOMENTO', chapters);
   }
 
