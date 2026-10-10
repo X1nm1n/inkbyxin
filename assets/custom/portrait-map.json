@@ -1,0 +1,82 @@
+[
+  {
+    "name": "vest",
+    "title": "Gilet",
+    "x": 778,
+    "y": 1480,
+    "w": 1285,
+    "h": 2008
+  },
+  {
+    "name": "collar",
+    "title": "Colletto",
+    "x": 1038,
+    "y": 1323,
+    "w": 804,
+    "h": 645
+  },
+  {
+    "name": "cap",
+    "title": "Copricapo",
+    "x": 859,
+    "y": 94,
+    "w": 1284,
+    "h": 1574
+  },
+  {
+    "name": "face",
+    "title": "Volto",
+    "x": 1084,
+    "y": 394,
+    "w": 769,
+    "h": 1074
+  },
+  {
+    "name": "brow-left",
+    "title": "Sopracciglio sinistro",
+    "x": 1111,
+    "y": 503,
+    "w": 306,
+    "h": 105
+  },
+  {
+    "name": "brow-right",
+    "title": "Sopracciglio destro",
+    "x": 1473,
+    "y": 509,
+    "w": 317,
+    "h": 103
+  },
+  {
+    "name": "eye-left",
+    "title": "Occhio sinistro",
+    "x": 1137,
+    "y": 599,
+    "w": 279,
+    "h": 134
+  },
+  {
+    "name": "eye-right",
+    "title": "Occhio destro",
+    "x": 1483,
+    "y": 598,
+    "w": 295,
+    "h": 137
+  },
+  {
+    "name": "nose",
+    "title": "Naso",
+    "x": 1303,
+    "y": 679,
+    "w": 297,
+    "h": 257
+  },
+  {
+    "name": "mouth",
+    "title": "Bocca",
+    "x": 1253,
+    "y": 906,
+    "w": 428,
+    "h": 192
+  }
+]

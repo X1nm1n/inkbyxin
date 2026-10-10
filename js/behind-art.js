@@ -12,9 +12,9 @@
 
   const cues = [
     { time: 0, label: '01 / FOTO ORIGINALE', caption: 'FOTO ORIGINALE' },
-    { time: 3.1, label: '02 / DISEGNO', caption: 'DISEGNO E STRUTTURA' },
-    { time: 6.1, label: '03 / COLORI', caption: 'COLORI E VOLUMI' },
-    { time: 9.2, label: '04 / FINALE', caption: 'LAVORO FINALE' }
+    { time: 5, label: '02 / DISEGNO', caption: 'DISEGNO E STRUTTURA' },
+    { time: 11, label: '03 / COLORI', caption: 'COLORI E VOLUMI' },
+    { time: 17, label: '04 / FINALE', caption: 'LAVORO FINALE' }
   ];
 
   function nearestCueIndex(time) {
@@ -61,6 +61,7 @@
 
   play?.addEventListener('click', () => {
     if (video.paused) {
+      if (video.ended) video.currentTime = 0;
       video.play().catch(() => {});
     } else {
       video.pause();
