@@ -7,7 +7,7 @@ window.XIN_MATERIE = [
     "id": "analisi-1",
     "anno": 1,
     "titolo": "Analisi Matematica 1",
-    "descrizione": "Appunti su limiti, continuità, derivate e teoremi fondamentali, affiancati da esercizi svolti, studi di funzione e formulari di ripasso.",
+    "descrizione": "Appunti su limiti, continuità, derivate, integrali, teoremi fondamentali, polinomio di Taylor e problema di Cauchy, con esercizi svolti e formulari.",
     "argomenti": [
       "Limiti",
       "Continuità",
@@ -15,7 +15,8 @@ window.XIN_MATERIE = [
       "Teoremi",
       "Studio di funzione",
       "Integrali",
-      "Taylor"
+      "Taylor",
+      "Equazioni differenziali"
     ],
     "risorse": [
       {
@@ -237,6 +238,69 @@ window.XIN_MATERIE = [
         "gruppo": "Teoria",
         "numero": "17",
         "argomento": "Teoremi fondamentali"
+      },
+      {
+        "titolo": "Integrale indefinito — definizione e funzione integrale",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/analisi-1/26-integrale-indefinito.pdf",
+        "pagine": 1,
+        "gruppo": "Teoria",
+        "numero": "18",
+        "argomento": "Integrali"
+      },
+      {
+        "titolo": "Integrali di funzioni razionali fratte — casi ed esempi",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/analisi-1/27-integrali-funzioni-fratte.pdf",
+        "pagine": 3,
+        "gruppo": "Esercitazioni",
+        "numero": "06",
+        "argomento": "Integrali"
+      },
+      {
+        "titolo": "Integrali immediati — formule ed esercizi svolti",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/analisi-1/28-integrali-appunti-esercizi.pdf",
+        "pagine": 2,
+        "gruppo": "Esercitazioni",
+        "numero": "07",
+        "argomento": "Integrali"
+      },
+      {
+        "titolo": "Integrazione per parti — regola, dimostrazione ed esempi",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/analisi-1/29-integrazione-per-parti.pdf",
+        "pagine": 2,
+        "gruppo": "Teoria",
+        "numero": "19",
+        "argomento": "Integrali"
+      },
+      {
+        "titolo": "Integrazione per sostituzione — teoria ed esercizi",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/analisi-1/30-integrazione-per-sostituzione.pdf",
+        "pagine": 2,
+        "gruppo": "Teoria",
+        "numero": "20",
+        "argomento": "Integrali"
+      },
+      {
+        "titolo": "Polinomio di Taylor — resto, sviluppi ed esercizi",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/analisi-1/31-polinomio-di-taylor.pdf",
+        "pagine": 4,
+        "gruppo": "Teoria",
+        "numero": "21",
+        "argomento": "Taylor"
+      },
+      {
+        "titolo": "Problema di Cauchy — equazioni differenziali ed esempi",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/analisi-1/32-problema-di-cauchy.pdf",
+        "pagine": 3,
+        "gruppo": "Teoria",
+        "numero": "22",
+        "argomento": "Equazioni differenziali"
       }
     ]
   },
