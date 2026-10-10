@@ -12,9 +12,9 @@
 
   const cues = [
     { time: 0, label: '01 / FOTO ORIGINALE', caption: 'FOTO ORIGINALE' },
-    { time: 5, label: '02 / DISEGNO', caption: 'DISEGNO E STRUTTURA' },
-    { time: 11, label: '03 / COLORI', caption: 'COLORI E VOLUMI' },
-    { time: 17, label: '04 / FINALE', caption: 'LAVORO FINALE' }
+    { time: 4, label: '02 / TRACCIATI', caption: 'TRACCIATI IN COSTRUZIONE' },
+    { time: 15, label: '03 / COLORI', caption: 'COLORI E CAMPITURE' },
+    { time: 24, label: '04 / FINALE', caption: 'LAVORO FINALE' }
   ];
 
   function nearestCueIndex(time) {
@@ -42,15 +42,13 @@
     const pct = (video.currentTime / dur) * 100;
     range.value = String(pct);
     updateStep(nearestCueIndex(video.currentTime));
-    play.textContent = video.paused ? '▶ Riproduci' : '❚❚ Pausa';
+    if (play) play.textContent = video.paused ? '▶ Riproduci' : '❚❚ Pausa';
   }
 
   function seekTo(seconds, autoplay = true) {
     video.currentTime = seconds;
     updateProgress();
-    if (autoplay) {
-      video.play().catch(() => {});
-    }
+    if (autoplay) video.play().catch(() => {});
   }
 
   buttons.forEach(btn => {
@@ -85,7 +83,7 @@
   video.addEventListener('pause', updateProgress);
   video.addEventListener('ended', () => {
     updateProgress();
-    play.textContent = '↻ Rivedi';
+    if (play) play.textContent = '↻ Rivedi';
   });
 
   updateStep(0);
