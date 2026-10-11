@@ -2882,13 +2882,220 @@ window.XIN_MATERIE = [
     "id": "programmazione-web",
     "anno": 3,
     "titolo": "Programmazione Web",
-    "descrizione": "Appunti personali su sviluppo web, backend, API e applicazioni.",
+    "descrizione": "Appunti di teoria su HTTP, HTML e CSS, formati XML e JSON, progettazione di API e applicazioni web, asincronia, sicurezza, database, testing e deployment; con tracce d’esame, esercitazioni e materiali della presentazione del progetto.",
     "argomenti": [
-      "Web",
-      "API REST",
-      "Python"
+      "Introduzione al corso",
+      "Strumenti di sviluppo",
+      "World Wide Web e HTTP",
+      "HTML e CSS",
+      "XML e JSON",
+      "Web dinamico e API REST",
+      "Asincronia e concorrenza",
+      "Sicurezza e autenticazione",
+      "Database e CRUD",
+      "Testing",
+      "Deployment e CI/CD",
+      "Simulazioni d’esame",
+      "Esercitazioni",
+      "Progetto"
     ],
-    "risorse": []
+    "risorse": [
+      {
+        "titolo": "Appunti 01 — Introduzione al corso",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/programmazione-web/appunti-01-introduzione.pdf",
+        "pagine": 7,
+        "gruppo": "Appunti",
+        "numero": "01",
+        "argomento": "Introduzione al corso"
+      },
+      {
+        "titolo": "Appunti 02 — Strumenti, shell, Python e Git",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/programmazione-web/appunti-02-strumenti-e-consigli.pdf",
+        "pagine": 48,
+        "gruppo": "Appunti",
+        "numero": "02",
+        "argomento": "Strumenti di sviluppo"
+      },
+      {
+        "titolo": "Appunti 03 — World Wide Web e HTTP",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/programmazione-web/appunti-03-world-wide-web.pdf",
+        "pagine": 25,
+        "gruppo": "Appunti",
+        "numero": "03",
+        "argomento": "World Wide Web e HTTP"
+      },
+      {
+        "titolo": "Appunti 04 — HTML e CSS",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/programmazione-web/appunti-04-html-e-css.pdf",
+        "pagine": 46,
+        "gruppo": "Appunti",
+        "numero": "04",
+        "argomento": "HTML e CSS"
+      },
+      {
+        "titolo": "Appunti 05 — XML e JSON",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/programmazione-web/appunti-05-xml-e-json.pdf",
+        "pagine": 24,
+        "gruppo": "Appunti",
+        "numero": "05",
+        "argomento": "XML e JSON"
+      },
+      {
+        "titolo": "Appunti 06 — Web dinamico e API",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/programmazione-web/appunti-06-progettazione-web-dinamico.pdf",
+        "pagine": 56,
+        "gruppo": "Appunti",
+        "numero": "06",
+        "argomento": "Web dinamico e API REST"
+      },
+      {
+        "titolo": "Appunti 07 — Processi asincroni e parallelismo",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/programmazione-web/appunti-07-processi-asincroni-parallelismo.pdf",
+        "pagine": 20,
+        "gruppo": "Appunti",
+        "numero": "07",
+        "argomento": "Asincronia e concorrenza"
+      },
+      {
+        "titolo": "Appunti 08 — Autenticazione e autorizzazione",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/programmazione-web/appunti-08-autenticazione-e-autorizzazione.pdf",
+        "pagine": 14,
+        "gruppo": "Appunti",
+        "numero": "08",
+        "argomento": "Sicurezza e autenticazione"
+      },
+      {
+        "titolo": "Appunti 09 — Database, SQL e CRUD",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/programmazione-web/appunti-09-database-e-crud.pdf",
+        "pagine": 31,
+        "gruppo": "Appunti",
+        "numero": "09",
+        "argomento": "Database e CRUD"
+      },
+      {
+        "titolo": "Appunti 10 — Testing di software e API",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/programmazione-web/appunti-10-testing.pdf",
+        "pagine": 14,
+        "gruppo": "Appunti",
+        "numero": "10",
+        "argomento": "Testing"
+      },
+      {
+        "titolo": "Appunti 11 — Deployment e CI/CD",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/programmazione-web/appunti-11-deployment.pdf",
+        "pagine": 14,
+        "gruppo": "Appunti",
+        "numero": "11",
+        "argomento": "Deployment e CI/CD"
+      },
+      {
+        "titolo": "Simulazione d’esame — 4 aprile 2025",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/programmazione-web/simulazione-esame-04-aprile-2025.pdf",
+        "pagine": 3,
+        "gruppo": "Simulazioni",
+        "numero": "01",
+        "argomento": "Simulazioni 2025"
+      },
+      {
+        "titolo": "Simulazione d’esame — 16 aprile 2025",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/programmazione-web/simulazione-esame-16-aprile-2025.pdf",
+        "pagine": 3,
+        "gruppo": "Simulazioni",
+        "numero": "02",
+        "argomento": "Simulazioni 2025"
+      },
+      {
+        "titolo": "Simulazione d’esame — 28 maggio 2025",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/programmazione-web/simulazione-esame-28-maggio-2025.pdf",
+        "pagine": 5,
+        "gruppo": "Simulazioni",
+        "numero": "03",
+        "argomento": "Simulazioni 2025"
+      },
+      {
+        "titolo": "Prova d’esame — 6 giugno 2025",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/programmazione-web/prova-esame-06-giugno-2025.pdf",
+        "pagine": 3,
+        "gruppo": "Prove d’esame",
+        "numero": "04",
+        "argomento": "Appelli 2025"
+      },
+      {
+        "titolo": "Esercitazione — Prenotazione sale riunioni (8 maggio 2026)",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/programmazione-web/esercitazione-08-maggio-2026-sale-riunioni.pdf",
+        "pagine": 4,
+        "gruppo": "Esercitazioni",
+        "numero": "05",
+        "argomento": "Progettazione API e concorrenza"
+      },
+      {
+        "titolo": "Esercitazione — Volontariato (22 maggio 2026)",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/programmazione-web/esercitazione-22-maggio-2026-volontariato.pdf",
+        "pagine": 3,
+        "gruppo": "Esercitazioni",
+        "numero": "06",
+        "argomento": "Progettazione API e autorizzazione"
+      },
+      {
+        "titolo": "Simulazione di esercitazione — traccia personale 01",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/programmazione-web/simulazione-personale-01.pdf",
+        "pagine": 5,
+        "gruppo": "Simulazioni",
+        "numero": "07",
+        "argomento": "Tracce di allenamento"
+      },
+      {
+        "titolo": "Simulazione di esercitazione — traccia personale 02",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/programmazione-web/simulazione-personale-02.pdf",
+        "pagine": 2,
+        "gruppo": "Simulazioni",
+        "numero": "08",
+        "argomento": "Tracce di allenamento"
+      },
+      {
+        "titolo": "Presentazione del progetto — PowerPoint",
+        "tipo": "PPTX",
+        "file": "./assets/media/studio/3-anno/programmazione-web/presentazione-progetto.pptx",
+        "gruppo": "Progetto",
+        "numero": "01",
+        "argomento": "Progetto"
+      },
+      {
+        "titolo": "Discorso per la presentazione del progetto",
+        "tipo": "DOCX",
+        "file": "./assets/media/studio/3-anno/programmazione-web/discorso-presentazione-progetto.docx",
+        "gruppo": "Progetto",
+        "numero": "02",
+        "argomento": "Progetto"
+      },
+      {
+        "titolo": "Video della presentazione del progetto",
+        "tipo": "MP4",
+        "file": "./assets/media/studio/3-anno/programmazione-web/video-presentazione-progetto.mp4",
+        "gruppo": "Progetto",
+        "numero": "03",
+        "argomento": "Progetto"
+      }
+    ]
   },
   {
     "id": "misure-ingegneria-informazione",
