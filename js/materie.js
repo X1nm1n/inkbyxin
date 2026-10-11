@@ -2050,6 +2050,474 @@ window.XIN_MATERIE = [
     ]
   },
   {
+    "id": "analisi-2",
+    "anno": 2,
+    "titolo": "Analisi Matematica 2",
+    "descrizione": "Lezioni, appunti, esercitazioni e prove d’esame su serie numeriche e di funzioni, convergenza, analisi a più variabili, ottimizzazione, integrali multipli, curvilinei e superficiali, Green–Gauss e problema di Cauchy.",
+    "argomenti": [
+      "Serie numeriche",
+      "Serie di funzioni",
+      "Serie di potenze",
+      "Successioni di funzioni",
+      "Funzioni di più variabili",
+      "Derivate parziali",
+      "Piano tangente",
+      "Ottimizzazione",
+      "Integrali multipli",
+      "Integrali curvilinei",
+      "Integrali superficiali",
+      "Green–Gauss",
+      "Equazioni differenziali",
+      "Preparazione all’esame",
+      "Tutorati",
+      "Simulazioni d’esame",
+      "Teorema di Stokes"
+    ],
+    "risorse": [
+      {
+        "titolo": "Lezione 01 — Serie numeriche",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/01-lezione-01-serie-numeriche.pdf",
+        "pagine": 13,
+        "gruppo": "Teoria",
+        "numero": "01",
+        "argomento": "Serie numeriche"
+      },
+      {
+        "titolo": "Lezione 02 — Serie numeriche",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/02-lezione-02-serie-numeriche.pdf",
+        "pagine": 19,
+        "gruppo": "Teoria",
+        "numero": "02",
+        "argomento": "Serie numeriche"
+      },
+      {
+        "titolo": "Lezione 04 — Serie di funzioni",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/03-lezione-04-serie-di-funzioni.pdf",
+        "pagine": 6,
+        "gruppo": "Teoria",
+        "numero": "03",
+        "argomento": "Serie di funzioni"
+      },
+      {
+        "titolo": "Lezione 05 — Appunti di lezione",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/04-lezione-05-appunti-di-lezione.pdf",
+        "pagine": 8,
+        "gruppo": "Teoria",
+        "numero": "04",
+        "argomento": "Serie e funzioni"
+      },
+      {
+        "titolo": "Lezione 05 — Serie di potenze",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/05-lezione-05-serie-di-potenze.pdf",
+        "pagine": 6,
+        "gruppo": "Teoria",
+        "numero": "05",
+        "argomento": "Serie di potenze"
+      },
+      {
+        "titolo": "Lezione 06 — Funzioni di più variabili",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/06-lezione-06-funzioni-di-piu-variabili.pdf",
+        "pagine": 9,
+        "gruppo": "Teoria",
+        "numero": "06",
+        "argomento": "Funzioni di più variabili"
+      },
+      {
+        "titolo": "Lezione 07 — Derivate parziali",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/07-lezione-07-derivate-parziali.pdf",
+        "pagine": 16,
+        "gruppo": "Teoria",
+        "numero": "07",
+        "argomento": "Derivate parziali"
+      },
+      {
+        "titolo": "Lezione 08 — Piano tangente",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/08-lezione-08-piano-tangente.pdf",
+        "pagine": 3,
+        "gruppo": "Teoria",
+        "numero": "08",
+        "argomento": "Piano tangente"
+      },
+      {
+        "titolo": "Lezione 09 — Forme quadratiche",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/09-lezione-09-forme-quadratiche.pdf",
+        "pagine": 9,
+        "gruppo": "Teoria",
+        "numero": "09",
+        "argomento": "Forme quadratiche"
+      },
+      {
+        "titolo": "Lezione 10 — Massimi e minimi vincolati",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/10-lezione-10-massimi-e-minimi-vincolati.pdf",
+        "pagine": 11,
+        "gruppo": "Teoria",
+        "numero": "10",
+        "argomento": "Ottimizzazione"
+      },
+      {
+        "titolo": "Lezione 10 — Problema di Cauchy",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/11-lezione-10-problema-di-cauchy.pdf",
+        "pagine": 2,
+        "gruppo": "Teoria",
+        "numero": "11",
+        "argomento": "Equazioni differenziali"
+      },
+      {
+        "titolo": "Lezione 11 — Funzioni convesse",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/12-lezione-11-funzioni-convesse.pdf",
+        "pagine": 2,
+        "gruppo": "Teoria",
+        "numero": "12",
+        "argomento": "Ottimizzazione"
+      },
+      {
+        "titolo": "Lezione 12 — Integrali multipli",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/13-lezione-12-integrali-multipli.pdf",
+        "pagine": 9,
+        "gruppo": "Teoria",
+        "numero": "13",
+        "argomento": "Integrali multipli"
+      },
+      {
+        "titolo": "Lezione 15 — Appunti di lezione",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/14-lezione-15-appunti-di-lezione.pdf",
+        "pagine": 12,
+        "gruppo": "Teoria",
+        "numero": "14",
+        "argomento": "Analisi di più variabili"
+      },
+      {
+        "titolo": "Lezione 16 — Appunti di lezione",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/15-lezione-16-appunti-di-lezione.pdf",
+        "pagine": 13,
+        "gruppo": "Teoria",
+        "numero": "15",
+        "argomento": "Analisi di più variabili"
+      },
+      {
+        "titolo": "Lezione 17 — Appunti di lezione",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/16-lezione-17-appunti-di-lezione.pdf",
+        "pagine": 8,
+        "gruppo": "Teoria",
+        "numero": "16",
+        "argomento": "Analisi di più variabili"
+      },
+      {
+        "titolo": "Successioni di funzioni — convergenza puntuale e uniforme",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/17-successioni-di-funzioni-convergenza-puntuale-e-uniforme.pdf",
+        "pagine": 8,
+        "gruppo": "Appunti",
+        "numero": "17",
+        "argomento": "Successioni di funzioni"
+      },
+      {
+        "titolo": "Massimi e minimi relativi",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/18-massimi-e-minimi-relativi.pdf",
+        "pagine": 21,
+        "gruppo": "Appunti",
+        "numero": "18",
+        "argomento": "Ottimizzazione"
+      },
+      {
+        "titolo": "Massimi e minimi assoluti",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/19-massimi-e-minimi-assoluti.pdf",
+        "pagine": 6,
+        "gruppo": "Appunti",
+        "numero": "19",
+        "argomento": "Ottimizzazione"
+      },
+      {
+        "titolo": "Integrale doppio",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/20-integrale-doppio.pdf",
+        "pagine": 4,
+        "gruppo": "Appunti",
+        "numero": "20",
+        "argomento": "Integrali multipli"
+      },
+      {
+        "titolo": "Teorema di Green–Gauss",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/21-teorema-di-greengauss.pdf",
+        "pagine": 3,
+        "gruppo": "Appunti",
+        "numero": "21",
+        "argomento": "Green–Gauss"
+      },
+      {
+        "titolo": "Integrali curvilinei",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/22-integrali-curvilinei.pdf",
+        "pagine": 3,
+        "gruppo": "Appunti",
+        "numero": "22",
+        "argomento": "Integrali curvilinei"
+      },
+      {
+        "titolo": "Integrali superficiali",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/23-integrali-superficiali.pdf",
+        "pagine": 4,
+        "gruppo": "Appunti",
+        "numero": "23",
+        "argomento": "Integrali superficiali"
+      },
+      {
+        "titolo": "Derivate parziali — schemi e formule",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/24-derivate-parziali-schemi-e-formule.pdf",
+        "pagine": 3,
+        "gruppo": "Appunti",
+        "numero": "24",
+        "argomento": "Derivate parziali"
+      },
+      {
+        "titolo": "Serie di potenze — approfondimento",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/25-serie-di-potenze-approfondimento.pdf",
+        "pagine": 12,
+        "gruppo": "Approfondimenti",
+        "numero": "25",
+        "argomento": "Serie di potenze"
+      },
+      {
+        "titolo": "Note integrative di Analisi Matematica 2",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/26-note-integrative-di-analisi-matematica-2.pdf",
+        "pagine": 14,
+        "gruppo": "Appunti",
+        "numero": "26",
+        "argomento": "Note integrative"
+      },
+      {
+        "titolo": "Esercizi sulle serie numeriche",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/27-esercizi-sulle-serie-numeriche.pdf",
+        "pagine": 3,
+        "gruppo": "Esercitazioni",
+        "numero": "27",
+        "argomento": "Serie numeriche"
+      },
+      {
+        "titolo": "Esercizi su serie a segno variabile, positivo e negativo",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/28-esercizi-su-serie-a-segno-variabile-positivo-e-negativo.pdf",
+        "pagine": 11,
+        "gruppo": "Esercitazioni",
+        "numero": "28",
+        "argomento": "Serie numeriche"
+      },
+      {
+        "titolo": "Green–Gauss — esercizi e appunti",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/29-greengauss-esercizi-e-appunti.pdf",
+        "pagine": 5,
+        "gruppo": "Esercitazioni",
+        "numero": "29",
+        "argomento": "Green–Gauss"
+      },
+      {
+        "titolo": "Mappa per lo svolgimento degli esercizi",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/30-mappa-per-lo-svolgimento-degli-esercizi.pdf",
+        "pagine": 7,
+        "gruppo": "Ripasso",
+        "numero": "30",
+        "argomento": "Metodi di risoluzione"
+      },
+      {
+        "titolo": "Teoria per l’esame — versione 1",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/31-teoria-per-lesame-versione-1.pdf",
+        "pagine": 13,
+        "gruppo": "Ripasso",
+        "numero": "31",
+        "argomento": "Preparazione all’esame"
+      },
+      {
+        "titolo": "Teoria per l’esame — versione 2",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/32-teoria-per-lesame-versione-2.pdf",
+        "pagine": 13,
+        "gruppo": "Ripasso",
+        "numero": "32",
+        "argomento": "Preparazione all’esame"
+      },
+      {
+        "titolo": "Prova d’esame — 20 gennaio 2021",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/33-prova-desame-20-gennaio-2021.pdf",
+        "pagine": 3,
+        "gruppo": "Prove d’esame",
+        "numero": "33",
+        "argomento": "Appelli 2021"
+      },
+      {
+        "titolo": "Prova d’esame — 31 gennaio 2024",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/34-prova-desame-31-gennaio-2024.pdf",
+        "pagine": 4,
+        "gruppo": "Prove d’esame",
+        "numero": "34",
+        "argomento": "Appelli 2024"
+      },
+      {
+        "titolo": "Prova d’esame — 14 febbraio 2024",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/35-prova-desame-14-febbraio-2024.pdf",
+        "pagine": 5,
+        "gruppo": "Prove d’esame",
+        "numero": "35",
+        "argomento": "Appelli 2024"
+      },
+      {
+        "titolo": "Prova d’esame — 19 aprile 2024",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/36-prova-desame-19-aprile-2024.pdf",
+        "pagine": 7,
+        "gruppo": "Prove d’esame",
+        "numero": "36",
+        "argomento": "Appelli 2024"
+      },
+      {
+        "titolo": "Prova d’esame — 19 settembre 2024",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/37-prova-desame-19-settembre-2024.pdf",
+        "pagine": 7,
+        "gruppo": "Prove d’esame",
+        "numero": "37",
+        "argomento": "Appelli 2024"
+      },
+      {
+        "titolo": "Scheda del corso — Analisi Matematica 2",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/38-scheda-del-corso-analisi-matematica-2.pdf",
+        "pagine": 3,
+        "gruppo": "Riferimenti",
+        "numero": "38",
+        "argomento": "Programma del corso"
+      },
+      {
+        "titolo": "Tutoraggio completo 2024 — appunti ed esercizi",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/39-tutoraggio-completo-2024.pdf",
+        "pagine": 122,
+        "gruppo": "Tutorati",
+        "numero": "39",
+        "argomento": "Ripasso generale"
+      },
+      {
+        "titolo": "Tutorato 01 — Lista 1: serie numeriche e serie di potenze",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/40-tutorato-01-lista-01.pdf",
+        "pagine": 5,
+        "gruppo": "Tutorati",
+        "numero": "40",
+        "argomento": "Serie numeriche"
+      },
+      {
+        "titolo": "Tutorato 02 — Lista 2: convergenza e domini",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/41-tutorato-02-lista-02.pdf",
+        "pagine": 3,
+        "gruppo": "Tutorati",
+        "numero": "41",
+        "argomento": "Serie di potenze"
+      },
+      {
+        "titolo": "Tutorato 03 — Lista 3: limiti e differenziabilità",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/42-tutorato-03-lista-03.pdf",
+        "pagine": 5,
+        "gruppo": "Tutorati",
+        "numero": "42",
+        "argomento": "Funzioni di più variabili"
+      },
+      {
+        "titolo": "Tutorato 04 — Lista 4: massimi e minimi",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/43-tutorato-04-lista-04.pdf",
+        "pagine": 9,
+        "gruppo": "Tutorati",
+        "numero": "43",
+        "argomento": "Ottimizzazione"
+      },
+      {
+        "titolo": "Tutorato 05 — Lista 5: integrali doppi",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/44-tutorato-05-lista-05.pdf",
+        "pagine": 4,
+        "gruppo": "Tutorati",
+        "numero": "44",
+        "argomento": "Integrali multipli"
+      },
+      {
+        "titolo": "Tutorato 06 — Simulazione del primo parziale",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/45-tutorato-06-simulazione-primo-parziale.pdf",
+        "pagine": 4,
+        "gruppo": "Prove d’esame",
+        "numero": "45",
+        "argomento": "Simulazioni d’esame"
+      },
+      {
+        "titolo": "Tutorato 07 — Lista 6: integrali curvilinei e forme differenziali",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/46-tutorato-07-lista-06.pdf",
+        "pagine": 11,
+        "gruppo": "Tutorati",
+        "numero": "46",
+        "argomento": "Integrali curvilinei"
+      },
+      {
+        "titolo": "Tutorato 08 — Lista 7: superfici e integrali superficiali",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/47-tutorato-08-lista-07.pdf",
+        "pagine": 6,
+        "gruppo": "Tutorati",
+        "numero": "47",
+        "argomento": "Integrali superficiali"
+      },
+      {
+        "titolo": "Tutorato 09 — Lista 8: formule di Green–Gauss",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/48-tutorato-09-lista-08.pdf",
+        "pagine": 4,
+        "gruppo": "Tutorati",
+        "numero": "48",
+        "argomento": "Green–Gauss"
+      },
+      {
+        "titolo": "Tutorato 10 — Lista 9: flussi e teorema di Stokes",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/analisi-2/49-tutorato-10-lista-09.pdf",
+        "pagine": 4,
+        "gruppo": "Tutorati",
+        "numero": "49",
+        "argomento": "Teorema di Stokes"
+      }
+    ]
+  },
+  {
     "id": "programmazione-web",
     "anno": 3,
     "titolo": "Programmazione Web",
