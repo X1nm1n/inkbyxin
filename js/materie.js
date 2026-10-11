@@ -305,6 +305,387 @@ window.XIN_MATERIE = [
     ]
   },
   {
+    "id": "fisica-1",
+    "anno": 1,
+    "titolo": "Fisica 1",
+    "descrizione": "Appunti, esercitazioni, formulari e prove d’esame di meccanica: cinematica, dinamica, leggi di Newton, lavoro, energia, quantità di moto e urti.",
+    "argomenti": [
+      "Cinematica",
+      "Moti relativi",
+      "Moto circolare",
+      "Leggi di Newton",
+      "Attrito",
+      "Lavoro ed energia",
+      "Quantità di moto",
+      "Dinamica",
+      "Energia",
+      "Urti",
+      "Formule e richiami"
+    ],
+    "risorse": [
+      {
+        "titolo": "Capitolo 4 — Vettori, cinematica e moto",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/01-capitolo-4-cinematica-e-vettori.pdf",
+        "pagine": 12,
+        "gruppo": "Teoria",
+        "numero": "01",
+        "argomento": "Cinematica"
+      },
+      {
+        "titolo": "Moto rettilineo, spostamento, velocità e accelerazione",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/TEORIA_261011_002626.pdf",
+        "pagine": 11,
+        "gruppo": "Teoria",
+        "numero": "21",
+        "argomento": "Cinematica"
+      },
+      {
+        "titolo": "Vettori e cinematica nel piano — appunti integrativi",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/TEORIA_261011_002700.pdf",
+        "pagine": 12,
+        "gruppo": "Teoria",
+        "numero": "22",
+        "argomento": "Cinematica"
+      },
+      {
+        "titolo": "Leggi di Newton e forze",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/TEORIA_261011_002750.pdf",
+        "pagine": 10,
+        "gruppo": "Teoria",
+        "numero": "23",
+        "argomento": "Dinamica"
+      },
+      {
+        "titolo": "Attrito statico e dinamico — appunti",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/TEORIA_261011_002828.pdf",
+        "pagine": 9,
+        "gruppo": "Teoria",
+        "numero": "24",
+        "argomento": "Dinamica"
+      },
+      {
+        "titolo": "Lavoro, energia cinetica e potenza",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/TEORIA_261011_002900.pdf",
+        "pagine": 14,
+        "gruppo": "Teoria",
+        "numero": "25",
+        "argomento": "Lavoro ed energia"
+      },
+      {
+        "titolo": "Energia potenziale e conservazione dell’energia meccanica",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/TEORIA_261011_002929.pdf",
+        "pagine": 14,
+        "gruppo": "Teoria",
+        "numero": "26",
+        "argomento": "Energia"
+      },
+      {
+        "titolo": "Centro di massa, impulso, quantità di moto e urti",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/TEORIA_261011_003016.pdf",
+        "pagine": 20,
+        "gruppo": "Teoria",
+        "numero": "27",
+        "argomento": "Quantità di moto"
+      },
+      {
+        "titolo": "Accelerazione e moto ad accelerazione costante",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/02-accelerazione-costante.pdf",
+        "pagine": 7,
+        "gruppo": "Esercitazioni",
+        "numero": "02",
+        "argomento": "Cinematica"
+      },
+      {
+        "titolo": "Accelerazione nel moto di caduta libera",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/03-caduta-libera.pdf",
+        "pagine": 7,
+        "gruppo": "Esercitazioni",
+        "numero": "03",
+        "argomento": "Cinematica"
+      },
+      {
+        "titolo": "Moto dei proiettili",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/04-moto-dei-proiettili.pdf",
+        "pagine": 10,
+        "gruppo": "Esercitazioni",
+        "numero": "04",
+        "argomento": "Cinematica"
+      },
+      {
+        "titolo": "Moto relativo unidirezionale",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/05-moto-relativo-unidirezionale.pdf",
+        "pagine": 3,
+        "gruppo": "Esercitazioni",
+        "numero": "05",
+        "argomento": "Moti relativi"
+      },
+      {
+        "titolo": "Moto relativo bidimensionale",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/06-moto-relativo-bidimensionale.pdf",
+        "pagine": 2,
+        "gruppo": "Esercitazioni",
+        "numero": "06",
+        "argomento": "Moti relativi"
+      },
+      {
+        "titolo": "Moto circolare uniforme — velocità e accelerazione",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/07-moto-circolare-uniforme-cinematica.pdf",
+        "pagine": 4,
+        "gruppo": "Esercitazioni",
+        "numero": "07",
+        "argomento": "Moto circolare"
+      },
+      {
+        "titolo": "Moto circolare uniforme — forza centripeta",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/08-moto-circolare-uniforme-dinamica.pdf",
+        "pagine": 6,
+        "gruppo": "Esercitazioni",
+        "numero": "08",
+        "argomento": "Moto circolare"
+      },
+      {
+        "titolo": "Applicazioni delle leggi di Newton",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/09-applicazioni-leggi-newton.pdf",
+        "pagine": 15,
+        "gruppo": "Esercitazioni",
+        "numero": "09",
+        "argomento": "Dinamica"
+      },
+      {
+        "titolo": "Attrito statico e dinamico",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/10-attrito.pdf",
+        "pagine": 6,
+        "gruppo": "Esercitazioni",
+        "numero": "10",
+        "argomento": "Dinamica"
+      },
+      {
+        "titolo": "Seconda legge di Newton e sistemi di particelle",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/11-seconda-legge-newton-sistemi-particelle.pdf",
+        "pagine": 4,
+        "gruppo": "Esercitazioni",
+        "numero": "11",
+        "argomento": "Dinamica"
+      },
+      {
+        "titolo": "Energia cinetica",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/12-energia-cinetica.pdf",
+        "pagine": 3,
+        "gruppo": "Esercitazioni",
+        "numero": "12",
+        "argomento": "Lavoro ed energia"
+      },
+      {
+        "titolo": "Lavoro ed energia cinetica",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/13-lavoro-energia-cinetica.pdf",
+        "pagine": 4,
+        "gruppo": "Esercitazioni",
+        "numero": "13",
+        "argomento": "Lavoro ed energia"
+      },
+      {
+        "titolo": "Lavoro svolto da una forza elastica",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/14-lavoro-forza-elastica.pdf",
+        "pagine": 3,
+        "gruppo": "Esercitazioni",
+        "numero": "14",
+        "argomento": "Lavoro ed energia"
+      },
+      {
+        "titolo": "Lavoro svolto da una forza variabile",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/15-lavoro-forza-variabile.pdf",
+        "pagine": 3,
+        "gruppo": "Esercitazioni",
+        "numero": "15",
+        "argomento": "Lavoro ed energia"
+      },
+      {
+        "titolo": "Lavoro svolto dalla forza gravitazionale",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/16-lavoro-forza-gravitazionale.pdf",
+        "pagine": 4,
+        "gruppo": "Esercitazioni",
+        "numero": "16",
+        "argomento": "Lavoro ed energia"
+      },
+      {
+        "titolo": "Energia potenziale",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/17-energia-potenziale.pdf",
+        "pagine": 4,
+        "gruppo": "Esercitazioni",
+        "numero": "17",
+        "argomento": "Energia"
+      },
+      {
+        "titolo": "Conservazione dell’energia meccanica",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/18-conservazione-energia-meccanica.pdf",
+        "pagine": 5,
+        "gruppo": "Esercitazioni",
+        "numero": "18",
+        "argomento": "Energia"
+      },
+      {
+        "titolo": "Conservazione dell’energia e forze non conservative",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/19-conservazione-energia.pdf",
+        "pagine": 5,
+        "gruppo": "Esercitazioni",
+        "numero": "19",
+        "argomento": "Energia"
+      },
+      {
+        "titolo": "Conservazione della quantità di moto",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/20-conservazione-quantita-moto.pdf",
+        "pagine": 3,
+        "gruppo": "Esercitazioni",
+        "numero": "20",
+        "argomento": "Quantità di moto"
+      },
+      {
+        "titolo": "Posizione, spostamento e velocità media",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/ES POSIZIONE, SPOSTAMENTO, VELOCITÀ MEDIA_261011_002623.pdf",
+        "pagine": 6,
+        "gruppo": "Esercitazioni",
+        "numero": "28",
+        "argomento": "Cinematica"
+      },
+      {
+        "titolo": "Velocità istantanea e velocità media",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/ES VELOCITÀ ISTANTANEA E MEDIA_261011_002658.pdf",
+        "pagine": 4,
+        "gruppo": "Esercitazioni",
+        "numero": "29",
+        "argomento": "Cinematica"
+      },
+      {
+        "titolo": "Problemi supplementari di cinematica",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/ES PROBLEMI SUPPLEMENTARI _261011_002625.pdf",
+        "pagine": 3,
+        "gruppo": "Esercitazioni",
+        "numero": "30",
+        "argomento": "Cinematica"
+      },
+      {
+        "titolo": "Esercizio aggiuntivo — moto uniformemente accelerato",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/Esercizi_261011_002700.pdf",
+        "pagine": 3,
+        "gruppo": "Esercitazioni",
+        "numero": "31",
+        "argomento": "Cinematica"
+      },
+      {
+        "titolo": "Prima e seconda legge di Newton",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/ES PRIMA E SECONDA LEGGE NEWTON_261011_002748.pdf",
+        "pagine": 6,
+        "gruppo": "Esercitazioni",
+        "numero": "32",
+        "argomento": "Dinamica"
+      },
+      {
+        "titolo": "Potenza — esercizi svolti",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/ES POTENZA_261011_002900.pdf",
+        "pagine": 3,
+        "gruppo": "Esercitazioni",
+        "numero": "33",
+        "argomento": "Lavoro ed energia"
+      },
+      {
+        "titolo": "Quantità di moto — esercizi svolti",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/ES QUANTITÀ DI MOTO_261011_003005.pdf",
+        "pagine": 3,
+        "gruppo": "Esercitazioni",
+        "numero": "34",
+        "argomento": "Quantità di moto"
+      },
+      {
+        "titolo": "Quantità di moto ed energia cinetica negli urti",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/ES QUANTITÀ DI MOTO ED E CINETICA NEGLI URTI_261011_003006.pdf",
+        "pagine": 5,
+        "gruppo": "Esercitazioni",
+        "numero": "35",
+        "argomento": "Urti"
+      },
+      {
+        "titolo": "Urto e impulso — esercizi svolti",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/ES URTO ED IMPULSO_261011_003015.pdf",
+        "pagine": 4,
+        "gruppo": "Esercitazioni",
+        "numero": "36",
+        "argomento": "Urti"
+      },
+      {
+        "titolo": "Urti elastici in una e due dimensioni",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/ES URTI ELASTICI 12 DIMENSIONI_261011_003014.pdf",
+        "pagine": 3,
+        "gruppo": "Esercitazioni",
+        "numero": "37",
+        "argomento": "Urti"
+      },
+      {
+        "titolo": "Preparazione all’esame — prova 1",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/PRE  ESAME 1_261011_002458.pdf",
+        "pagine": 10,
+        "gruppo": "Prove d’esame",
+        "numero": "38",
+        "argomento": "Simulazioni d’esame"
+      },
+      {
+        "titolo": "Preparazione all’esame — prova 2",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/PRE  ESAME 2_261011_002501.pdf",
+        "pagine": 9,
+        "gruppo": "Prove d’esame",
+        "numero": "39",
+        "argomento": "Simulazioni d’esame"
+      },
+      {
+        "titolo": "Formulario di Fisica 1",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-1/FORMULARIO _261011_002446.pdf",
+        "pagine": 22,
+        "gruppo": "Formulario",
+        "numero": "40",
+        "argomento": "Formule e richiami"
+      }
+    ]
+  },
+  {
     "id": "chimica",
     "anno": 1,
     "titolo": "Chimica",
@@ -814,7 +1195,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Introduzione alle misure",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/misure-ingegneria-informazione/01-introduzione-alle-misure.pdf",
+        "file": "./assets/media/studio/3-anno/misure-ingegneria-informazione/01-introduzione-alle-misure.pdf",
         "pagine": 10,
         "gruppo": "Dispense",
         "numero": "01"
@@ -822,7 +1203,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Riferibilità delle misure e Sistema Internazionale",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/misure-ingegneria-informazione/02-riferibilita-delle-misure-e-si.pdf",
+        "file": "./assets/media/studio/3-anno/misure-ingegneria-informazione/02-riferibilita-delle-misure-e-si.pdf",
         "pagine": 9,
         "gruppo": "Dispense",
         "numero": "02"
@@ -830,7 +1211,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Incertezza di misura",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/misure-ingegneria-informazione/03-incertezza-di-misura.pdf",
+        "file": "./assets/media/studio/3-anno/misure-ingegneria-informazione/03-incertezza-di-misura.pdf",
         "pagine": 12,
         "gruppo": "Dispense",
         "numero": "03"
@@ -838,7 +1219,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Valutazioni di conformità",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/misure-ingegneria-informazione/04-valutazioni-di-conformita.pdf",
+        "file": "./assets/media/studio/3-anno/misure-ingegneria-informazione/04-valutazioni-di-conformita.pdf",
         "pagine": 9,
         "gruppo": "Dispense",
         "numero": "04"
@@ -846,7 +1227,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Effetti di carico strumentale",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/misure-ingegneria-informazione/05-effetti-di-carico-strumentale.pdf",
+        "file": "./assets/media/studio/3-anno/misure-ingegneria-informazione/05-effetti-di-carico-strumentale.pdf",
         "pagine": 13,
         "gruppo": "Dispense",
         "numero": "05"
@@ -854,7 +1235,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Circuiti con amplificatori operazionali",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/misure-ingegneria-informazione/06-circuiti-con-amplificatori-operazionali.pdf",
+        "file": "./assets/media/studio/3-anno/misure-ingegneria-informazione/06-circuiti-con-amplificatori-operazionali.pdf",
         "pagine": 25,
         "gruppo": "Dispense",
         "numero": "06"
@@ -862,7 +1243,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Misure di valore efficace",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/misure-ingegneria-informazione/07-misure-di-valore-efficace.pdf",
+        "file": "./assets/media/studio/3-anno/misure-ingegneria-informazione/07-misure-di-valore-efficace.pdf",
         "pagine": 12,
         "gruppo": "Dispense",
         "numero": "07"
@@ -870,7 +1251,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Conversione A/D e D/A",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/misure-ingegneria-informazione/08-conversione-ad-da.pdf",
+        "file": "./assets/media/studio/3-anno/misure-ingegneria-informazione/08-conversione-ad-da.pdf",
         "pagine": 10,
         "gruppo": "Dispense",
         "numero": "08"
@@ -878,7 +1259,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Convertitori A/D e D/A",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/misure-ingegneria-informazione/09-convertitori-ad-da.pdf",
+        "file": "./assets/media/studio/3-anno/misure-ingegneria-informazione/09-convertitori-ad-da.pdf",
         "pagine": 18,
         "gruppo": "Dispense",
         "numero": "09"
@@ -886,7 +1267,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Multimetri digitali",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/misure-ingegneria-informazione/10-multimetri-digitali.pdf",
+        "file": "./assets/media/studio/3-anno/misure-ingegneria-informazione/10-multimetri-digitali.pdf",
         "pagine": 12,
         "gruppo": "Dispense",
         "numero": "10"
@@ -894,7 +1275,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Sistemi di acquisizione dati",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/misure-ingegneria-informazione/11-sistemi-di-acquisizione-dati.pdf",
+        "file": "./assets/media/studio/3-anno/misure-ingegneria-informazione/11-sistemi-di-acquisizione-dati.pdf",
         "pagine": 10,
         "gruppo": "Dispense",
         "numero": "11"
@@ -902,7 +1283,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Oscilloscopio digitale",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/misure-ingegneria-informazione/12-oscilloscopio-digitale.pdf",
+        "file": "./assets/media/studio/3-anno/misure-ingegneria-informazione/12-oscilloscopio-digitale.pdf",
         "pagine": 13,
         "gruppo": "Dispense",
         "numero": "12"
@@ -910,7 +1291,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Misure di frequenza e di tempo",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/misure-ingegneria-informazione/13-misure-di-frequenza-e-tempo.pdf",
+        "file": "./assets/media/studio/3-anno/misure-ingegneria-informazione/13-misure-di-frequenza-e-tempo.pdf",
         "pagine": 11,
         "gruppo": "Dispense",
         "numero": "13"
@@ -918,7 +1299,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Amplificatori per strumentazione",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/misure-ingegneria-informazione/14-amplificatori-per-strumentazione.pdf",
+        "file": "./assets/media/studio/3-anno/misure-ingegneria-informazione/14-amplificatori-per-strumentazione.pdf",
         "pagine": 11,
         "gruppo": "Dispense",
         "numero": "14"
@@ -926,15 +1307,15 @@ window.XIN_MATERIE = [
       {
         "titolo": "Disturbi nelle misure elettroniche",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/misure-ingegneria-informazione/15-disturbi-nelle-misure-elettroniche.pdf",
+        "file": "./assets/media/studio/3-anno/misure-ingegneria-informazione/15-disturbi-nelle-misure-elettroniche.pdf",
         "pagine": 15,
         "gruppo": "Dispense",
         "numero": "15"
       },
       {
-        "titolo": "Formulario completo",
+        "titolo": "Formulario completo — prof. P. A. Pegoraro",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/misure-ingegneria-informazione/formulario-misure-ingegneria-informazione.pdf",
+        "file": "./assets/media/studio/3-anno/misure-ingegneria-informazione/formulario-misure-ingegneria-informazione.pdf",
         "pagine": 43,
         "gruppo": "Formulario"
       }
