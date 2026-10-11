@@ -1359,6 +1359,244 @@ window.XIN_MATERIE = [
     ]
   },
   {
+    "id": "reti-di-telecomunicazione",
+    "anno": 1,
+    "titolo": "Reti di Telecomunicazione",
+    "descrizione": "Appunti delle lezioni, note ed esercizi su segnali, modelli di rete, protocolli di comunicazione, indirizzamento IP e trasporto dati.",
+    "argomenti": [
+      "Segnali e informazioni",
+      "Reti e topologie",
+      "Architetture e protocolli",
+      "Modelli OSI e TCP/IP",
+      "Trasmissione digitale",
+      "Rilevazione degli errori",
+      "Reti LAN e WAN",
+      "Indirizzamento IP",
+      "Instradamento",
+      "TCP e UDP"
+    ],
+    "risorse": [
+      {
+        "titolo": "Lezione 01",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_01_261011_001326.pdf",
+        "pagine": 27,
+        "gruppo": "Teoria",
+        "numero": "01"
+      },
+      {
+        "titolo": "Lezione 02",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_02_261011_001333.pdf",
+        "pagine": 31,
+        "gruppo": "Teoria",
+        "numero": "02"
+      },
+      {
+        "titolo": "Lezione 04",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_04_261011_001342.pdf",
+        "pagine": 28,
+        "gruppo": "Teoria",
+        "numero": "04"
+      },
+      {
+        "titolo": "Lezione 05",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_05_261011_001349.pdf",
+        "pagine": 36,
+        "gruppo": "Teoria",
+        "numero": "05"
+      },
+      {
+        "titolo": "Lezione 06",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_06_261011_001618.pdf",
+        "pagine": 17,
+        "gruppo": "Teoria",
+        "numero": "06"
+      },
+      {
+        "titolo": "Lezione 07",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_07_261011_001622.pdf",
+        "pagine": 8,
+        "gruppo": "Teoria",
+        "numero": "07"
+      },
+      {
+        "titolo": "Lezione 08",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_08_261011_001623.pdf",
+        "pagine": 20,
+        "gruppo": "Teoria",
+        "numero": "08"
+      },
+      {
+        "titolo": "Lezione 09",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_09_261011_001628.pdf",
+        "pagine": 23,
+        "gruppo": "Teoria",
+        "numero": "09"
+      },
+      {
+        "titolo": "Lezione 10",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_10_261011_001634.pdf",
+        "pagine": 29,
+        "gruppo": "Teoria",
+        "numero": "10"
+      },
+      {
+        "titolo": "Lezione 11",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_11_261011_001707.pdf",
+        "pagine": 22,
+        "gruppo": "Teoria",
+        "numero": "11"
+      },
+      {
+        "titolo": "Lezione 12",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_12_261011_001713.pdf",
+        "pagine": 20,
+        "gruppo": "Teoria",
+        "numero": "12"
+      },
+      {
+        "titolo": "Lezione 13",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_13_261011_001718.pdf",
+        "pagine": 23,
+        "gruppo": "Teoria",
+        "numero": "13"
+      },
+      {
+        "titolo": "Lezione 14",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_14 _261011_001909.pdf",
+        "pagine": 25,
+        "gruppo": "Teoria",
+        "numero": "14"
+      },
+      {
+        "titolo": "Lezione 15",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_15_261011_001916.pdf",
+        "pagine": 28,
+        "gruppo": "Teoria",
+        "numero": "15"
+      },
+      {
+        "titolo": "Lezione 16",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_16_261011_001923.pdf",
+        "pagine": 18,
+        "gruppo": "Teoria",
+        "numero": "16"
+      },
+      {
+        "titolo": "Lezione 17",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_17_261011_001928.pdf",
+        "pagine": 30,
+        "gruppo": "Teoria",
+        "numero": "17"
+      },
+      {
+        "titolo": "Lezione 18",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_18_261011_001935.pdf",
+        "pagine": 23,
+        "gruppo": "Teoria",
+        "numero": "18"
+      },
+      {
+        "titolo": "Lezione 19",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_19_261011_001942.pdf",
+        "pagine": 20,
+        "gruppo": "Teoria",
+        "numero": "19"
+      },
+      {
+        "titolo": "Lezione 20",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_20_261011_002004.pdf",
+        "pagine": 21,
+        "gruppo": "Teoria",
+        "numero": "20"
+      },
+      {
+        "titolo": "Lezione 21",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_21_261011_002011.pdf",
+        "pagine": 19,
+        "gruppo": "Teoria",
+        "numero": "21"
+      },
+      {
+        "titolo": "Lezione 22",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_22_261011_002019.pdf",
+        "gruppo": "Teoria",
+        "numero": "22"
+      },
+      {
+        "titolo": "Note — appunti integrativi",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/reti-di-telecomunicazione/Note_261011_001414.pdf",
+        "gruppo": "Appunti",
+        "numero": "01"
+      },
+      {
+        "titolo": "Esercitazione E01",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/reti-di-telecomunicazione/RdT  E01  esercizi_261011_001407.pdf",
+        "gruppo": "Esercitazioni",
+        "numero": "01"
+      },
+      {
+        "titolo": "Esercitazione E02 — Sottorete",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/reti-di-telecomunicazione/Rdt  E02  Sottorete_261011_001641.pdf",
+        "gruppo": "Esercitazioni",
+        "numero": "02"
+      }
+    ]
+  },
+  {
+    "id": "fondamenti-di-programmazione",
+    "anno": 1,
+    "titolo": "Fondamenti di Programmazione",
+    "descrizione": "Appunti per preparare l’esame di programmazione in C: dalle basi del linguaggio a puntatori, strutture dati, memoria dinamica e file.",
+    "argomenti": [
+      "Linguaggio C",
+      "Variabili e operatori",
+      "Condizioni e cicli",
+      "Array e matrici",
+      "Puntatori",
+      "Funzioni",
+      "Stringhe",
+      "Strutture",
+      "Liste concatenate",
+      "Memoria dinamica",
+      "File"
+    ],
+    "risorse": [
+      {
+        "titolo": "Preparazione all’esame orale — Programmazione in C",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fondamenti-di-programmazione/preparazione-esame-programmazione-in-c.pdf",
+        "pagine": 43,
+        "gruppo": "Teoria e appunti",
+        "numero": "01",
+        "argomento": "Raccolta di ripasso in C"
+      }
+    ]
+  },
+  {
     "id": "programmazione-web",
     "anno": 3,
     "titolo": "Programmazione Web",
