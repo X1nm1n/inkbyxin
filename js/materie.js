@@ -1598,6 +1598,458 @@ window.XIN_MATERIE = [
     ]
   },
   {
+    "id": "geometria-e-algebra",
+    "anno": 1,
+    "titolo": "Geometria e Algebra",
+    "descrizione": "Appunti, esercitazioni e prove d’esame su geometria analitica, numeri complessi, polinomi, matrici, sistemi lineari, spazi vettoriali, applicazioni lineari, diagonalizzazione, coniche e quadriche.",
+    "argomenti": [
+      "Geometria analitica",
+      "Numeri complessi",
+      "Polinomi",
+      "Matrici",
+      "Sistemi lineari",
+      "Spazi vettoriali",
+      "Applicazioni lineari",
+      "Diagonalizzazione",
+      "Coniche e quadriche",
+      "Ripasso"
+    ],
+    "risorse": [
+      {
+        "titolo": "Rappresentazione parametrica del piano e fasci di piani",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/01-rappresentazione-parametrica-del-piano-e-fasci-di-piani.pdf",
+        "pagine": 1,
+        "gruppo": "Teoria",
+        "numero": "01",
+        "argomento": "Geometria analitica"
+      },
+      {
+        "titolo": "Numeri complessi",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/02-numeri-complessi.pdf",
+        "pagine": 1,
+        "gruppo": "Teoria",
+        "numero": "02",
+        "argomento": "Numeri complessi"
+      },
+      {
+        "titolo": "Posizione reciproca di due rette",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/03-posizione-reciproca-di-due-rette.pdf",
+        "pagine": 1,
+        "gruppo": "Teoria",
+        "numero": "03",
+        "argomento": "Geometria analitica"
+      },
+      {
+        "titolo": "Forma trigonometrica dei numeri complessi",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/04-forma-trigonometrica-dei-numeri-complessi.pdf",
+        "pagine": 1,
+        "gruppo": "Teoria",
+        "numero": "04",
+        "argomento": "Numeri complessi"
+      },
+      {
+        "titolo": "Fattorizzazione e divisione dei polinomi",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/05-fattorizzazione-e-divisione-dei-polinomi.pdf",
+        "pagine": 1,
+        "gruppo": "Teoria",
+        "numero": "05",
+        "argomento": "Polinomi"
+      },
+      {
+        "titolo": "Molteplicità algebrica e radici",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/06-molteplicita-algebrica-e-radici.pdf",
+        "pagine": 1,
+        "gruppo": "Teoria",
+        "numero": "06",
+        "argomento": "Polinomi"
+      },
+      {
+        "titolo": "Esercizi su polinomi e radici",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/07-esercizi-su-polinomi-e-radici.pdf",
+        "pagine": 1,
+        "gruppo": "Esercitazioni",
+        "numero": "07",
+        "argomento": "Polinomi"
+      },
+      {
+        "titolo": "Comune perpendicolare e prodotti notevoli",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/08-comune-perpendicolare-e-prodotti-notevoli.pdf",
+        "pagine": 1,
+        "gruppo": "Teoria",
+        "numero": "08",
+        "argomento": "Geometria analitica"
+      },
+      {
+        "titolo": "Radici n-esime dei numeri complessi",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/09-radici-n-esime-dei-numeri-complessi.pdf",
+        "pagine": 1,
+        "gruppo": "Teoria",
+        "numero": "09",
+        "argomento": "Numeri complessi"
+      },
+      {
+        "titolo": "Coniche in forma canonica",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/10-coniche-in-forma-canonica.pdf",
+        "pagine": 1,
+        "gruppo": "Teoria",
+        "numero": "10",
+        "argomento": "Coniche e quadriche"
+      },
+      {
+        "titolo": "Esercizi di revisione — parte A",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/11-esercizi-di-revisione-parte-a.pdf",
+        "pagine": 1,
+        "gruppo": "Esercitazioni",
+        "numero": "11",
+        "argomento": "Ripasso"
+      },
+      {
+        "titolo": "Esercizi di revisione — parte B",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/12-esercizi-di-revisione-parte-b.pdf",
+        "pagine": 1,
+        "gruppo": "Esercitazioni",
+        "numero": "12",
+        "argomento": "Ripasso"
+      },
+      {
+        "titolo": "Coniche: caso a₁₂ = 0",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/13-coniche-caso-a12-0.pdf",
+        "pagine": 1,
+        "gruppo": "Teoria",
+        "numero": "13",
+        "argomento": "Coniche e quadriche"
+      },
+      {
+        "titolo": "Introduzione alle matrici",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/14-introduzione-alle-matrici.pdf",
+        "pagine": 1,
+        "gruppo": "Teoria",
+        "numero": "14",
+        "argomento": "Matrici"
+      },
+      {
+        "titolo": "Prodotto di matrici",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/15-prodotto-di-matrici.pdf",
+        "pagine": 1,
+        "gruppo": "Teoria",
+        "numero": "15",
+        "argomento": "Matrici"
+      },
+      {
+        "titolo": "Complemento algebrico",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/16-complemento-algebrico.pdf",
+        "pagine": 1,
+        "gruppo": "Teoria",
+        "numero": "16",
+        "argomento": "Matrici"
+      },
+      {
+        "titolo": "Matrice inversa e teorema di Laplace",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/17-matrice-inversa-e-teorema-di-laplace.pdf",
+        "pagine": 1,
+        "gruppo": "Teoria",
+        "numero": "17",
+        "argomento": "Matrici"
+      },
+      {
+        "titolo": "Rango di una matrice",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/18-rango-di-una-matrice.pdf",
+        "pagine": 1,
+        "gruppo": "Teoria",
+        "numero": "18",
+        "argomento": "Matrici"
+      },
+      {
+        "titolo": "Teoremi di Kronecker e Binet; matrici antisimmetriche",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/19-teoremi-di-kronecker-e-binet-matrici-antisimmetriche.pdf",
+        "pagine": 1,
+        "gruppo": "Teoria",
+        "numero": "19",
+        "argomento": "Matrici"
+      },
+      {
+        "titolo": "Esercizi sulle matrici",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/20-esercizi-sulle-matrici.pdf",
+        "pagine": 1,
+        "gruppo": "Esercitazioni",
+        "numero": "20",
+        "argomento": "Matrici"
+      },
+      {
+        "titolo": "Ripasso delle matrici",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/21-ripasso-delle-matrici.pdf",
+        "pagine": 1,
+        "gruppo": "Esercitazioni",
+        "numero": "21",
+        "argomento": "Matrici"
+      },
+      {
+        "titolo": "Trasformazioni elementari",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/22-trasformazioni-elementari.pdf",
+        "pagine": 1,
+        "gruppo": "Teoria",
+        "numero": "22",
+        "argomento": "Sistemi lineari"
+      },
+      {
+        "titolo": "Sistemi triangolari",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/23-sistemi-triangolari.pdf",
+        "pagine": 1,
+        "gruppo": "Teoria",
+        "numero": "23",
+        "argomento": "Sistemi lineari"
+      },
+      {
+        "titolo": "Teoremi di Cramer e Rouché-Capelli",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/24-teoremi-di-cramer-e-rouche-capelli.pdf",
+        "pagine": 1,
+        "gruppo": "Teoria",
+        "numero": "24",
+        "argomento": "Sistemi lineari"
+      },
+      {
+        "titolo": "Algoritmo di Gauss",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/25-algoritmo-di-gauss.pdf",
+        "pagine": 1,
+        "gruppo": "Teoria",
+        "numero": "25",
+        "argomento": "Sistemi lineari"
+      },
+      {
+        "titolo": "Metodo di Cramer generalizzato",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/26-metodo-di-cramer-generalizzato.pdf",
+        "pagine": 1,
+        "gruppo": "Teoria",
+        "numero": "26",
+        "argomento": "Sistemi lineari"
+      },
+      {
+        "titolo": "Spazi vettoriali",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/27-spazi-vettoriali.pdf",
+        "pagine": 1,
+        "gruppo": "Teoria",
+        "numero": "27",
+        "argomento": "Spazi vettoriali"
+      },
+      {
+        "titolo": "Sottospazi vettoriali",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/28-sottospazi-vettoriali.pdf",
+        "pagine": 1,
+        "gruppo": "Teoria",
+        "numero": "28",
+        "argomento": "Spazi vettoriali"
+      },
+      {
+        "titolo": "Ortonormalizzazione",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/29-ortonormalizzazione.pdf",
+        "pagine": 1,
+        "gruppo": "Teoria",
+        "numero": "29",
+        "argomento": "Spazi vettoriali"
+      },
+      {
+        "titolo": "Sistemi lineari: esercizi — parte A",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/30-sistemi-lineari-esercizi-parte-a.pdf",
+        "pagine": 1,
+        "gruppo": "Esercitazioni",
+        "numero": "30",
+        "argomento": "Sistemi lineari"
+      },
+      {
+        "titolo": "Sistemi lineari: esercizi — parte B",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/31-sistemi-lineari-esercizi-parte-b.pdf",
+        "pagine": 1,
+        "gruppo": "Esercitazioni",
+        "numero": "31",
+        "argomento": "Sistemi lineari"
+      },
+      {
+        "titolo": "Applicazioni lineari e cambio di base",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/32-applicazioni-lineari-e-cambio-di-base.pdf",
+        "pagine": 1,
+        "gruppo": "Teoria",
+        "numero": "32",
+        "argomento": "Applicazioni lineari"
+      },
+      {
+        "titolo": "Diagonalizzazione delle matrici",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/33-diagonalizzazione-delle-matrici.pdf",
+        "pagine": 1,
+        "gruppo": "Teoria",
+        "numero": "33",
+        "argomento": "Diagonalizzazione"
+      },
+      {
+        "titolo": "Diagonalizzazione: ripasso",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/34-diagonalizzazione-ripasso.pdf",
+        "pagine": 1,
+        "gruppo": "Esercitazioni",
+        "numero": "34",
+        "argomento": "Diagonalizzazione"
+      },
+      {
+        "titolo": "Costruzione della matrice di cambiamento di base",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/35-costruzione-della-matrice-di-cambiamento-di-base.pdf",
+        "pagine": 1,
+        "gruppo": "Teoria",
+        "numero": "35",
+        "argomento": "Diagonalizzazione"
+      },
+      {
+        "titolo": "Diagonalizzazione: esercizi di revisione",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/36-diagonalizzazione-esercizi-di-revisione.pdf",
+        "pagine": 1,
+        "gruppo": "Esercitazioni",
+        "numero": "36",
+        "argomento": "Diagonalizzazione"
+      },
+      {
+        "titolo": "Matrici di rotazione e diagonalizzazione di matrici simmetriche",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/37-matrici-di-rotazione-e-diagonalizzazione-di-matrici-simmetriche.pdf",
+        "pagine": 1,
+        "gruppo": "Teoria",
+        "numero": "37",
+        "argomento": "Diagonalizzazione"
+      },
+      {
+        "titolo": "Invarianti di matrici simili",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/38-invarianti-di-matrici-simili.pdf",
+        "pagine": 1,
+        "gruppo": "Teoria",
+        "numero": "38",
+        "argomento": "Diagonalizzazione"
+      },
+      {
+        "titolo": "Nucleo e immagine di un'applicazione lineare",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/39-nucleo-e-immagine-di-un-applicazione-lineare.pdf",
+        "pagine": 1,
+        "gruppo": "Teoria",
+        "numero": "39",
+        "argomento": "Applicazioni lineari"
+      },
+      {
+        "titolo": "Coniche: caso a₁₂ = 0 — esercizi",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/40-coniche-caso-a12-0-esercizi.pdf",
+        "pagine": 1,
+        "gruppo": "Esercitazioni",
+        "numero": "40",
+        "argomento": "Coniche e quadriche"
+      },
+      {
+        "titolo": "Coniche: caso a₁₂ ≠ 0",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/41-coniche-caso-a12-0.pdf",
+        "pagine": 1,
+        "gruppo": "Esercitazioni",
+        "numero": "41",
+        "argomento": "Coniche e quadriche"
+      },
+      {
+        "titolo": "Coniche: esercizi del 22 maggio — parte A",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/42-coniche-esercizi-del-22-maggio-parte-a.pdf",
+        "pagine": 1,
+        "gruppo": "Esercitazioni",
+        "numero": "42",
+        "argomento": "Coniche e quadriche"
+      },
+      {
+        "titolo": "Coniche: esercizi del 22 maggio — parte B",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/43-coniche-esercizi-del-22-maggio-parte-b.pdf",
+        "pagine": 1,
+        "gruppo": "Esercitazioni",
+        "numero": "43",
+        "argomento": "Coniche e quadriche"
+      },
+      {
+        "titolo": "Coniche: esercizi del 24 maggio — parte A",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/44-coniche-esercizi-del-24-maggio-parte-a.pdf",
+        "pagine": 1,
+        "gruppo": "Esercitazioni",
+        "numero": "44",
+        "argomento": "Coniche e quadriche"
+      },
+      {
+        "titolo": "Coniche: esercizi del 24 maggio — parte B",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/45-coniche-esercizi-del-24-maggio-parte-b.pdf",
+        "pagine": 1,
+        "gruppo": "Esercitazioni",
+        "numero": "45",
+        "argomento": "Coniche e quadriche"
+      },
+      {
+        "titolo": "Seconda prova intermedia: esercitazione sulle coniche",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/46-seconda-prova-intermedia-esercitazione-sulle-coniche.pdf",
+        "pagine": 1,
+        "gruppo": "Prove d’esame",
+        "numero": "46",
+        "argomento": "Coniche e quadriche"
+      },
+      {
+        "titolo": "Seconda prova intermedia: correzione",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/47-seconda-prova-intermedia-correzione.pdf",
+        "pagine": 1,
+        "gruppo": "Prove d’esame",
+        "numero": "47",
+        "argomento": "Coniche e quadriche"
+      },
+      {
+        "titolo": "Quadriche",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/geometria-e-algebra/48-quadriche.pdf",
+        "pagine": 6,
+        "gruppo": "Teoria",
+        "numero": "48",
+        "argomento": "Coniche e quadriche"
+      }
+    ]
+  },
+  {
     "id": "programmazione-web",
     "anno": 3,
     "titolo": "Programmazione Web",
