@@ -2671,5 +2671,196 @@ window.XIN_MATERIE = [
         "gruppo": "Formulario"
       }
     ]
+  },
+  {
+    "id": "cloud-networking",
+    "anno": 3,
+    "titolo": "Cloud Networking",
+    "descrizione": "Appunti ed esercitazioni su cloud computing, AWS, infrastrutture di rete, cybersecurity, IAM, container, storage, database, architetture cloud, API REST, scalabilità e caching.",
+    "argomenti": [
+      "Fondamenti del cloud",
+      "Amazon Web Services",
+      "Sicurezza cloud e IAM",
+      "Virtualizzazione e container",
+      "Networking AWS",
+      "Servizi compute, storage e database",
+      "Scalabilità e monitoraggio",
+      "Architetture cloud",
+      "REST API e deployment",
+      "Caching e CloudFront"
+    ],
+    "risorse": [
+      {
+        "titolo": "Introduzione al Cloud Networking",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/cloud-networking/01 - CN - Intro CN.pdf",
+        "pagine": 12,
+        "gruppo": "Appunti",
+        "numero": "01",
+        "argomento": "Fondamenti del cloud"
+      },
+      {
+        "titolo": "Concetti fondamentali del cloud",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/cloud-networking/02 - CN - Fundamental Concepts.pdf",
+        "pagine": 13,
+        "gruppo": "Appunti",
+        "numero": "02",
+        "argomento": "Fondamenti del cloud"
+      },
+      {
+        "titolo": "Introduzione ad Amazon Web Services (AWS)",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/cloud-networking/03 - CN - Introduction to AWS.pdf",
+        "pagine": 12,
+        "gruppo": "Appunti",
+        "numero": "03",
+        "argomento": "Amazon Web Services"
+      },
+      {
+        "titolo": "Infrastruttura globale AWS",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/cloud-networking/04 - CN - AWS Global Infrastructure Overview.pdf",
+        "pagine": 13,
+        "gruppo": "Appunti",
+        "numero": "04",
+        "argomento": "Amazon Web Services"
+      },
+      {
+        "titolo": "Sicurezza cloud e cybersecurity",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/cloud-networking/05 - CN - Understanding Cloud Security and Cybersecurity.pdf",
+        "pagine": 10,
+        "gruppo": "Appunti",
+        "numero": "05",
+        "argomento": "Sicurezza cloud e IAM"
+      },
+      {
+        "titolo": "Sicurezza AWS e Identity and Access Management (IAM)",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/cloud-networking/06 - CN - AWS Cloud Security and IAM.pdf",
+        "pagine": 12,
+        "gruppo": "Appunti",
+        "numero": "06",
+        "argomento": "Sicurezza cloud e IAM"
+      },
+      {
+        "titolo": "Virtualizzazione e containerizzazione",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/cloud-networking/07 - CN - Virtualization and Containerization.pdf",
+        "pagine": 12,
+        "gruppo": "Appunti",
+        "numero": "07",
+        "argomento": "Virtualizzazione e container"
+      },
+      {
+        "titolo": "Reti AWS e distribuzione dei contenuti",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/cloud-networking/08 - CN - AWS Network and Content Delivery.pdf",
+        "pagine": 14,
+        "gruppo": "Appunti",
+        "numero": "08",
+        "argomento": "Networking AWS"
+      },
+      {
+        "titolo": "Servizi di calcolo AWS",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/cloud-networking/09 - CN - AWS Compute Services.pdf",
+        "pagine": 19,
+        "gruppo": "Appunti",
+        "numero": "09",
+        "argomento": "Servizi compute, storage e database"
+      },
+      {
+        "titolo": "Servizi AWS: EBS e RDS",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/cloud-networking/10 - CN - AWS EBS and RDS.pdf",
+        "pagine": 11,
+        "gruppo": "Appunti",
+        "numero": "10",
+        "argomento": "Servizi compute, storage e database"
+      },
+      {
+        "titolo": "Altri servizi AWS di storage e database",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/cloud-networking/11 - CN - Other AWS Storage and Database Services.pdf",
+        "pagine": 14,
+        "gruppo": "Appunti",
+        "numero": "11",
+        "argomento": "Servizi compute, storage e database"
+      },
+      {
+        "titolo": "Scalabilità automatica e monitoraggio AWS",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/cloud-networking/12 - CN - AWS Automated Scaling and Monitoring.pdf",
+        "pagine": 13,
+        "gruppo": "Appunti",
+        "numero": "12",
+        "argomento": "Scalabilità e monitoraggio"
+      },
+      {
+        "titolo": "Architetture cloud",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/cloud-networking/13 - CN - Cloud Architectures.pdf",
+        "pagine": 32,
+        "gruppo": "Appunti",
+        "numero": "13",
+        "argomento": "Architetture cloud"
+      },
+      {
+        "titolo": "Esercitazione sulle architetture cloud",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/cloud-networking/13b - CN - Esercitazione Cloud Architectures.pdf",
+        "pagine": 11,
+        "gruppo": "Esercitazioni",
+        "numero": "13b",
+        "argomento": "Architetture cloud"
+      },
+      {
+        "titolo": "Sviluppo di API REST con AWS",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/cloud-networking/14 - CN - Developing REST APIs with AWS.pdf",
+        "pagine": 14,
+        "gruppo": "Appunti",
+        "numero": "14",
+        "argomento": "REST API e deployment"
+      },
+      {
+        "titolo": "Migrazione di un’applicazione web a container Docker",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/cloud-networking/15 - CN - AWS Migrating a Web Application to Docker Containers.pdf",
+        "pagine": 9,
+        "gruppo": "Appunti",
+        "numero": "15",
+        "argomento": "Virtualizzazione e container"
+      },
+      {
+        "titolo": "Esecuzione di container su servizi gestiti",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/cloud-networking/16 - CN - Running Containers on a Managed Service.pdf",
+        "pagine": 10,
+        "gruppo": "Appunti",
+        "numero": "16",
+        "argomento": "Virtualizzazione e container"
+      },
+      {
+        "titolo": "Caching con ElastiCache e CloudFront",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/cloud-networking/17 - CN - Caching, ElastiCache and CloudFront.pdf",
+        "pagine": 13,
+        "gruppo": "Appunti",
+        "numero": "17",
+        "argomento": "Caching e CloudFront"
+      },
+      {
+        "titolo": "CloudFront: caching e sicurezza applicativa",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/cloud-networking/18 - CN - Implementing CloudFront for Caching and Application Security.pdf",
+        "pagine": 11,
+        "gruppo": "Appunti",
+        "numero": "18",
+        "argomento": "Caching e CloudFront"
+      }
+    ]
   }
 ];
