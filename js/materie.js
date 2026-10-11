@@ -305,6 +305,198 @@ window.XIN_MATERIE = [
     ]
   },
   {
+    "id": "fisica-2",
+    "anno": 1,
+    "titolo": "Fisica 2",
+    "descrizione": "Dispense e prove d’esame di elettromagnetismo: elettrostatica, campi e potenziale elettrico, capacità, circuiti, magnetismo, induzione ed equazioni di Maxwell.",
+    "argomenti": [
+      "Legge di Coulomb",
+      "Campi elettrici",
+      "Legge di Gauss",
+      "Potenziale elettrico",
+      "Capacità elettrica",
+      "Corrente e resistenza",
+      "Circuiti",
+      "Magnetismo",
+      "Induzione",
+      "Equazioni di Maxwell",
+      "Onde elettromagnetiche"
+    ],
+    "risorse": [
+      {
+        "titolo": "Modulo 01 — Legge di Coulomb (prima versione)",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-2/01-coulomb-dispensa-a.pdf",
+        "pagine": 19,
+        "gruppo": "Teoria",
+        "numero": "01",
+        "argomento": "Elettrostatica"
+      },
+      {
+        "titolo": "Modulo 01 — Legge di Coulomb (seconda versione)",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-2/01-coulomb-dispensa-b.pdf",
+        "pagine": 16,
+        "gruppo": "Teoria",
+        "numero": "02",
+        "argomento": "Elettrostatica"
+      },
+      {
+        "titolo": "Modulo 02 — Campi elettrici (prima versione)",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-2/02-campi-elettrici-dispensa-a.pdf",
+        "pagine": 16,
+        "gruppo": "Teoria",
+        "numero": "03",
+        "argomento": "Campi elettrici"
+      },
+      {
+        "titolo": "Modulo 02 — Campi elettrici (seconda versione)",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-2/02-campi-elettrici-dispensa-b.pdf",
+        "pagine": 14,
+        "gruppo": "Teoria",
+        "numero": "04",
+        "argomento": "Campi elettrici"
+      },
+      {
+        "titolo": "Modulo 03 — Legge di Gauss (prima versione)",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-2/03-legge-di-gauss-dispensa-a.pdf",
+        "pagine": 12,
+        "gruppo": "Teoria",
+        "numero": "05",
+        "argomento": "Legge di Gauss"
+      },
+      {
+        "titolo": "Modulo 03 — Legge di Gauss (seconda versione)",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-2/03-legge-di-gauss-dispensa-b.pdf",
+        "pagine": 10,
+        "gruppo": "Teoria",
+        "numero": "06",
+        "argomento": "Legge di Gauss"
+      },
+      {
+        "titolo": "Modulo 04 — Potenziale elettrico",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-2/04-potenziale-elettrico.pdf",
+        "pagine": 14,
+        "gruppo": "Teoria",
+        "numero": "07",
+        "argomento": "Potenziale elettrico"
+      },
+      {
+        "titolo": "Modulo 05 — Capacità elettrica",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-2/05-capacita-elettrica.pdf",
+        "pagine": 14,
+        "gruppo": "Teoria",
+        "numero": "08",
+        "argomento": "Capacità elettrica"
+      },
+      {
+        "titolo": "Modulo 06 — Corrente e resistenza",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-2/06-corrente-e-resistenza.pdf",
+        "pagine": 13,
+        "gruppo": "Teoria",
+        "numero": "09",
+        "argomento": "Corrente e resistenza"
+      },
+      {
+        "titolo": "Modulo 07 — Circuiti elettrici",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-2/07-circuiti.pdf",
+        "pagine": 10,
+        "gruppo": "Teoria",
+        "numero": "10",
+        "argomento": "Circuiti"
+      },
+      {
+        "titolo": "Modulo 08 — Campi magnetici",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-2/08-campi-magnetici.pdf",
+        "pagine": 13,
+        "gruppo": "Teoria",
+        "numero": "11",
+        "argomento": "Magnetismo"
+      },
+      {
+        "titolo": "Modulo 09 — Campi magnetici generati da corrente",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-2/09-campi-magnetici-da-corrente.pdf",
+        "pagine": 12,
+        "gruppo": "Teoria",
+        "numero": "12",
+        "argomento": "Magnetismo"
+      },
+      {
+        "titolo": "Modulo 10 — Induzione e induttanza",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-2/10-induzione-e-induttanza.pdf",
+        "pagine": 14,
+        "gruppo": "Teoria",
+        "numero": "13",
+        "argomento": "Induzione"
+      },
+      {
+        "titolo": "Modulo 11 — Proprietà magnetiche della materia ed equazioni di Maxwell",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-2/11-proprieta-magnetiche-maxwell.pdf",
+        "pagine": 11,
+        "gruppo": "Teoria",
+        "numero": "14",
+        "argomento": "Equazioni di Maxwell"
+      },
+      {
+        "titolo": "Modulo 12 — Onde elettromagnetiche",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-2/12-onde-elettromagnetiche.pdf",
+        "pagine": 7,
+        "gruppo": "Teoria",
+        "numero": "15",
+        "argomento": "Onde elettromagnetiche"
+      },
+      {
+        "titolo": "Prova d’esame svolta 01",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-2/prova-esame-01.pdf",
+        "pagine": 2,
+        "gruppo": "Prove d’esame",
+        "numero": "16",
+        "argomento": "Prove svolte"
+      },
+      {
+        "titolo": "Prova d’esame svolta 02",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-2/prova-esame-02.pdf",
+        "pagine": 2,
+        "gruppo": "Prove d’esame",
+        "numero": "17",
+        "argomento": "Prove svolte"
+      },
+      {
+        "titolo": "Prova d’esame svolta 03",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-2/prova-esame-03.pdf",
+        "pagine": 2,
+        "gruppo": "Prove d’esame",
+        "numero": "18",
+        "argomento": "Prove svolte"
+      },
+      {
+        "titolo": "Prova d’esame svolta 04",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/1-anno/fisica-2/prova-esame-04.pdf",
+        "pagine": 2,
+        "gruppo": "Prove d’esame",
+        "numero": "19",
+        "argomento": "Prove svolte"
+      }
+    ]
+  },
+  {
     "id": "fisica-1",
     "anno": 1,
     "titolo": "Fisica 1",
