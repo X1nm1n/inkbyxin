@@ -2518,6 +2518,367 @@ window.XIN_MATERIE = [
     ]
   },
   {
+    "id": "matematica-applicata",
+    "anno": 2,
+    "titolo": "Matematica Applicata",
+    "descrizione": "Appunti delle lezioni su problemi ben posti, condizionamento, metodi numerici ed equazioni differenziali, con approfondimenti su Runge–Kutta, serie e trasformata di Fourier, note integrative e prove d’esame del 2024 e 2025.",
+    "argomenti": [
+      "Problemi ben posti e condizionamento",
+      "Metodi numerici",
+      "Equazioni differenziali",
+      "Runge–Kutta",
+      "Serie di Fourier",
+      "Trasformata di Fourier",
+      "Appunti delle lezioni",
+      "Note integrative",
+      "Preparazione all’esame"
+    ],
+    "risorse": [
+      {
+        "titolo": "Lezione 01",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/matematica-applicata/lezione-01.pdf",
+        "pagine": 1,
+        "gruppo": "Lezioni",
+        "numero": "01",
+        "argomento": "Appunti delle lezioni"
+      },
+      {
+        "titolo": "Lezione 02",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/matematica-applicata/lezione-02.pdf",
+        "pagine": 1,
+        "gruppo": "Lezioni",
+        "numero": "02",
+        "argomento": "Appunti delle lezioni"
+      },
+      {
+        "titolo": "Lezione 03",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/matematica-applicata/lezione-03.pdf",
+        "pagine": 2,
+        "gruppo": "Lezioni",
+        "numero": "03",
+        "argomento": "Appunti delle lezioni"
+      },
+      {
+        "titolo": "Lezione 04",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/matematica-applicata/lezione-04.pdf",
+        "pagine": 2,
+        "gruppo": "Lezioni",
+        "numero": "04",
+        "argomento": "Appunti delle lezioni"
+      },
+      {
+        "titolo": "Lezione 05",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/matematica-applicata/lezione-05.pdf",
+        "pagine": 2,
+        "gruppo": "Lezioni",
+        "numero": "05",
+        "argomento": "Appunti delle lezioni"
+      },
+      {
+        "titolo": "Lezione 06",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/matematica-applicata/lezione-06.pdf",
+        "pagine": 4,
+        "gruppo": "Lezioni",
+        "numero": "06",
+        "argomento": "Appunti delle lezioni"
+      },
+      {
+        "titolo": "Lezione 07",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/matematica-applicata/lezione-07.pdf",
+        "pagine": 3,
+        "gruppo": "Lezioni",
+        "numero": "07",
+        "argomento": "Appunti delle lezioni"
+      },
+      {
+        "titolo": "Lezione 08",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/matematica-applicata/lezione-08.pdf",
+        "pagine": 3,
+        "gruppo": "Lezioni",
+        "numero": "08",
+        "argomento": "Appunti delle lezioni"
+      },
+      {
+        "titolo": "Lezione 09",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/matematica-applicata/lezione-09.pdf",
+        "pagine": 3,
+        "gruppo": "Lezioni",
+        "numero": "09",
+        "argomento": "Appunti delle lezioni"
+      },
+      {
+        "titolo": "Lezione 10",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/matematica-applicata/lezione-10.pdf",
+        "pagine": 2,
+        "gruppo": "Lezioni",
+        "numero": "10",
+        "argomento": "Appunti delle lezioni"
+      },
+      {
+        "titolo": "Lezione 11",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/matematica-applicata/lezione-11.pdf",
+        "pagine": 2,
+        "gruppo": "Lezioni",
+        "numero": "11",
+        "argomento": "Appunti delle lezioni"
+      },
+      {
+        "titolo": "Lezione 12",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/matematica-applicata/lezione-12.pdf",
+        "pagine": 4,
+        "gruppo": "Lezioni",
+        "numero": "12",
+        "argomento": "Appunti delle lezioni"
+      },
+      {
+        "titolo": "Lezione 13",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/matematica-applicata/lezione-13.pdf",
+        "pagine": 2,
+        "gruppo": "Lezioni",
+        "numero": "13",
+        "argomento": "Appunti delle lezioni"
+      },
+      {
+        "titolo": "Lezione 14",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/matematica-applicata/lezione-14.pdf",
+        "pagine": 2,
+        "gruppo": "Lezioni",
+        "numero": "14",
+        "argomento": "Appunti delle lezioni"
+      },
+      {
+        "titolo": "Lezione 16",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/matematica-applicata/lezione-16.pdf",
+        "pagine": 1,
+        "gruppo": "Lezioni",
+        "numero": "16",
+        "argomento": "Appunti delle lezioni"
+      },
+      {
+        "titolo": "Lezione 17",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/matematica-applicata/lezione-17.pdf",
+        "pagine": 2,
+        "gruppo": "Lezioni",
+        "numero": "17",
+        "argomento": "Appunti delle lezioni"
+      },
+      {
+        "titolo": "Lezione 18",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/matematica-applicata/lezione-18.pdf",
+        "pagine": 2,
+        "gruppo": "Lezioni",
+        "numero": "18",
+        "argomento": "Appunti delle lezioni"
+      },
+      {
+        "titolo": "Lezione 19",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/matematica-applicata/lezione-19.pdf",
+        "pagine": 2,
+        "gruppo": "Lezioni",
+        "numero": "19",
+        "argomento": "Appunti delle lezioni"
+      },
+      {
+        "titolo": "Lezione 20",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/matematica-applicata/lezione-20.pdf",
+        "pagine": 4,
+        "gruppo": "Lezioni",
+        "numero": "20",
+        "argomento": "Appunti delle lezioni"
+      },
+      {
+        "titolo": "Lezione 21",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/matematica-applicata/lezione-21.pdf",
+        "pagine": 3,
+        "gruppo": "Lezioni",
+        "numero": "21",
+        "argomento": "Appunti delle lezioni"
+      },
+      {
+        "titolo": "Lezione 22",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/matematica-applicata/lezione-22.pdf",
+        "pagine": 4,
+        "gruppo": "Lezioni",
+        "numero": "22",
+        "argomento": "Appunti delle lezioni"
+      },
+      {
+        "titolo": "Lezione 23",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/matematica-applicata/lezione-23.pdf",
+        "pagine": 4,
+        "gruppo": "Lezioni",
+        "numero": "23",
+        "argomento": "Appunti delle lezioni"
+      },
+      {
+        "titolo": "Lezione 24",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/matematica-applicata/lezione-24.pdf",
+        "pagine": 3,
+        "gruppo": "Lezioni",
+        "numero": "24",
+        "argomento": "Appunti delle lezioni"
+      },
+      {
+        "titolo": "Lezione 25–26",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/matematica-applicata/lezione-25-26.pdf",
+        "pagine": 12,
+        "gruppo": "Lezioni",
+        "numero": "25–26",
+        "argomento": "Appunti delle lezioni"
+      },
+      {
+        "titolo": "Lezione 27",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/matematica-applicata/lezione-27.pdf",
+        "pagine": 9,
+        "gruppo": "Lezioni",
+        "numero": "27",
+        "argomento": "Appunti delle lezioni"
+      },
+      {
+        "titolo": "Note integrative — raccolta 01",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/matematica-applicata/note-integrative-01.pdf",
+        "pagine": 7,
+        "gruppo": "Appunti",
+        "numero": "N01",
+        "argomento": "Note integrative"
+      },
+      {
+        "titolo": "Note integrative — raccolta 02",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/matematica-applicata/note-integrative-02.pdf",
+        "pagine": 5,
+        "gruppo": "Appunti",
+        "numero": "N02",
+        "argomento": "Note integrative"
+      },
+      {
+        "titolo": "Metodo di Runge–Kutta",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/matematica-applicata/approfondimento-metodo-runge-kutta.pdf",
+        "pagine": 1,
+        "gruppo": "Approfondimenti",
+        "numero": "A01",
+        "argomento": "Runge–Kutta"
+      },
+      {
+        "titolo": "Serie di Fourier",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/matematica-applicata/approfondimento-serie-di-fourier.pdf",
+        "pagine": 4,
+        "gruppo": "Approfondimenti",
+        "numero": "A02",
+        "argomento": "Serie di Fourier"
+      },
+      {
+        "titolo": "Trasformata di Fourier",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/matematica-applicata/approfondimento-trasformata-di-fourier.pdf",
+        "pagine": 4,
+        "gruppo": "Approfondimenti",
+        "numero": "A03",
+        "argomento": "Trasformata di Fourier"
+      },
+      {
+        "titolo": "Prova d’esame — 14 luglio 2025",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/matematica-applicata/prova-esame-14-luglio-2025.pdf",
+        "pagine": 4,
+        "gruppo": "Prove d’esame",
+        "numero": "14/2025",
+        "argomento": "Appelli 2025"
+      },
+      {
+        "titolo": "Prova d’esame — 15 gennaio 2025",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/matematica-applicata/prova-esame-15-gennaio-2025.pdf",
+        "pagine": 4,
+        "gruppo": "Prove d’esame",
+        "numero": "15/2025",
+        "argomento": "Appelli 2025"
+      },
+      {
+        "titolo": "Prova d’esame — 15 luglio 2024",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/matematica-applicata/prova-esame-15-luglio-2024.pdf",
+        "pagine": 4,
+        "gruppo": "Prove d’esame",
+        "numero": "15/2024",
+        "argomento": "Appelli 2024"
+      },
+      {
+        "titolo": "Prova d’esame — 16 giugno 2025",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/matematica-applicata/prova-esame-16-giugno-2025.pdf",
+        "pagine": 4,
+        "gruppo": "Prove d’esame",
+        "numero": "16/2025",
+        "argomento": "Appelli 2025"
+      },
+      {
+        "titolo": "Prova d’esame — 19 febbraio 2025",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/matematica-applicata/prova-esame-19-febbraio-2025.pdf",
+        "pagine": 4,
+        "gruppo": "Prove d’esame",
+        "numero": "19/2025",
+        "argomento": "Appelli 2025"
+      },
+      {
+        "titolo": "Prova d’esame — 28 marzo 2025",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/matematica-applicata/prova-esame-28-marzo-2025.pdf",
+        "pagine": 4,
+        "gruppo": "Prove d’esame",
+        "numero": "28/2025",
+        "argomento": "Appelli 2025"
+      },
+      {
+        "titolo": "Prova d’esame — 31 gennaio 2025",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/matematica-applicata/prova-esame-31-gennaio-2025.pdf",
+        "pagine": 3,
+        "gruppo": "Prove d’esame",
+        "numero": "31/2025",
+        "argomento": "Appelli 2025"
+      },
+      {
+        "titolo": "Prova d’esame — 08 novembre 2024",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/matematica-applicata/prova-esame-08-novembre-2024.pdf",
+        "pagine": 4,
+        "gruppo": "Prove d’esame",
+        "numero": "8/2024",
+        "argomento": "Appelli 2024"
+      }
+    ]
+  },
+  {
     "id": "programmazione-web",
     "anno": 3,
     "titolo": "Programmazione Web",
