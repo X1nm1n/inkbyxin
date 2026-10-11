@@ -2882,8 +2882,9 @@ window.XIN_MATERIE = [
     "id": "teoria-dei-circuiti",
     "anno": 2,
     "titolo": "Teoria dei Circuiti",
-    "descrizione": "Esercitazioni risolte e richiami teorici per lo studio delle reti elettriche: leggi di Kirchhoff, circuiti resistivi, metodi di analisi, circuiti equivalenti, regime sinusoidale, impedenze e potenza elettrica.",
+    "descrizione": "Lezioni di teoria, esercitazioni e richiami sulle reti elettriche: leggi di Kirchhoff, metodi di analisi circuitale, circuiti equivalenti, regime sinusoidale, impedenze e potenza elettrica.",
     "argomenti": [
+      "Lezioni di teoria",
       "Grandezze elettriche",
       "Leggi di Kirchhoff",
       "Circuiti resistivi",
@@ -2896,6 +2897,150 @@ window.XIN_MATERIE = [
       "Esercitazioni svolte"
     ],
     "risorse": [
+      {
+        "titolo": "Lezione 01 — Teoria dei Circuiti",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/lezione-01.pdf",
+        "gruppo": "Lezioni di teoria",
+        "numero": "01",
+        "argomento": "Teoria dei circuiti"
+      },
+      {
+        "titolo": "Lezione 02 — Teoria dei Circuiti",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/lezione-02.pdf",
+        "gruppo": "Lezioni di teoria",
+        "numero": "02",
+        "argomento": "Teoria dei circuiti"
+      },
+      {
+        "titolo": "Lezione 03 — Teoria dei Circuiti",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/lezione-03.pdf",
+        "gruppo": "Lezioni di teoria",
+        "numero": "03",
+        "argomento": "Teoria dei circuiti"
+      },
+      {
+        "titolo": "Lezione 04 — Teoria dei Circuiti",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/lezione-04.pdf",
+        "gruppo": "Lezioni di teoria",
+        "numero": "04",
+        "argomento": "Teoria dei circuiti"
+      },
+      {
+        "titolo": "Lezione 05 — Teoria dei Circuiti",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/lezione-05.pdf",
+        "gruppo": "Lezioni di teoria",
+        "numero": "05",
+        "argomento": "Teoria dei circuiti"
+      },
+      {
+        "titolo": "Lezione 06 — Teoria dei Circuiti",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/lezione-06.pdf",
+        "gruppo": "Lezioni di teoria",
+        "numero": "06",
+        "argomento": "Teoria dei circuiti"
+      },
+      {
+        "titolo": "Lezione 07 — Teoria dei Circuiti",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/lezione-07.pdf",
+        "gruppo": "Lezioni di teoria",
+        "numero": "07",
+        "argomento": "Teoria dei circuiti"
+      },
+      {
+        "titolo": "Lezione 08 — Teoria dei Circuiti",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/lezione-08.pdf",
+        "gruppo": "Lezioni di teoria",
+        "numero": "08",
+        "argomento": "Teoria dei circuiti"
+      },
+      {
+        "titolo": "Lezione 09 — Teoria dei Circuiti",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/lezione-09.pdf",
+        "gruppo": "Lezioni di teoria",
+        "numero": "09",
+        "argomento": "Teoria dei circuiti"
+      },
+      {
+        "titolo": "Lezione 10 — Teoria dei Circuiti",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/lezione-10.pdf",
+        "gruppo": "Lezioni di teoria",
+        "numero": "10",
+        "argomento": "Teoria dei circuiti"
+      },
+      {
+        "titolo": "Lezione 11 — Teoria dei Circuiti",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/lezione-11.pdf",
+        "gruppo": "Lezioni di teoria",
+        "numero": "11",
+        "argomento": "Teoria dei circuiti"
+      },
+      {
+        "titolo": "Lezione 12 — Teoria dei Circuiti",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/lezione-12.pdf",
+        "gruppo": "Lezioni di teoria",
+        "numero": "12",
+        "argomento": "Teoria dei circuiti"
+      },
+      {
+        "titolo": "Lezione 15 — Teoria dei Circuiti",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/lezione-15.pdf",
+        "gruppo": "Lezioni di teoria",
+        "numero": "15",
+        "argomento": "Teoria dei circuiti"
+      },
+      {
+        "titolo": "Lezione 16 — Teoria dei Circuiti",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/lezione-16.pdf",
+        "gruppo": "Lezioni di teoria",
+        "numero": "16",
+        "argomento": "Teoria dei circuiti"
+      },
+      {
+        "titolo": "Lezione 17 — Teoria dei Circuiti",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/lezione-17.pdf",
+        "gruppo": "Lezioni di teoria",
+        "numero": "17",
+        "argomento": "Teoria dei circuiti"
+      },
+      {
+        "titolo": "Lezione 18 — Teoria dei Circuiti",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/lezione-18.pdf",
+        "gruppo": "Lezioni di teoria",
+        "numero": "18",
+        "argomento": "Teoria dei circuiti"
+      },
+      {
+        "titolo": "Lezione 19 — Teoria dei Circuiti",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/lezione-19.pdf",
+        "gruppo": "Lezioni di teoria",
+        "numero": "19",
+        "argomento": "Teoria dei circuiti"
+      },
+      {
+        "titolo": "Lezione 24 — Teoria dei Circuiti",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/lezione-24.pdf",
+        "gruppo": "Lezioni di teoria",
+        "numero": "24",
+        "argomento": "Teoria dei circuiti"
+      },
       {
         "titolo": "Esercitazione 01 — Reti elettriche e grandezze di circuito",
         "tipo": "PDF",
