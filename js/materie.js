@@ -1358,36 +1358,6 @@ window.XIN_MATERIE = [
       }
     ]
   },
-{
-    "id": "fondamenti-di-programmazione",
-    "anno": 1,
-    "titolo": "Fondamenti di Programmazione",
-    "descrizione": "Appunti per preparare l’esame di programmazione in C: dalle basi del linguaggio a puntatori, strutture dati, memoria dinamica e file.",
-    "argomenti": [
-      "Linguaggio C",
-      "Variabili e operatori",
-      "Condizioni e cicli",
-      "Array e matrici",
-      "Puntatori",
-      "Funzioni",
-      "Stringhe",
-      "Strutture",
-      "Liste concatenate",
-      "Memoria dinamica",
-      "File"
-    ],
-    "risorse": [
-      {
-        "titolo": "Preparazione all’esame orale — Programmazione in C",
-        "tipo": "PDF",
-        "file": "./assets/media/studio/1-anno/fondamenti-di-programmazione/preparazione-esame-programmazione-in-c.pdf",
-        "pagine": 43,
-        "gruppo": "Teoria e appunti",
-        "numero": "01",
-        "argomento": "Raccolta di ripasso in C"
-      }
-    ]
-  },
 
   {
     "id": "reti-di-telecomunicazione",
@@ -1774,7 +1744,7 @@ window.XIN_MATERIE = [
         "numero": "15"
       },
       {
-        "titolo": "Formulario completo — prof. P. A. Pegoraro",
+        "titolo": "Formulario completo",
         "tipo": "PDF",
         "file": "./assets/media/studio/3-anno/misure-ingegneria-informazione/formulario-misure-ingegneria-informazione.pdf",
         "pagine": 43,
