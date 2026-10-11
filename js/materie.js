@@ -2879,6 +2879,116 @@ window.XIN_MATERIE = [
     ]
   },
   {
+    "id": "teoria-dei-circuiti",
+    "anno": 2,
+    "titolo": "Teoria dei Circuiti",
+    "descrizione": "Esercitazioni risolte e richiami teorici per lo studio delle reti elettriche: leggi di Kirchhoff, circuiti resistivi, metodi di analisi, circuiti equivalenti, regime sinusoidale, impedenze e potenza elettrica.",
+    "argomenti": [
+      "Grandezze elettriche",
+      "Leggi di Kirchhoff",
+      "Circuiti resistivi",
+      "Metodi di analisi circuitale",
+      "Circuiti equivalenti",
+      "Teoremi di Thévenin e Norton",
+      "Regime sinusoidale",
+      "Impedenze e fasori",
+      "Potenze elettriche",
+      "Esercitazioni svolte"
+    ],
+    "risorse": [
+      {
+        "titolo": "Esercitazione 01 — Reti elettriche e grandezze di circuito",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/esercitazione-01.pdf",
+        "pagine": 1,
+        "gruppo": "Esercitazioni",
+        "numero": "01",
+        "argomento": "Reti elettriche e leggi di Kirchhoff"
+      },
+      {
+        "titolo": "Esercitazione 02 — Collegamenti e circuiti resistivi",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/esercitazione-02.pdf",
+        "pagine": 2,
+        "gruppo": "Esercitazioni",
+        "numero": "02",
+        "argomento": "Analisi delle reti resistive"
+      },
+      {
+        "titolo": "Esercitazione 03 — Circuiti equivalenti e teorema di Norton",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/esercitazione-03.pdf",
+        "pagine": 1,
+        "gruppo": "Esercitazioni",
+        "numero": "03",
+        "argomento": "Circuiti equivalenti"
+      },
+      {
+        "titolo": "Esercitazione 04 — Analisi delle reti e metodo delle maglie",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/esercitazione-04.pdf",
+        "pagine": 2,
+        "gruppo": "Esercitazioni",
+        "numero": "04",
+        "argomento": "Analisi delle reti"
+      },
+      {
+        "titolo": "Esercitazione 05 — Metodi di risoluzione dei circuiti",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/esercitazione-05.pdf",
+        "pagine": 1,
+        "gruppo": "Esercitazioni",
+        "numero": "05",
+        "argomento": "Metodi di analisi circuitale"
+      },
+      {
+        "titolo": "Esercitazione 06 — Impedenze e regime sinusoidale",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/esercitazione-06.pdf",
+        "pagine": 2,
+        "gruppo": "Esercitazioni",
+        "numero": "06",
+        "argomento": "Regime sinusoidale"
+      },
+      {
+        "titolo": "Esercitazione 07 — Analisi di reti in regime sinusoidale",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/esercitazione-07.pdf",
+        "pagine": 1,
+        "gruppo": "Esercitazioni",
+        "numero": "07",
+        "argomento": "Regime sinusoidale"
+      },
+      {
+        "titolo": "Esercitazione 08 — Potenze elettriche e reti",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/esercitazione-08.pdf",
+        "pagine": 1,
+        "gruppo": "Esercitazioni",
+        "numero": "08",
+        "argomento": "Potenze elettriche"
+      },
+      {
+        "titolo": "Esercitazione 09 — Equivalenti di rete e potenza",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/esercitazione-09.pdf",
+        "pagine": 1,
+        "gruppo": "Esercitazioni",
+        "numero": "09",
+        "argomento": "Circuiti equivalenti e potenza"
+      },
+      {
+        "titolo": "Richiami di teoria — Leggi e teoremi dei circuiti",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/richiami-di-teoria.pdf",
+        "pagine": 2,
+        "gruppo": "Teoria e richiami",
+        "numero": "T01",
+        "argomento": "Leggi e teoremi fondamentali"
+      }
+    ]
+  },
+  {
     "id": "programmazione-web",
     "anno": 3,
     "titolo": "Programmazione Web",
