@@ -2862,5 +2862,37 @@ window.XIN_MATERIE = [
         "argomento": "Caching e CloudFront"
       }
     ]
+  },
+  {
+    "id": "internet",
+    "anno": 3,
+    "titolo": "Internet",
+    "descrizione": "Riassunto del percorso Cisco ITN, SRWE ed ENSA: fondamenti delle reti, modelli e protocolli, indirizzamento IP, switching, routing, VLAN, sicurezza, OSPF, ACL e NAT.",
+    "argomenti": [
+      "Fondamenti delle reti",
+      "Modelli OSI e TCP/IP",
+      "Ethernet e ARP",
+      "IPv4, IPv6 e ICMP",
+      "TCP, UDP e servizi applicativi",
+      "Sicurezza delle reti",
+      "VLAN e routing inter-VLAN",
+      "STP ed EtherChannel",
+      "DHCPv4",
+      "Routing statico",
+      "OSPFv2",
+      "ACL",
+      "NAT e NAT64"
+    ],
+    "risorse": [
+      {
+        "titolo": "Riassunto di Internet — Cisco ITN, SRWE ed ENSA",
+        "tipo": "PDF",
+        "file": "./assets/media/studio/3-anno/internet/riassunto-internet-itn-srwe-ensa.pdf",
+        "pagine": 11,
+        "gruppo": "Riassunti",
+        "numero": "01",
+        "argomento": "Ripasso generale"
+      }
+    ]
   }
 ];
