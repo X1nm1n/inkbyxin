@@ -2900,7 +2900,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Lezione 01 — Teoria dei Circuiti",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/lezione-01.pdf",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/LEZIONE-01.pdf",
         "gruppo": "Lezioni di teoria",
         "numero": "01",
         "argomento": "Teoria dei circuiti"
@@ -2908,7 +2908,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Lezione 02 — Teoria dei Circuiti",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/lezione-02.pdf",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/LEZIONE-02.pdf",
         "gruppo": "Lezioni di teoria",
         "numero": "02",
         "argomento": "Teoria dei circuiti"
@@ -2916,7 +2916,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Lezione 03 — Teoria dei Circuiti",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/lezione-03.pdf",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/LEZIONE-03.pdf",
         "gruppo": "Lezioni di teoria",
         "numero": "03",
         "argomento": "Teoria dei circuiti"
@@ -2924,7 +2924,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Lezione 04 — Teoria dei Circuiti",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/lezione-04.pdf",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/LEZIONE-04.pdf",
         "gruppo": "Lezioni di teoria",
         "numero": "04",
         "argomento": "Teoria dei circuiti"
@@ -2932,7 +2932,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Lezione 05 — Teoria dei Circuiti",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/lezione-05.pdf",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/LEZIONE-05.pdf",
         "gruppo": "Lezioni di teoria",
         "numero": "05",
         "argomento": "Teoria dei circuiti"
@@ -2940,7 +2940,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Lezione 06 — Teoria dei Circuiti",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/lezione-06.pdf",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/LEZIONE-06.pdf",
         "gruppo": "Lezioni di teoria",
         "numero": "06",
         "argomento": "Teoria dei circuiti"
@@ -2948,7 +2948,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Lezione 07 — Teoria dei Circuiti",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/lezione-07.pdf",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/LEZIONE-07.pdf",
         "gruppo": "Lezioni di teoria",
         "numero": "07",
         "argomento": "Teoria dei circuiti"
@@ -2956,7 +2956,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Lezione 08 — Teoria dei Circuiti",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/lezione-08.pdf",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/LEZIONE-08.pdf",
         "gruppo": "Lezioni di teoria",
         "numero": "08",
         "argomento": "Teoria dei circuiti"
@@ -2964,7 +2964,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Lezione 09 — Teoria dei Circuiti",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/lezione-09.pdf",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/LEZIONE-09.pdf",
         "gruppo": "Lezioni di teoria",
         "numero": "09",
         "argomento": "Teoria dei circuiti"
@@ -2972,7 +2972,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Lezione 10 — Teoria dei Circuiti",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/lezione-10.pdf",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/LEZIONE-10.pdf",
         "gruppo": "Lezioni di teoria",
         "numero": "10",
         "argomento": "Teoria dei circuiti"
@@ -2980,7 +2980,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Lezione 11 — Teoria dei Circuiti",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/lezione-11.pdf",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/LEZIONE-11.pdf",
         "gruppo": "Lezioni di teoria",
         "numero": "11",
         "argomento": "Teoria dei circuiti"
@@ -2988,7 +2988,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Lezione 12 — Teoria dei Circuiti",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/lezione-12.pdf",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/LEZIONE-12.pdf",
         "gruppo": "Lezioni di teoria",
         "numero": "12",
         "argomento": "Teoria dei circuiti"
@@ -2996,7 +2996,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Lezione 15 — Teoria dei Circuiti",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/lezione-15.pdf",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/LEZIONE-15.pdf",
         "gruppo": "Lezioni di teoria",
         "numero": "15",
         "argomento": "Teoria dei circuiti"
@@ -3004,7 +3004,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Lezione 16 — Teoria dei Circuiti",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/lezione-16.pdf",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/LEZIONE-16.pdf",
         "gruppo": "Lezioni di teoria",
         "numero": "16",
         "argomento": "Teoria dei circuiti"
@@ -3012,7 +3012,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Lezione 17 — Teoria dei Circuiti",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/lezione-17.pdf",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/LEZIONE-17.pdf",
         "gruppo": "Lezioni di teoria",
         "numero": "17",
         "argomento": "Teoria dei circuiti"
@@ -3020,7 +3020,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Lezione 18 — Teoria dei Circuiti",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/lezione-18.pdf",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/LEZIONE-18.pdf",
         "gruppo": "Lezioni di teoria",
         "numero": "18",
         "argomento": "Teoria dei circuiti"
@@ -3028,7 +3028,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Lezione 19 — Teoria dei Circuiti",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/lezione-19.pdf",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/LEZIONE-19.pdf",
         "gruppo": "Lezioni di teoria",
         "numero": "19",
         "argomento": "Teoria dei circuiti"
@@ -3036,7 +3036,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Lezione 24 — Teoria dei Circuiti",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/lezione-24.pdf",
+        "file": "./assets/media/studio/2-anno/teoria-dei-circuiti/LEZIONE-24.pdf",
         "gruppo": "Lezioni di teoria",
         "numero": "24",
         "argomento": "Teoria dei circuiti"
