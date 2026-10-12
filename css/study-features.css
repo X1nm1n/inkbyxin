@@ -1,0 +1,42 @@
+/* XIN / Nuovi strumenti per la sezione universitaria — stile coerente con il tema. */
+#favoritesOnly span{font-weight:800;opacity:.75}
+.xin-card-tools{display:flex;gap:7px;flex-wrap:wrap;margin-top:auto;margin-bottom:16px;position:relative;z-index:2}
+.xin-card-tool,.xin-action-btn,.subject-doc-report{cursor:pointer;border:1px solid var(--line);color:var(--ink);background:transparent;border-radius:40px;padding:10px 13px;font:800 11px/1.25 var(--display);transition:background .2s,color .2s,border-color .2s}
+.xin-card-tool:hover,.xin-action-btn:hover,.subject-doc-report:hover,.xin-card-tool[aria-pressed="true"],.xin-action-btn[aria-pressed="true"]{background:var(--ink);color:var(--surface);border-color:var(--ink)}
+.xin-card-tool:focus-visible,.xin-action-btn:focus-visible,.subject-doc-report:focus-visible,.xin-zip-link:focus-visible,.xin-action-primary:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+.study-card-visit{margin-top:0}
+.xin-subject-actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:27px}
+.xin-action-btn{background:var(--surface);font-size:11px;padding:12px 15px}
+.xin-action-feedback{min-height:1.4em;font:700 11px var(--display);color:var(--muted);margin:9px 0 0}
+.xin-share-links{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:8px;font:700 11px var(--display)}
+.xin-share-links[hidden]{display:none}
+.xin-share-links span{color:var(--muted)}
+.xin-share-links a{color:var(--blue);text-underline-offset:4px}
+.xin-zip-block{margin-top:18px;width:100%;max-width:610px;border:1px solid var(--line);background:var(--bg);border-radius:10px;padding:19px 21px}
+.xin-zip-block strong{display:block;font:800 13px var(--display);color:var(--ink)}
+.xin-zip-block p{color:var(--muted);font:600 12px/1.55 var(--body);margin:8px 0 0}
+.xin-zip-downloads{display:flex;gap:9px;flex-wrap:wrap;margin-top:13px}
+.xin-zip-link{display:inline-flex;align-items:center;min-height:39px;border-radius:30px;padding:10px 16px;background:var(--ink);color:var(--surface);text-decoration:none;font:800 11px var(--display)}
+.xin-zip-link:hover{background:var(--blue);color:#fff}
+.subject-doc-actions .subject-doc-report{padding:10px 13px;font-size:10px;white-space:nowrap}
+.xin-report-dialog{width:min(94vw,570px);max-height:min(88vh,820px);padding:0;border:1px solid var(--line);border-radius:14px;background:var(--surface);color:var(--ink);box-shadow:0 30px 80px #0005;overflow:auto}
+.xin-report-dialog::backdrop{background:#0d1833ae;backdrop-filter:blur(5px)}
+.xin-report-form{padding:clamp(22px,4vw,35px);display:flex;flex-direction:column;gap:9px}
+.xin-report-header{display:flex;align-items:start;justify-content:space-between;gap:12px}
+.xin-report-header h2{font:800 clamp(25px,4vw,35px)/1.12 var(--display);letter-spacing:-.055em;margin:10px 0}
+.xin-dialog-close{flex:none;border:1px solid var(--line);border-radius:50%;background:var(--bg);color:var(--ink);font-size:22px;width:39px;height:39px;cursor:pointer}
+.xin-report-caption{color:var(--muted);font:600 12px/1.6 var(--body);margin:0 0 9px}
+.xin-report-form>label:not(.xin-report-consent){font:800 12px var(--display);margin-top:5px}
+.xin-report-form select,.xin-report-form textarea,.xin-report-form input[type="email"]{width:100%;border:1px solid var(--line);border-radius:7px;background:var(--bg);color:var(--ink);padding:11px 12px;font:600 13px var(--body)}
+.xin-report-form textarea{resize:vertical;min-height:97px}
+.xin-report-consent{display:flex;gap:10px;align-items:start;font:600 12px/1.5 var(--body);color:var(--muted);margin-top:6px}
+.xin-report-consent input{margin-top:3px;flex:none}
+.xin-report-consent a,.xin-email-fallback{color:var(--blue)}
+.xin-report-submit{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
+.xin-action-primary{background:var(--ink);border:1px solid var(--ink);border-radius:30px;color:var(--surface);padding:12px 19px;font:800 11px var(--display);cursor:pointer}
+.xin-action-primary:hover{background:var(--blue);color:#fff}
+.xin-action-primary:disabled{opacity:.55;cursor:wait}
+.xin-report-status{min-height:1em;color:var(--muted);font:700 12px/1.5 var(--body);margin:0}
+.xin-email-fallback{font:800 12px var(--display)}
+.xin-email-fallback[hidden]{display:none}
+@media(max-width:650px){.xin-card-tools{margin-bottom:13px}.xin-subject-actions{gap:7px}.xin-zip-block{padding:15px}.xin-report-form{padding:20px}.subject-doc-actions .subject-doc-report{padding:9px 12px}}

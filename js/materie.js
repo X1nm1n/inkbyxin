@@ -2428,7 +2428,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Tutorato 01 — Lista 1: serie numeriche e serie di potenze",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/4TUTOR 1   LISTA 1_261011_190612.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/TUTOR 1   LISTA 1_261011_190612.pdf",
         "pagine": 5,
         "gruppo": "Tutorati",
         "numero": "40",

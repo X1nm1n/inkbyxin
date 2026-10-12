@@ -6,6 +6,10 @@
   const total = document.getElementById('totalSubjects');
   const search = document.getElementById('subjectSearch');
   const filters = [...document.querySelectorAll('[data-year]')];
+  const savedOnlyButton = document.getElementById('favoritesOnly');
+  const savedCounter = document.getElementById('favoritesCounter');
+  const features = window.XIN_STUDY;
+  let savedOnly = false;
   if (!target || !total || !search) return;
 
   const el = (tag, className, value) => {
@@ -22,7 +26,7 @@
     return Array.isArray(item.risorse)
       ? item.risorse.filter(r => r && typeof r.file === 'string' &&
         r.file.startsWith('./assets/media/studio/') && !r.file.includes('..') &&
-        !r.file.includes('\\') && /\.(pdf|zip)$/i.test(r.file)).length
+        !r.file.includes('\\') && /\.(pdf|docx|pptx|mp4|zip)$/i.test(r.file)).length
       : 0;
   }
 
@@ -35,6 +39,37 @@
     top.append(el('span', 'study-card-code', 'MATERIA / ' + String(year).padStart(2,'0')),
       el('span', 'study-card-state', num ? `${num} ${num === 1 ? 'documento' : 'documenti'}` : 'In preparazione'));
     card.append(top);
+    if (features) {
+      const controls = el('div', 'xin-card-tools');
+      const fav = el('button', 'xin-card-tool xin-card-favorite');
+      fav.type = 'button';
+      function updateFav() {
+        const active = features.isFavorite(item.id);
+        fav.textContent = active ? '♥ Salvata' : '♡ Preferiti';
+        fav.setAttribute('aria-pressed', String(active));
+        fav.setAttribute('aria-label', (active ? 'Rimuovi dai preferiti: ' : 'Salva nei preferiti: ') + item.titolo);
+      }
+      fav.addEventListener('click', () => {
+        if (!features.toggleFavorite(item.id)) {
+          window.alert('Il browser non consente di salvare i preferiti.');
+          return;
+        }
+        updateFav();
+        // Se si sta filtrando per preferiti, la scheda va aggiornata.
+        if (savedOnly) render();
+      });
+      updateFav();
+      controls.append(fav);
+      const share = el('button', 'xin-card-tool', '↗ Condividi');
+      share.type = 'button';
+      share.setAttribute('aria-label', 'Condividi ' + item.titolo);
+      share.addEventListener('click', async () => {
+        const message = await features.share(item);
+        if (message) { share.textContent = message; setTimeout(() => { share.textContent = '↗ Condividi'; }, 2700); }
+      });
+      controls.append(share);
+      card.append(controls);
+    }
 
     const title = el('h4', '', item.titolo);
     const description = el('p', '', item.descrizione || 'Materiali e appunti del corso.');
@@ -58,6 +93,11 @@
 
   function render() {
     target.replaceChildren();
+    if (savedCounter && features) savedCounter.textContent = String(features.favorites().length);
+    if (savedOnlyButton) {
+      savedOnlyButton.classList.toggle('is-active', savedOnly);
+      savedOnlyButton.setAttribute('aria-pressed', String(savedOnly));
+    }
     const term = search.value.trim().toLocaleLowerCase('it');
     let found = 0;
 
@@ -65,6 +105,7 @@
       if (selectedYear !== 'all' && selectedYear !== String(year)) continue;
       const items = catalog.filter(item => {
         if (Number(item.anno) !== year) return false;
+        if (savedOnly && (!features || !features.isFavorite(item.id))) return false;
         const searchText = [item.titolo, item.descrizione, ...(item.argomenti || []),
           ...(Array.isArray(item.risorse) ? item.risorse.map(r => r.titolo || '') : [])]
           .join(' ').toLocaleLowerCase('it');
@@ -82,7 +123,7 @@
       section.append(heading, grid);
       target.append(section);
     }
-    if (!found) target.append(el('p', 'studio-empty', 'Nessuna materia trovata con questi filtri.'));
+    if (!found) target.append(el('p', 'studio-empty', savedOnly ? 'Nessuna materia preferita con questi filtri. Salva una materia con il cuore ♡.' : 'Nessuna materia trovata con questi filtri.'));
   }
 
   for (const button of filters) {
@@ -96,6 +137,9 @@
       render();
     });
   }
+  savedOnlyButton?.addEventListener('click', () => { savedOnly = !savedOnly; render(); });
+  window.addEventListener('xin:favorites-changed', render);
+  window.addEventListener('storage', event => { if (event.key === 'xin-study-favorites') render(); });
   search.addEventListener('input', render);
   filters.forEach(b => {
     const active = b.dataset.year === selectedYear;
