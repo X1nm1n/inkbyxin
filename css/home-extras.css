@@ -1,7 +1,7 @@
 /* INKBYXIN — Home enhancements / 2026-10-12
    Mantiene palette, serif, superfici e interazioni del sito originale. */
 .xin-updates,.xin-toolkit{background:var(--bg);color:var(--ink)}
-.xin-updates{padding:66px 0 73px;border-bottom:1px solid var(--line)}
+.xin-updates{padding:56px 0 60px;border-bottom:1px solid var(--line)}
 .xin-updates-top,.xin-toolkit-header{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(250px,.7fr);align-items:end;gap:clamp(24px,5vw,80px);margin-bottom:32px}
 .xin-updates-top h2,.xin-toolkit-header h2{font:800 clamp(42px,5vw,76px)/1.05 var(--display);letter-spacing:-.075em;margin:19px 0 0}
 .xin-updates-top h2 em,.xin-toolkit-header h2 em{color:#9c6448;font:italic 400 1.12em var(--serif);letter-spacing:-.04em}
@@ -20,7 +20,7 @@
 .xin-updates-bottom a{color:var(--ink);font-size:11px;letter-spacing:0}
 .xin-updates-bottom a span{color:var(--blue)}
 /* Comparator */
-.xin-compare{display:grid;grid-template-columns:minmax(0,.86fr) minmax(0,1.14fr);gap:clamp(24px,5vw,92px);align-items:center;margin-top:60px;padding:35px clamp(22px,3vw,40px);border:1px solid var(--line);background:var(--surface)}
+.xin-compare{display:grid;grid-template-columns:minmax(0,.86fr) minmax(0,1.14fr);gap:clamp(24px,5vw,92px);align-items:center;margin-top:46px;padding:35px clamp(22px,3vw,40px);border:1px solid var(--line);background:var(--surface)}
 .xin-mini-index{font:800 10px var(--display);letter-spacing:.16em;color:#9c6448}
 .xin-compare-copy h3{font:800 clamp(32px,3.65vw,56px)/1.1 var(--display);letter-spacing:-.06em;margin:23px 0}
 .xin-compare-copy h3 em{font:italic 400 1.1em var(--serif);color:#9c6448}
@@ -41,7 +41,7 @@
 .xin-compare-slider-label{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
 #xinCompareRange{width:100%;accent-color:var(--blue);cursor:ew-resize;min-width:0}
 /* Tools and social — compact, meaningful content rather than empty gutters */
-.xin-toolkit{padding:82px 0 95px;border-top:1px solid var(--line)}
+.xin-toolkit{padding:36px 0 68px;border-top:1px solid var(--line)}
 .xin-toolkit-grid{display:grid;grid-template-columns:minmax(0,1.12fr) minmax(0,.88fr);gap:18px;align-items:stretch}
 .xin-skill-panel,.xin-social-panel{min-width:0;padding:28px 30px 23px;border:1px solid var(--line);background:var(--surface);display:flex;flex-direction:column}
 .xin-panel-top,.xin-panel-foot{display:flex;justify-content:space-between;align-items:center;gap:12px;color:var(--muted);font:800 9px/1.5 var(--display);letter-spacing:.12em}
@@ -65,12 +65,15 @@
 .xin-social-text{display:grid;gap:4px;min-width:0;flex:1}.xin-social-text strong{font:800 12px var(--display)}.xin-social-text small{font:750 8px/1.35 var(--display);letter-spacing:.04em;color:var(--muted)}.xin-social-arrow{font-size:15px;color:var(--blue)}
 /* Riduzione misurata degli spazi fra sezioni; nessun cambio globale alle altre pagine. */
 .hero-vertical-end{height:75px}.ink-stem{height:84px}.ink-stem i{height:50px}
-.behind-art{padding-top:83px;padding-bottom:85px}.behind-gallery-intro{margin-bottom:41px}.behind-gallery-foot{margin-top:34px}
-.work.section-space{padding-top:82px;padding-bottom:80px}.work .section-heading{margin-bottom:36px}.work .projects-grid{row-gap:31px}.work .work-footer{margin-top:42px}
-.about-portrait-lab{padding-top:86px;padding-bottom:85px}.about-portrait-lab .experiment-intro{margin-bottom:25px}
-.university-bridge{padding:70px 0}.contact-section{padding-bottom:73px}
+.behind-art{padding-top:62px;padding-bottom:35px}.behind-gallery-intro{margin-bottom:41px}.behind-gallery-foot{margin-top:34px}
+.work.section-space{padding-top:38px;padding-bottom:64px}.work .section-heading{margin-bottom:30px}.work .projects-grid{row-gap:31px}.work .work-footer{margin-top:42px}
+.about-portrait-lab{padding-top:64px;padding-bottom:22px}.about-portrait-lab .experiment-intro{margin-bottom:25px}
+.university-bridge{padding:56px 0}.contact-section{padding-bottom:65px}
 @media(max-width:1020px){.xin-updates-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.xin-toolkit-grid{grid-template-columns:1fr}.xin-social-links{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:780px){.xin-updates{padding:56px 0}.xin-updates-top,.xin-toolkit-header{grid-template-columns:1fr;gap:14px;margin-bottom:25px}.xin-compare{grid-template-columns:1fr;gap:25px;margin-top:43px}.xin-compare-ui{max-width:510px}.xin-compare-copy h3{margin:15px 0}.xin-compare-copy>p{margin-bottom:15px}.xin-compare-aside{padding:13px 0}.xin-editorial-link{margin-top:17px}.xin-toolkit{padding:60px 0 70px}.behind-art{padding:68px 0 75px}.work.section-space{padding:66px 0}.about-portrait-lab{padding:70px 0}.university-bridge{padding:55px 0}.hero-vertical-end{height:62px}}
-@media(max-width:600px){.xin-updates-grid{grid-template-columns:1fr;gap:10px}.xin-update-card{min-height:0;padding:20px 21px}.xin-update-index{margin-top:13px}.xin-update-card p{margin-bottom:20px}.xin-updates-top h2,.xin-toolkit-header h2{font-size:clamp(39px,11vw,58px)}.xin-updates-bottom{flex-direction:column;align-items:flex-start;font-size:8px}.xin-compare{padding:17px 16px 27px;margin-inline:-8px}.xin-compare-stage{border-width:4px}.xin-compare-label{padding:7px 8px;top:9px;font-size:7px}.xin-compare-label-after{left:9px}.xin-compare-label-before{right:9px}.xin-compare-handle{width:46px;height:46px;font-size:22px}.xin-compare-range-row{gap:7px;font-size:7px}.xin-skill-panel,.xin-social-panel{padding:19px 15px}.xin-workflow{margin:20px 0 25px;gap:5px}.xin-workflow>span{font-size:7px}.xin-skills-grid,.xin-social-links{grid-template-columns:1fr 1fr;gap:7px}.xin-skill{padding:9px;gap:8px;min-height:67px}.xin-skill-mark{width:38px;height:38px;flex-basis:38px;font-size:13px}.xin-skill-copy strong{font-size:11px}.xin-skill-copy small{font-size:7px}.xin-social-link{gap:7px;padding:8px;min-height:65px}.xin-social-icon{width:31px;height:31px;flex-basis:31px;font-size:10px}.xin-social-text strong{font-size:11px}.xin-social-text small{font-size:7px}.xin-social-arrow{font-size:10px}.work.section-space{padding-block:56px}.behind-art{padding-block:60px}.about-portrait-lab{padding-block:60px}.university-bridge{padding-block:48px}}
+@media(max-width:780px){.xin-updates{padding:56px 0}.xin-updates-top,.xin-toolkit-header{grid-template-columns:1fr;gap:14px;margin-bottom:25px}.xin-compare{grid-template-columns:1fr;gap:25px;margin-top:43px}.xin-compare-ui{max-width:510px}.xin-compare-copy h3{margin:15px 0}.xin-compare-copy>p{margin-bottom:15px}.xin-compare-aside{padding:13px 0}.xin-editorial-link{margin-top:17px}.xin-toolkit{padding:34px 0 56px}.behind-art{padding:53px 0 35px}.work.section-space{padding:37px 0 52px}.about-portrait-lab{padding:54px 0 22px}.university-bridge{padding:44px 0}.hero-vertical-end{height:62px}}
+@media(max-width:600px){.xin-updates-grid{grid-template-columns:1fr;gap:10px}.xin-update-card{min-height:0;padding:20px 21px}.xin-update-index{margin-top:13px}.xin-update-card p{margin-bottom:20px}.xin-updates-top h2,.xin-toolkit-header h2{font-size:clamp(39px,11vw,58px)}.xin-updates-bottom{flex-direction:column;align-items:flex-start;font-size:8px}.xin-compare{padding:17px 16px 27px;margin-inline:-8px}.xin-compare-stage{border-width:4px}.xin-compare-label{padding:7px 8px;top:9px;font-size:7px}.xin-compare-label-after{left:9px}.xin-compare-label-before{right:9px}.xin-compare-handle{width:46px;height:46px;font-size:22px}.xin-compare-range-row{gap:7px;font-size:7px}.xin-skill-panel,.xin-social-panel{padding:19px 15px}.xin-workflow{margin:20px 0 25px;gap:5px}.xin-workflow>span{font-size:7px}.xin-skills-grid,.xin-social-links{grid-template-columns:1fr 1fr;gap:7px}.xin-skill{padding:9px;gap:8px;min-height:67px}.xin-skill-mark{width:38px;height:38px;flex-basis:38px;font-size:13px}.xin-skill-copy strong{font-size:11px}.xin-skill-copy small{font-size:7px}.xin-social-link{gap:7px;padding:8px;min-height:65px}.xin-social-icon{width:31px;height:31px;flex-basis:31px;font-size:10px}.xin-social-text strong{font-size:11px}.xin-social-text small{font-size:7px}.xin-social-arrow{font-size:10px}.work.section-space{padding-block:34px 44px}.behind-art{padding-block:46px 30px}.about-portrait-lab{padding-block:46px 18px}.university-bridge{padding-block:40px}}
 @media(max-width:390px){.xin-skills-grid,.xin-social-links{grid-template-columns:1fr}.xin-compare-range-row span{font-size:6px}}
 @media(prefers-reduced-motion:reduce){.xin-update-card,.xin-social-link{transition:none}}
+
+/* Piccoli schermi: margini verticali compatti, con touch target invariati. */
+@media (max-width:600px){.xin-toolkit{padding-block:32px 48px}}
