@@ -1,0 +1,394 @@
+﻿anno,materia,file,dimensione_mb,citato_in_materie_js
+1-anno,analisi-1,assets/media/studio/1-anno/analisi-1/01-esercizi-sui-limiti.pdf,0.27,sì
+1-anno,analisi-1,assets/media/studio/1-anno/analisi-1/02-integrali-definiti-indefiniti-svolti.pdf,0.13,sì
+1-anno,analisi-1,assets/media/studio/1-anno/analisi-1/03-derivate-elementari-regole.pdf,0.22,sì
+1-anno,analisi-1,assets/media/studio/1-anno/analisi-1/04-derivate-composte-richiami.pdf,0.19,sì
+1-anno,analisi-1,assets/media/studio/1-anno/analisi-1/05-sviluppi-di-taylor.pdf,0.15,sì
+1-anno,analisi-1,assets/media/studio/1-anno/analisi-1/06-rapporto-incrementale.pdf,0.69,sì
+1-anno,analisi-1,assets/media/studio/1-anno/analisi-1/07-derivata-funzione.pdf,3.12,sì
+1-anno,analisi-1,assets/media/studio/1-anno/analisi-1/08-derivate-funzioni-elementari.pdf,3.15,sì
+1-anno,analisi-1,assets/media/studio/1-anno/analisi-1/09-derivazione-funzione-composta.pdf,0.63,sì
+1-anno,analisi-1,assets/media/studio/1-anno/analisi-1/10-continuita-derivabilita.pdf,1.39,sì
+1-anno,analisi-1,assets/media/studio/1-anno/analisi-1/11-criterio-invertibilita.pdf,0.69,sì
+1-anno,analisi-1,assets/media/studio/1-anno/analisi-1/12-permanenza-del-segno.pdf,0.7,sì
+1-anno,analisi-1,assets/media/studio/1-anno/analisi-1/13-teorema-del-confronto.pdf,0.66,sì
+1-anno,analisi-1,assets/media/studio/1-anno/analisi-1/14-teorema-degli-zeri.pdf,2.56,sì
+1-anno,analisi-1,assets/media/studio/1-anno/analisi-1/15-bolzano-weierstrass.pdf,3.62,sì
+1-anno,analisi-1,assets/media/studio/1-anno/analisi-1/16-confronto-infinitesimi.pdf,2.09,sì
+1-anno,analisi-1,assets/media/studio/1-anno/analisi-1/17-confronto-infiniti.pdf,3.45,sì
+1-anno,analisi-1,assets/media/studio/1-anno/analisi-1/18-teorema-fermat.pdf,4.77,sì
+1-anno,analisi-1,assets/media/studio/1-anno/analisi-1/19-teorema-rolle.pdf,15.2,sì
+1-anno,analisi-1,assets/media/studio/1-anno/analisi-1/20-teorema-lagrange.pdf,22.01,sì
+1-anno,analisi-1,assets/media/studio/1-anno/analisi-1/21-teorema-cauchy.pdf,4.03,sì
+1-anno,analisi-1,assets/media/studio/1-anno/analisi-1/22-teorema-de-lhopital.pdf,0.49,sì
+1-anno,analisi-1,assets/media/studio/1-anno/analisi-1/23-limiti-notevoli-esercizi.pdf,2.71,sì
+1-anno,analisi-1,assets/media/studio/1-anno/analisi-1/24-limiti-esercizi-professore.pdf,6.93,sì
+1-anno,analisi-1,assets/media/studio/1-anno/analisi-1/25-studio-di-funzione.pdf,26.65,sì
+1-anno,analisi-1,assets/media/studio/1-anno/analisi-1/26-integrale-indefinito.pdf,1.12,sì
+1-anno,analisi-1,assets/media/studio/1-anno/analisi-1/27-integrali-funzioni-fratte.pdf,4.14,sì
+1-anno,analisi-1,assets/media/studio/1-anno/analisi-1/28-integrali-appunti-esercizi.pdf,1.43,sì
+1-anno,analisi-1,assets/media/studio/1-anno/analisi-1/29-integrazione-per-parti.pdf,2.46,sì
+1-anno,analisi-1,assets/media/studio/1-anno/analisi-1/30-integrazione-per-sostituzione.pdf,2.17,sì
+1-anno,analisi-1,assets/media/studio/1-anno/analisi-1/31-polinomio-di-taylor.pdf,5.14,sì
+1-anno,analisi-1,assets/media/studio/1-anno/analisi-1/32-problema-di-cauchy.pdf,2.27,sì
+1-anno,calcolatori-elettronici,assets/media/studio/1-anno/calcolatori-elettronici/01-architettura-e-organizzazione.pdf,1.42,sì
+1-anno,calcolatori-elettronici,assets/media/studio/1-anno/calcolatori-elettronici/02-0-algebra-booleana.pdf,1.4,sì
+1-anno,calcolatori-elettronici,assets/media/studio/1-anno/calcolatori-elettronici/02-1-reti-combinatorie.pdf,2.9,sì
+1-anno,calcolatori-elettronici,assets/media/studio/1-anno/calcolatori-elettronici/02-2-reti-sequenziali-sincrone.pdf,20.45,sì
+1-anno,calcolatori-elettronici,assets/media/studio/1-anno/calcolatori-elettronici/03-0-gerarchie-di-memoria.pdf,2.69,sì
+1-anno,calcolatori-elettronici,assets/media/studio/1-anno/calcolatori-elettronici/03-2-memoria-cache.pdf,4.6,sì
+1-anno,calcolatori-elettronici,assets/media/studio/1-anno/calcolatori-elettronici/03-4-codici-a-correzione-di-errore.pdf,0.87,sì
+1-anno,calcolatori-elettronici,assets/media/studio/1-anno/calcolatori-elettronici/04-0-unita-aritmetico-logica.pdf,0.56,sì
+1-anno,calcolatori-elettronici,assets/media/studio/1-anno/calcolatori-elettronici/04-1-rappresentazione-degli-interi.pdf,1.76,sì
+1-anno,calcolatori-elettronici,assets/media/studio/1-anno/calcolatori-elettronici/04-2-rappresentazione-in-virgola-mobile.pdf,1.09,sì
+1-anno,calcolatori-elettronici,assets/media/studio/1-anno/calcolatori-elettronici/04-3-hardware-della-alu.pdf,0.62,sì
+1-anno,calcolatori-elettronici,assets/media/studio/1-anno/calcolatori-elettronici/05-0-linguaggio-assembly.pdf,5.9,sì
+1-anno,calcolatori-elettronici,assets/media/studio/1-anno/calcolatori-elettronici/06-0-bus-e-gestione.pdf,0.71,sì
+1-anno,calcolatori-elettronici,assets/media/studio/1-anno/calcolatori-elettronici/06-1-modulo-io-e-periferiche.pdf,3.05,sì
+1-anno,calcolatori-elettronici,assets/media/studio/1-anno/calcolatori-elettronici/esercitazione-secondo-parziale.pdf,2.96,sì
+1-anno,calcolatori-elettronici,assets/media/studio/1-anno/calcolatori-elettronici/esercizi-01-mappe-di-karnaugh.pdf,14.28,sì
+1-anno,calcolatori-elettronici,assets/media/studio/1-anno/calcolatori-elettronici/esercizi-02-reti-logiche.pdf,22.27,sì
+1-anno,calcolatori-elettronici,assets/media/studio/1-anno/calcolatori-elettronici/esercizi-03-gerarchie-di-memoria.pdf,34.45,sì
+1-anno,calcolatori-elettronici,assets/media/studio/1-anno/calcolatori-elettronici/esercizi-04-codice-di-hamming.pdf,8.25,sì
+1-anno,calcolatori-elettronici,assets/media/studio/1-anno/calcolatori-elettronici/esercizi-05-alu.pdf,12.15,sì
+1-anno,calcolatori-elettronici,assets/media/studio/1-anno/calcolatori-elettronici/esercizi-06-aritmetica-di-macchina.pdf,16.67,sì
+1-anno,calcolatori-elettronici,assets/media/studio/1-anno/calcolatori-elettronici/esercizi-07-assembly-istruzioni-ed-esempi.pdf,5.35,sì
+1-anno,calcolatori-elettronici,assets/media/studio/1-anno/calcolatori-elettronici/esercizi-08-grafi-e-schemi.pdf,6.69,sì
+1-anno,calcolatori-elettronici,assets/media/studio/1-anno/calcolatori-elettronici/esercizi-09-15-giugno-2025.pdf,3.34,sì
+1-anno,calcolatori-elettronici,assets/media/studio/1-anno/calcolatori-elettronici/esercizi-10-19-giugno-2024.pdf,2.02,sì
+1-anno,calcolatori-elettronici,assets/media/studio/1-anno/calcolatori-elettronici/esercizi-11-21-giugno-2023.pdf,0.79,sì
+1-anno,calcolatori-elettronici,assets/media/studio/1-anno/calcolatori-elettronici/esercizi-12-20-giugno-2022.pdf,1.7,sì
+1-anno,calcolatori-elettronici,assets/media/studio/1-anno/calcolatori-elettronici/esercizi-13-20-aprile-2022.pdf,1.56,sì
+1-anno,calcolatori-elettronici,assets/media/studio/1-anno/calcolatori-elettronici/simulazione-seconda-prova-intermedia-2024.pdf,0.81,sì
+1-anno,chimica,assets/media/studio/1-anno/chimica/lezione_01.pdf,4.58,sì
+1-anno,chimica,assets/media/studio/1-anno/chimica/lezione_01_esercizi_testo.pdf,1.36,sì
+1-anno,chimica,assets/media/studio/1-anno/chimica/lezione_02.pdf,5.67,sì
+1-anno,chimica,assets/media/studio/1-anno/chimica/lezione_02_esercizi_testo.pdf,5.46,sì
+1-anno,chimica,assets/media/studio/1-anno/chimica/lezione_03.pdf,12.37,sì
+1-anno,chimica,assets/media/studio/1-anno/chimica/lezione_03_esercizi.pdf,3.51,sì
+1-anno,chimica,assets/media/studio/1-anno/chimica/lezione_03_esercizi_testo.pdf,1.37,sì
+1-anno,chimica,assets/media/studio/1-anno/chimica/lezione_04.pdf,23.69,sì
+1-anno,chimica,assets/media/studio/1-anno/chimica/lezione_04_esercizi.pdf,4.34,sì
+1-anno,chimica,assets/media/studio/1-anno/chimica/lezione_05.pdf,20.91,sì
+1-anno,chimica,assets/media/studio/1-anno/chimica/lezione_06.pdf,5.43,sì
+1-anno,chimica,assets/media/studio/1-anno/chimica/lezione_07.pdf,14.5,sì
+1-anno,chimica,assets/media/studio/1-anno/chimica/lezione_07_esercizi.pdf,3.68,sì
+1-anno,chimica,assets/media/studio/1-anno/chimica/lezione_08.pdf,24.31,sì
+1-anno,chimica,assets/media/studio/1-anno/chimica/lezione_09.pdf,6.25,sì
+1-anno,chimica,assets/media/studio/1-anno/chimica/lezione_10.pdf,8.45,sì
+1-anno,chimica,assets/media/studio/1-anno/chimica/lezione_11.pdf,9.31,sì
+1-anno,chimica,assets/media/studio/1-anno/chimica/lezione_12.pdf,11.6,sì
+1-anno,chimica,assets/media/studio/1-anno/chimica/lezione_13.pdf,8.26,sì
+1-anno,chimica,assets/media/studio/1-anno/chimica/lezione_14.pdf,15.5,sì
+1-anno,chimica,assets/media/studio/1-anno/chimica/lezione_15.pdf,11.53,sì
+1-anno,chimica,assets/media/studio/1-anno/chimica/lezione_16.pdf,9.89,sì
+1-anno,chimica,assets/media/studio/1-anno/chimica/lezione_17.pdf,5.91,sì
+1-anno,chimica,assets/media/studio/1-anno/chimica/tavola_periodica.pdf,0.16,sì
+1-anno,chimica,assets/media/studio/1-anno/chimica/tutorato_01.pdf,0.89,sì
+1-anno,chimica,assets/media/studio/1-anno/chimica/tutorato_02.pdf,0.6,sì
+1-anno,chimica,assets/media/studio/1-anno/chimica/tutorato_03.pdf,1.02,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/01-capitolo-4-cinematica-e-vettori.pdf,6.38,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/02-accelerazione-costante.pdf,3.38,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/03-caduta-libera.pdf,3.54,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/04-moto-dei-proiettili.pdf,4.89,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/05-moto-relativo-unidirezionale.pdf,1.44,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/06-moto-relativo-bidimensionale.pdf,0.63,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/07-moto-circolare-uniforme-cinematica.pdf,1.6,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/08-moto-circolare-uniforme-dinamica.pdf,2.67,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/09-applicazioni-leggi-newton.pdf,8.29,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/10-attrito.pdf,2.93,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/11-seconda-legge-newton-sistemi-particelle.pdf,1.78,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/12-energia-cinetica.pdf,0.98,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/13-lavoro-energia-cinetica.pdf,1.72,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/14-lavoro-forza-elastica.pdf,1.06,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/15-lavoro-forza-variabile.pdf,0.89,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/16-lavoro-forza-gravitazionale.pdf,1.88,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/17-energia-potenziale.pdf,1.87,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/18-conservazione-energia-meccanica.pdf,2.55,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/19-conservazione-energia.pdf,2.51,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/20-conservazione-quantita-moto.pdf,1.16,sì
+1-anno,fisica-1,"assets/media/studio/1-anno/fisica-1/ES POSIZIONE, SPOSTAMENTO, VELOCITÀ MEDIA_261011_002623.pdf",2.79,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/ES POTENZA_261011_002900.pdf,1.18,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/ES PRIMA E SECONDA LEGGE NEWTON_261011_002748.pdf,2.95,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/ES PROBLEMI SUPPLEMENTARI _261011_002625.pdf,1.21,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/ES QUANTITÀ DI MOTO ED E CINETICA NEGLI URTI_261011_003006.pdf,2.32,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/ES QUANTITÀ DI MOTO_261011_003005.pdf,1.24,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/ES URTI ELASTICI 12 DIMENSIONI_261011_003014.pdf,1.06,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/ES URTO ED IMPULSO_261011_003015.pdf,1.61,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/ES VELOCITÀ ISTANTANEA E MEDIA_261011_002658.pdf,1.67,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/Esercizi_261011_002700.pdf,1.12,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/FORMULARIO _261011_002446.pdf,16.17,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/PRE  ESAME 1_261011_002458.pdf,6.48,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/PRE  ESAME 2_261011_002501.pdf,5.32,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/TEORIA_261011_002626.pdf,6.0,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/TEORIA_261011_002700.pdf,6.27,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/TEORIA_261011_002750.pdf,5.37,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/TEORIA_261011_002828.pdf,4.99,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/TEORIA_261011_002900.pdf,7.78,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/TEORIA_261011_002929.pdf,8.03,sì
+1-anno,fisica-1,assets/media/studio/1-anno/fisica-1/TEORIA_261011_003016.pdf,12.13,sì
+1-anno,fisica-2,assets/media/studio/1-anno/fisica-2/01-coulomb-dispensa-a.pdf,1.78,sì
+1-anno,fisica-2,assets/media/studio/1-anno/fisica-2/01-coulomb-dispensa-b.pdf,1.42,sì
+1-anno,fisica-2,assets/media/studio/1-anno/fisica-2/02-campi-elettrici-dispensa-a.pdf,1.37,sì
+1-anno,fisica-2,assets/media/studio/1-anno/fisica-2/02-campi-elettrici-dispensa-b.pdf,1.25,sì
+1-anno,fisica-2,assets/media/studio/1-anno/fisica-2/03-legge-di-gauss-dispensa-a.pdf,1.32,sì
+1-anno,fisica-2,assets/media/studio/1-anno/fisica-2/03-legge-di-gauss-dispensa-b.pdf,1.16,sì
+1-anno,fisica-2,assets/media/studio/1-anno/fisica-2/04-potenziale-elettrico.pdf,1.05,sì
+1-anno,fisica-2,assets/media/studio/1-anno/fisica-2/05-capacita-elettrica.pdf,1.37,sì
+1-anno,fisica-2,assets/media/studio/1-anno/fisica-2/06-corrente-e-resistenza.pdf,0.78,sì
+1-anno,fisica-2,assets/media/studio/1-anno/fisica-2/07-circuiti.pdf,0.79,sì
+1-anno,fisica-2,assets/media/studio/1-anno/fisica-2/08-campi-magnetici.pdf,1.63,sì
+1-anno,fisica-2,assets/media/studio/1-anno/fisica-2/09-campi-magnetici-da-corrente.pdf,3.07,sì
+1-anno,fisica-2,assets/media/studio/1-anno/fisica-2/10-induzione-e-induttanza.pdf,1.14,sì
+1-anno,fisica-2,assets/media/studio/1-anno/fisica-2/11-proprieta-magnetiche-maxwell.pdf,1.02,sì
+1-anno,fisica-2,assets/media/studio/1-anno/fisica-2/12-onde-elettromagnetiche.pdf,0.82,sì
+1-anno,fisica-2,assets/media/studio/1-anno/fisica-2/prova-esame-01.pdf,2.72,sì
+1-anno,fisica-2,assets/media/studio/1-anno/fisica-2/prova-esame-02.pdf,4.27,sì
+1-anno,fisica-2,assets/media/studio/1-anno/fisica-2/prova-esame-03.pdf,4.69,sì
+1-anno,fisica-2,assets/media/studio/1-anno/fisica-2/prova-esame-04.pdf,4.22,sì
+1-anno,fondamenti-di-programmazione,assets/media/studio/1-anno/fondamenti-di-programmazione/preparazione-esame-programmazione-in-c.pdf,3.41,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/01-rappresentazione-parametrica-del-piano-e-fasci-di-piani.pdf,2.33,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/02-numeri-complessi.pdf,1.99,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/03-posizione-reciproca-di-due-rette.pdf,2.22,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/04-forma-trigonometrica-dei-numeri-complessi.pdf,1.96,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/05-fattorizzazione-e-divisione-dei-polinomi.pdf,2.3,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/06-molteplicita-algebrica-e-radici.pdf,1.62,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/07-esercizi-su-polinomi-e-radici.pdf,1.12,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/08-comune-perpendicolare-e-prodotti-notevoli.pdf,2.88,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/09-radici-n-esime-dei-numeri-complessi.pdf,2.28,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/10-coniche-in-forma-canonica.pdf,2.11,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/11-esercizi-di-revisione-parte-a.pdf,2.61,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/12-esercizi-di-revisione-parte-b.pdf,1.59,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/13-coniche-caso-a12-0.pdf,2.13,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/14-introduzione-alle-matrici.pdf,2.57,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/15-prodotto-di-matrici.pdf,1.37,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/16-complemento-algebrico.pdf,2.22,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/17-matrice-inversa-e-teorema-di-laplace.pdf,1.75,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/18-rango-di-una-matrice.pdf,2.63,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/19-teoremi-di-kronecker-e-binet-matrici-antisimmetriche.pdf,1.74,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/20-esercizi-sulle-matrici.pdf,1.17,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/21-ripasso-delle-matrici.pdf,1.67,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/22-trasformazioni-elementari.pdf,2.16,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/23-sistemi-triangolari.pdf,2.52,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/24-teoremi-di-cramer-e-rouche-capelli.pdf,2.12,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/25-algoritmo-di-gauss.pdf,2.3,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/26-metodo-di-cramer-generalizzato.pdf,1.64,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/27-spazi-vettoriali.pdf,3.12,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/28-sottospazi-vettoriali.pdf,1.92,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/29-ortonormalizzazione.pdf,1.71,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/30-sistemi-lineari-esercizi-parte-a.pdf,1.65,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/31-sistemi-lineari-esercizi-parte-b.pdf,2.24,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/32-applicazioni-lineari-e-cambio-di-base.pdf,2.3,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/33-diagonalizzazione-delle-matrici.pdf,2.18,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/34-diagonalizzazione-ripasso.pdf,2.39,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/35-costruzione-della-matrice-di-cambiamento-di-base.pdf,2.4,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/36-diagonalizzazione-esercizi-di-revisione.pdf,2.45,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/37-matrici-di-rotazione-e-diagonalizzazione-di-matrici-simmetriche.pdf,2.5,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/38-invarianti-di-matrici-simili.pdf,1.89,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/39-nucleo-e-immagine-di-un-applicazione-lineare.pdf,2.99,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/40-coniche-caso-a12-0-esercizi.pdf,2.64,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/41-coniche-caso-a12-0.pdf,1.81,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/42-coniche-esercizi-del-22-maggio-parte-a.pdf,2.64,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/43-coniche-esercizi-del-22-maggio-parte-b.pdf,1.0,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/44-coniche-esercizi-del-24-maggio-parte-a.pdf,1.23,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/45-coniche-esercizi-del-24-maggio-parte-b.pdf,1.03,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/46-seconda-prova-intermedia-esercitazione-sulle-coniche.pdf,1.04,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/47-seconda-prova-intermedia-correzione.pdf,2.39,sì
+1-anno,geometria-e-algebra,assets/media/studio/1-anno/geometria-e-algebra/48-quadriche.pdf,0.63,sì
+1-anno,reti-di-telecomunicazione,assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_01_261011_001326.pdf,15.58,sì
+1-anno,reti-di-telecomunicazione,assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_02_261011_001333.pdf,17.26,sì
+1-anno,reti-di-telecomunicazione,assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_04_261011_001342.pdf,15.24,sì
+1-anno,reti-di-telecomunicazione,assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_05_261011_001349.pdf,20.16,sì
+1-anno,reti-di-telecomunicazione,assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_06_261011_001618.pdf,8.41,sì
+1-anno,reti-di-telecomunicazione,assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_07_261011_001622.pdf,3.84,sì
+1-anno,reti-di-telecomunicazione,assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_08_261011_001623.pdf,11.05,sì
+1-anno,reti-di-telecomunicazione,assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_09_261011_001628.pdf,11.8,sì
+1-anno,reti-di-telecomunicazione,assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_10_261011_001634.pdf,16.18,sì
+1-anno,reti-di-telecomunicazione,assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_11_261011_001707.pdf,12.89,sì
+1-anno,reti-di-telecomunicazione,assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_12_261011_001713.pdf,10.78,sì
+1-anno,reti-di-telecomunicazione,assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_13_261011_001718.pdf,13.64,sì
+1-anno,reti-di-telecomunicazione,assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_14 _261011_001909.pdf,14.66,sì
+1-anno,reti-di-telecomunicazione,assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_15_261011_001916.pdf,15.44,sì
+1-anno,reti-di-telecomunicazione,assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_16_261011_001923.pdf,9.36,sì
+1-anno,reti-di-telecomunicazione,assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_17_261011_001928.pdf,18.22,sì
+1-anno,reti-di-telecomunicazione,assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_18_261011_001935.pdf,12.91,sì
+1-anno,reti-di-telecomunicazione,assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_19_261011_001942.pdf,10.52,sì
+1-anno,reti-di-telecomunicazione,assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_20_261011_002004.pdf,10.56,sì
+1-anno,reti-di-telecomunicazione,assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_21_261011_002011.pdf,10.07,sì
+1-anno,reti-di-telecomunicazione,assets/media/studio/1-anno/reti-di-telecomunicazione/LEZIONE_22_261011_002019.pdf,27.75,sì
+1-anno,reti-di-telecomunicazione,assets/media/studio/1-anno/reti-di-telecomunicazione/Note_261011_001414.pdf,28.34,sì
+1-anno,reti-di-telecomunicazione,assets/media/studio/1-anno/reti-di-telecomunicazione/RdT  E01  esercizi_261011_001407.pdf,21.09,sì
+1-anno,reti-di-telecomunicazione,assets/media/studio/1-anno/reti-di-telecomunicazione/Rdt  E02  Sottorete_261011_001641.pdf,21.75,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/0 TEORIA ESAME_261011_190237.pdf,19.78,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/0 TEORIA ESAME_261011_190608.pdf,17.58,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/1 SUCCESSIONI FUNZIONI CONV PUNTUALE ED UNIFORME_261011_190523.pdf,10.59,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/10 DERIVATE PARZIALI_261011_190535.pdf,2.03,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/2 MAX E MIN RELATIVI_261011_190528.pdf,7.43,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/21 MAX E MIN ASSOLUTI_261011_190526.pdf,7.91,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/3 INTEGRALE DOPPIO_261011_190530.pdf,4.34,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/5 GREEN GAUSS_261011_190532.pdf,3.15,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/8 INTEGRALI CURVILINEI_261011_190533.pdf,3.41,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/9 INTEGRALI SUPERFICIALI_261011_190534.pdf,4.27,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/ESAME 14 FEBBRAIO 2024_261011_190241.pdf,7.9,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/ESAME 19 APRILE 2024_261011_190243.pdf,13.38,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/ESAME 19 SETTEMBRE 2024_261011_190246.pdf,12.48,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/ESAME 20 GENNAIO 2021_261011_190249.pdf,2.0,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/ESAME 31 GENNAIO 2024_261011_190250.pdf,6.88,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/ESERCIZI SERIE NUMERICHE _261011_190536.pdf,1.8,sì
+2-anno,analisi-2,"assets/media/studio/2-anno/analisi-2/ESERCIZI SERIE SEGNO VARIABILE, POSITIVO O NEGATIV_261011_190536.pdf",14.5,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/GreenGauss_261011_190540.pdf,0.49,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/LEZIONE 1 SERIE NUMERICHE_261011_190251.pdf,15.41,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/LEZIONE 10 Massimi e minimi vincolati_261011_190332.pdf,0.92,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/LEZIONE 10 PROBLEMA DI CAUCHY_261011_190333.pdf,0.57,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/LEZIONE 11 FUNZIONI CONVESSE_261011_190333.pdf,1.27,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/LEZIONE 12 INTEGRALI MULTIPLI_261011_190334.pdf,17.77,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/LEZIONE 15_261011_190338.pdf,20.78,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/LEZIONE 16_261011_190342.pdf,23.08,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/LEZIONE 17_261011_190347.pdf,16.04,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/LEZIONE 2 SERIE NUMERICHE _261011_190255.pdf,24.94,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/LEZIONE 4 SERIE DI FUNZIONI _261011_190301.pdf,7.52,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/LEZIONE 5 SERIE DI POTENZE_261011_190306.pdf,7.47,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/LEZIONE 5_261011_190304.pdf,8.09,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/LEZIONE 6 FUNZIONI DI PIÙ VARIABILI_261011_190308.pdf,12.09,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/LEZIONE 7 DERIVATE PARZIALI_261011_190312.pdf,32.03,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/LEZIONE 8 PIANO TANGENTE_261011_190327.pdf,4.13,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/LEZIONE 9 FORME QUADRATICHE_261011_190328.pdf,16.86,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/MAPPA SVOLGIMENTO ESERCIZI _261011_190351.pdf,12.14,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/Note_261011_190356.pdf,24.5,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/report ANALISI MATEMATICA 2_261011_190354.pdf,0.18,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/serie_di_potenze_261011_190354.pdf,0.23,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/TUTOR 1   LISTA 1_261011_190612.pdf,5.74,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/TUTOR 10  LISTA 9_261011_190633.pdf,4.9,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/TUTOR 2  LISTA 2_261011_190613.pdf,3.15,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/TUTOR 3  LISTA 3_261011_190614.pdf,5.34,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/TUTOR 4  LISTA 4_261011_190616.pdf,16.32,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/TUTOR 5  LISTA 5_261011_190620.pdf,5.17,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/TUTOR 6  SIMULAZIONE PARZIALE 1_261011_190621.pdf,4.44,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/TUTOR 7  LISTA 6_261011_190622.pdf,18.32,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/TUTOR 8  LISTA 7_261011_190627.pdf,9.41,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/TUTOR 9  LISTA 8_261011_190630.pdf,6.56,sì
+2-anno,analisi-2,assets/media/studio/2-anno/analisi-2/Tutoraggio analisi 2_261011_190635.pdf,42.35,sì
+2-anno,matematica-applicata,assets/media/studio/2-anno/matematica-applicata/approfondimento-metodo-runge-kutta.pdf,0.22,sì
+2-anno,matematica-applicata,assets/media/studio/2-anno/matematica-applicata/approfondimento-serie-di-fourier.pdf,1.16,sì
+2-anno,matematica-applicata,assets/media/studio/2-anno/matematica-applicata/approfondimento-trasformata-di-fourier.pdf,1.05,sì
+2-anno,matematica-applicata,assets/media/studio/2-anno/matematica-applicata/lezione-01.pdf,0.28,sì
+2-anno,matematica-applicata,assets/media/studio/2-anno/matematica-applicata/lezione-02.pdf,0.36,sì
+2-anno,matematica-applicata,assets/media/studio/2-anno/matematica-applicata/lezione-03.pdf,0.8,sì
+2-anno,matematica-applicata,assets/media/studio/2-anno/matematica-applicata/lezione-04.pdf,0.49,sì
+2-anno,matematica-applicata,assets/media/studio/2-anno/matematica-applicata/lezione-05.pdf,0.5,sì
+2-anno,matematica-applicata,assets/media/studio/2-anno/matematica-applicata/lezione-06.pdf,1.2,sì
+2-anno,matematica-applicata,assets/media/studio/2-anno/matematica-applicata/lezione-07.pdf,1.29,sì
+2-anno,matematica-applicata,assets/media/studio/2-anno/matematica-applicata/lezione-08.pdf,0.87,sì
+2-anno,matematica-applicata,assets/media/studio/2-anno/matematica-applicata/lezione-09.pdf,1.18,sì
+2-anno,matematica-applicata,assets/media/studio/2-anno/matematica-applicata/lezione-10.pdf,0.58,sì
+2-anno,matematica-applicata,assets/media/studio/2-anno/matematica-applicata/lezione-11.pdf,0.88,sì
+2-anno,matematica-applicata,assets/media/studio/2-anno/matematica-applicata/lezione-12.pdf,1.09,sì
+2-anno,matematica-applicata,assets/media/studio/2-anno/matematica-applicata/lezione-13.pdf,0.42,sì
+2-anno,matematica-applicata,assets/media/studio/2-anno/matematica-applicata/lezione-14.pdf,0.84,sì
+2-anno,matematica-applicata,assets/media/studio/2-anno/matematica-applicata/lezione-16.pdf,0.27,sì
+2-anno,matematica-applicata,assets/media/studio/2-anno/matematica-applicata/lezione-17.pdf,0.68,sì
+2-anno,matematica-applicata,assets/media/studio/2-anno/matematica-applicata/lezione-18.pdf,0.84,sì
+2-anno,matematica-applicata,assets/media/studio/2-anno/matematica-applicata/lezione-19.pdf,0.9,sì
+2-anno,matematica-applicata,assets/media/studio/2-anno/matematica-applicata/lezione-20.pdf,1.32,sì
+2-anno,matematica-applicata,assets/media/studio/2-anno/matematica-applicata/lezione-21.pdf,0.89,sì
+2-anno,matematica-applicata,assets/media/studio/2-anno/matematica-applicata/lezione-22.pdf,1.12,sì
+2-anno,matematica-applicata,assets/media/studio/2-anno/matematica-applicata/lezione-23.pdf,1.23,sì
+2-anno,matematica-applicata,assets/media/studio/2-anno/matematica-applicata/lezione-24.pdf,0.57,sì
+2-anno,matematica-applicata,assets/media/studio/2-anno/matematica-applicata/lezione-25-26.pdf,1.92,sì
+2-anno,matematica-applicata,assets/media/studio/2-anno/matematica-applicata/lezione-27.pdf,1.41,sì
+2-anno,matematica-applicata,assets/media/studio/2-anno/matematica-applicata/note-integrative-01.pdf,1.72,sì
+2-anno,matematica-applicata,assets/media/studio/2-anno/matematica-applicata/note-integrative-02.pdf,1.18,sì
+2-anno,matematica-applicata,assets/media/studio/2-anno/matematica-applicata/prova-esame-08-novembre-2024.pdf,1.01,sì
+2-anno,matematica-applicata,assets/media/studio/2-anno/matematica-applicata/prova-esame-14-luglio-2025.pdf,1.03,sì
+2-anno,matematica-applicata,assets/media/studio/2-anno/matematica-applicata/prova-esame-15-gennaio-2025.pdf,1.12,sì
+2-anno,matematica-applicata,assets/media/studio/2-anno/matematica-applicata/prova-esame-15-luglio-2024.pdf,1.01,sì
+2-anno,matematica-applicata,assets/media/studio/2-anno/matematica-applicata/prova-esame-16-giugno-2025.pdf,0.94,sì
+2-anno,matematica-applicata,assets/media/studio/2-anno/matematica-applicata/prova-esame-19-febbraio-2025.pdf,1.03,sì
+2-anno,matematica-applicata,assets/media/studio/2-anno/matematica-applicata/prova-esame-28-marzo-2025.pdf,1.11,sì
+2-anno,matematica-applicata,assets/media/studio/2-anno/matematica-applicata/prova-esame-31-gennaio-2025.pdf,0.87,sì
+2-anno,misure-ingegneria-informazione,assets/media/studio/2-anno/misure-ingegneria-informazione/01-introduzione-alle-misure.pdf,1.37,sì
+2-anno,misure-ingegneria-informazione,assets/media/studio/2-anno/misure-ingegneria-informazione/02-riferibilita-delle-misure-e-si.pdf,1.45,sì
+2-anno,misure-ingegneria-informazione,assets/media/studio/2-anno/misure-ingegneria-informazione/03-incertezza-di-misura.pdf,2.42,sì
+2-anno,misure-ingegneria-informazione,assets/media/studio/2-anno/misure-ingegneria-informazione/04-valutazioni-di-conformita.pdf,1.75,sì
+2-anno,misure-ingegneria-informazione,assets/media/studio/2-anno/misure-ingegneria-informazione/05-effetti-di-carico-strumentale.pdf,1.56,sì
+2-anno,misure-ingegneria-informazione,assets/media/studio/2-anno/misure-ingegneria-informazione/06-circuiti-con-amplificatori-operazionali.pdf,2.4,sì
+2-anno,misure-ingegneria-informazione,assets/media/studio/2-anno/misure-ingegneria-informazione/07-misure-di-valore-efficace.pdf,1.57,sì
+2-anno,misure-ingegneria-informazione,assets/media/studio/2-anno/misure-ingegneria-informazione/08-conversione-ad-da.pdf,1.37,sì
+2-anno,misure-ingegneria-informazione,assets/media/studio/2-anno/misure-ingegneria-informazione/09-convertitori-ad-da.pdf,2.96,sì
+2-anno,misure-ingegneria-informazione,assets/media/studio/2-anno/misure-ingegneria-informazione/10-multimetri-digitali.pdf,2.07,sì
+2-anno,misure-ingegneria-informazione,assets/media/studio/2-anno/misure-ingegneria-informazione/11-sistemi-di-acquisizione-dati.pdf,1.4,sì
+2-anno,misure-ingegneria-informazione,assets/media/studio/2-anno/misure-ingegneria-informazione/12-oscilloscopio-digitale.pdf,1.62,sì
+2-anno,misure-ingegneria-informazione,assets/media/studio/2-anno/misure-ingegneria-informazione/13-misure-di-frequenza-e-tempo.pdf,1.14,sì
+2-anno,misure-ingegneria-informazione,assets/media/studio/2-anno/misure-ingegneria-informazione/14-amplificatori-per-strumentazione.pdf,1.14,sì
+2-anno,misure-ingegneria-informazione,assets/media/studio/2-anno/misure-ingegneria-informazione/15-disturbi-nelle-misure-elettroniche.pdf,1.65,sì
+2-anno,misure-ingegneria-informazione,assets/media/studio/2-anno/misure-ingegneria-informazione/formulario-misure-ingegneria-informazione.pdf,0.8,sì
+2-anno,teoria-dei-circuiti,assets/media/studio/2-anno/teoria-dei-circuiti/esercitazione-01.pdf,0.66,sì
+2-anno,teoria-dei-circuiti,assets/media/studio/2-anno/teoria-dei-circuiti/esercitazione-02.pdf,1.08,sì
+2-anno,teoria-dei-circuiti,assets/media/studio/2-anno/teoria-dei-circuiti/esercitazione-03.pdf,0.65,sì
+2-anno,teoria-dei-circuiti,assets/media/studio/2-anno/teoria-dei-circuiti/esercitazione-04.pdf,0.81,sì
+2-anno,teoria-dei-circuiti,assets/media/studio/2-anno/teoria-dei-circuiti/esercitazione-05.pdf,0.47,sì
+2-anno,teoria-dei-circuiti,assets/media/studio/2-anno/teoria-dei-circuiti/esercitazione-06.pdf,0.88,sì
+2-anno,teoria-dei-circuiti,assets/media/studio/2-anno/teoria-dei-circuiti/esercitazione-07.pdf,0.59,sì
+2-anno,teoria-dei-circuiti,assets/media/studio/2-anno/teoria-dei-circuiti/esercitazione-08.pdf,0.69,sì
+2-anno,teoria-dei-circuiti,assets/media/studio/2-anno/teoria-dei-circuiti/esercitazione-09.pdf,0.8,sì
+2-anno,teoria-dei-circuiti,assets/media/studio/2-anno/teoria-dei-circuiti/LEZIONE-01.pdf,1.47,sì
+2-anno,teoria-dei-circuiti,assets/media/studio/2-anno/teoria-dei-circuiti/LEZIONE-02.pdf,3.57,sì
+2-anno,teoria-dei-circuiti,assets/media/studio/2-anno/teoria-dei-circuiti/LEZIONE-03.pdf,1.67,sì
+2-anno,teoria-dei-circuiti,assets/media/studio/2-anno/teoria-dei-circuiti/LEZIONE-04.pdf,0.77,sì
+2-anno,teoria-dei-circuiti,assets/media/studio/2-anno/teoria-dei-circuiti/LEZIONE-05.pdf,3.2,sì
+2-anno,teoria-dei-circuiti,assets/media/studio/2-anno/teoria-dei-circuiti/LEZIONE-06.pdf,4.26,sì
+2-anno,teoria-dei-circuiti,assets/media/studio/2-anno/teoria-dei-circuiti/LEZIONE-07.pdf,3.73,sì
+2-anno,teoria-dei-circuiti,assets/media/studio/2-anno/teoria-dei-circuiti/LEZIONE-08.pdf,1.03,sì
+2-anno,teoria-dei-circuiti,assets/media/studio/2-anno/teoria-dei-circuiti/LEZIONE-09.pdf,1.78,sì
+2-anno,teoria-dei-circuiti,assets/media/studio/2-anno/teoria-dei-circuiti/LEZIONE-10.pdf,2.72,sì
+2-anno,teoria-dei-circuiti,assets/media/studio/2-anno/teoria-dei-circuiti/LEZIONE-11.pdf,1.61,sì
+2-anno,teoria-dei-circuiti,assets/media/studio/2-anno/teoria-dei-circuiti/LEZIONE-12.pdf,0.88,sì
+2-anno,teoria-dei-circuiti,assets/media/studio/2-anno/teoria-dei-circuiti/LEZIONE-15.pdf,0.59,sì
+2-anno,teoria-dei-circuiti,assets/media/studio/2-anno/teoria-dei-circuiti/LEZIONE-16.pdf,3.63,sì
+2-anno,teoria-dei-circuiti,assets/media/studio/2-anno/teoria-dei-circuiti/LEZIONE-17.pdf,3.01,sì
+2-anno,teoria-dei-circuiti,assets/media/studio/2-anno/teoria-dei-circuiti/LEZIONE-18.pdf,2.98,sì
+2-anno,teoria-dei-circuiti,assets/media/studio/2-anno/teoria-dei-circuiti/LEZIONE-19.pdf,2.08,sì
+2-anno,teoria-dei-circuiti,assets/media/studio/2-anno/teoria-dei-circuiti/LEZIONE-24.pdf,1.29,sì
+2-anno,teoria-dei-circuiti,assets/media/studio/2-anno/teoria-dei-circuiti/richiami-di-teoria.pdf,1.08,sì
+3-anno,cloud-networking,assets/media/studio/3-anno/cloud-networking/01 - CN - Intro CN.pdf,0.33,sì
+3-anno,cloud-networking,assets/media/studio/3-anno/cloud-networking/02 - CN - Fundamental Concepts.pdf,0.45,sì
+3-anno,cloud-networking,assets/media/studio/3-anno/cloud-networking/03 - CN - Introduction to AWS.pdf,0.38,sì
+3-anno,cloud-networking,assets/media/studio/3-anno/cloud-networking/04 - CN - AWS Global Infrastructure Overview.pdf,0.42,sì
+3-anno,cloud-networking,assets/media/studio/3-anno/cloud-networking/05 - CN - Understanding Cloud Security and Cybersecurity.pdf,0.37,sì
+3-anno,cloud-networking,assets/media/studio/3-anno/cloud-networking/06 - CN - AWS Cloud Security and IAM.pdf,1.03,sì
+3-anno,cloud-networking,assets/media/studio/3-anno/cloud-networking/07 - CN - Virtualization and Containerization.pdf,0.37,sì
+3-anno,cloud-networking,assets/media/studio/3-anno/cloud-networking/08 - CN - AWS Network and Content Delivery.pdf,0.87,sì
+3-anno,cloud-networking,assets/media/studio/3-anno/cloud-networking/09 - CN - AWS Compute Services.pdf,1.64,sì
+3-anno,cloud-networking,assets/media/studio/3-anno/cloud-networking/10 - CN - AWS EBS and RDS.pdf,1.25,sì
+3-anno,cloud-networking,assets/media/studio/3-anno/cloud-networking/11 - CN - Other AWS Storage and Database Services.pdf,1.97,sì
+3-anno,cloud-networking,assets/media/studio/3-anno/cloud-networking/12 - CN - AWS Automated Scaling and Monitoring.pdf,1.39,sì
+3-anno,cloud-networking,assets/media/studio/3-anno/cloud-networking/13 - CN - Cloud Architectures.pdf,4.43,sì
+3-anno,cloud-networking,assets/media/studio/3-anno/cloud-networking/13b - CN - Esercitazione Cloud Architectures.pdf,0.9,sì
+3-anno,cloud-networking,assets/media/studio/3-anno/cloud-networking/14 - CN - Developing REST APIs with AWS.pdf,1.75,sì
+3-anno,cloud-networking,assets/media/studio/3-anno/cloud-networking/15 - CN - AWS Migrating a Web Application to Docker Containers.pdf,0.87,sì
+3-anno,cloud-networking,assets/media/studio/3-anno/cloud-networking/16 - CN - Running Containers on a Managed Service.pdf,0.83,sì
+3-anno,cloud-networking,"assets/media/studio/3-anno/cloud-networking/17 - CN - Caching, ElastiCache and CloudFront.pdf",0.77,sì
+3-anno,cloud-networking,assets/media/studio/3-anno/cloud-networking/18 - CN - Implementing CloudFront for Caching and Application Security.pdf,1.02,sì
+3-anno,internet,assets/media/studio/3-anno/internet/riassunto-internet-itn-srwe-ensa.pdf,15.87,sì
+3-anno,programmazione-web,assets/media/studio/3-anno/programmazione-web/appunti-01-introduzione.pdf,0.49,sì
+3-anno,programmazione-web,assets/media/studio/3-anno/programmazione-web/appunti-02-strumenti-e-consigli.pdf,4.48,sì
+3-anno,programmazione-web,assets/media/studio/3-anno/programmazione-web/appunti-03-world-wide-web.pdf,2.07,sì
+3-anno,programmazione-web,assets/media/studio/3-anno/programmazione-web/appunti-04-html-e-css.pdf,3.51,sì
+3-anno,programmazione-web,assets/media/studio/3-anno/programmazione-web/appunti-05-xml-e-json.pdf,1.9,sì
+3-anno,programmazione-web,assets/media/studio/3-anno/programmazione-web/appunti-06-progettazione-web-dinamico.pdf,4.26,sì
+3-anno,programmazione-web,assets/media/studio/3-anno/programmazione-web/appunti-07-processi-asincroni-parallelismo.pdf,1.72,sì
+3-anno,programmazione-web,assets/media/studio/3-anno/programmazione-web/appunti-08-autenticazione-e-autorizzazione.pdf,1.19,sì
+3-anno,programmazione-web,assets/media/studio/3-anno/programmazione-web/appunti-09-database-e-crud.pdf,2.33,sì
+3-anno,programmazione-web,assets/media/studio/3-anno/programmazione-web/appunti-10-testing.pdf,1.13,sì
+3-anno,programmazione-web,assets/media/studio/3-anno/programmazione-web/appunti-11-deployment.pdf,1.23,sì
+3-anno,programmazione-web,assets/media/studio/3-anno/programmazione-web/discorso-presentazione-progetto.docx,0.04,sì
+3-anno,programmazione-web,assets/media/studio/3-anno/programmazione-web/esercitazione-08-maggio-2026-sale-riunioni.pdf,0.5,sì
+3-anno,programmazione-web,assets/media/studio/3-anno/programmazione-web/esercitazione-22-maggio-2026-volontariato.pdf,0.66,sì
+3-anno,programmazione-web,assets/media/studio/3-anno/programmazione-web/presentazione-progetto.pptx,50.2,sì
+3-anno,programmazione-web,assets/media/studio/3-anno/programmazione-web/prova-esame-06-giugno-2025.pdf,0.49,sì
+3-anno,programmazione-web,assets/media/studio/3-anno/programmazione-web/simulazione-esame-04-aprile-2025.pdf,0.28,sì
+3-anno,programmazione-web,assets/media/studio/3-anno/programmazione-web/simulazione-esame-16-aprile-2025.pdf,0.45,sì
+3-anno,programmazione-web,assets/media/studio/3-anno/programmazione-web/simulazione-esame-28-maggio-2025.pdf,0.87,sì
+3-anno,programmazione-web,assets/media/studio/3-anno/programmazione-web/simulazione-personale-01.pdf,0.64,sì
+3-anno,programmazione-web,assets/media/studio/3-anno/programmazione-web/simulazione-personale-02.pdf,0.09,sì
+3-anno,programmazione-web,assets/media/studio/3-anno/programmazione-web/video-presentazione-progetto.mp4,29.47,sì

@@ -1,0 +1,98 @@
+{
+  "eseguito_il": "2026-10-12T19:53:27+02:00",
+  "directory": "C:\\Users\\faran\\PycharmProjects\\inkbyxin",
+  "file_totali": 470,
+  "materie": 15,
+  "materiali": 393,
+  "pdf_di_studio": 390,
+  "materiali_con_nome_individuato_in_materie_js": 393,
+  "riferimenti_statici_verificati": 504,
+  "pagine_browser": 22,
+  "collegamenti_file_browser": 398,
+  "errori": 0,
+  "avvisi": 1,
+  "materie_dettaglio": [
+    {
+      "anno": "1-anno",
+      "materia": "analisi-1",
+      "file": 32
+    },
+    {
+      "anno": "1-anno",
+      "materia": "calcolatori-elettronici",
+      "file": 29
+    },
+    {
+      "anno": "1-anno",
+      "materia": "chimica",
+      "file": 27
+    },
+    {
+      "anno": "1-anno",
+      "materia": "fisica-1",
+      "file": 40
+    },
+    {
+      "anno": "1-anno",
+      "materia": "fisica-2",
+      "file": 19
+    },
+    {
+      "anno": "1-anno",
+      "materia": "fondamenti-di-programmazione",
+      "file": 1
+    },
+    {
+      "anno": "1-anno",
+      "materia": "geometria-e-algebra",
+      "file": 48
+    },
+    {
+      "anno": "1-anno",
+      "materia": "reti-di-telecomunicazione",
+      "file": 24
+    },
+    {
+      "anno": "2-anno",
+      "materia": "analisi-2",
+      "file": 49
+    },
+    {
+      "anno": "2-anno",
+      "materia": "matematica-applicata",
+      "file": 38
+    },
+    {
+      "anno": "2-anno",
+      "materia": "misure-ingegneria-informazione",
+      "file": 16
+    },
+    {
+      "anno": "2-anno",
+      "materia": "teoria-dei-circuiti",
+      "file": 28
+    },
+    {
+      "anno": "3-anno",
+      "materia": "cloud-networking",
+      "file": 19
+    },
+    {
+      "anno": "3-anno",
+      "materia": "internet",
+      "file": 1
+    },
+    {
+      "anno": "3-anno",
+      "materia": "programmazione-web",
+      "file": 22
+    }
+  ],
+  "problemi": [
+    {
+      "livello": "AVVISO",
+      "area": "git",
+      "dettaglio": "File almeno 50 MB, GitHub potrebbe segnalare un warning: assets/media/studio/3-anno/programmazione-web/presentazione-progetto.pptx (50.2 MB)"
+    }
+  ]
+}

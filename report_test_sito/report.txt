@@ -1,0 +1,36 @@
+AUDIT INKBYXIN
+======================================================================
+Directory: C:\Users\faran\PycharmProjects\inkbyxin
+File totali rilevati: 470
+Materie: 15
+Materiali di studio: 393
+PDF di studio: 390
+Materiali con nome individuato in materie.js: 393/393 (non garantisce l’URL finale)
+Riferimenti HTML/CSS/JS controllati: 504
+Pagine aperte nel browser: 22
+Collegamenti ai file controllati nel browser: 398
+ERRORI: 0  |  AVVISI: 1
+
+MATERIE
+----------------------------------------------------------------------
+1-anno   | analisi-1                          |  32 file
+1-anno   | calcolatori-elettronici            |  29 file
+1-anno   | chimica                            |  27 file
+1-anno   | fisica-1                           |  40 file
+1-anno   | fisica-2                           |  19 file
+1-anno   | fondamenti-di-programmazione       |   1 file
+1-anno   | geometria-e-algebra                |  48 file
+1-anno   | reti-di-telecomunicazione          |  24 file
+2-anno   | analisi-2                          |  49 file
+2-anno   | matematica-applicata               |  38 file
+2-anno   | misure-ingegneria-informazione     |  16 file
+2-anno   | teoria-dei-circuiti                |  28 file
+3-anno   | cloud-networking                   |  19 file
+3-anno   | internet                           |   1 file
+3-anno   | programmazione-web                 |  22 file
+
+PROBLEMI E AVVISI
+----------------------------------------------------------------------
+[AVVISO] [git] File almeno 50 MB, GitHub potrebbe segnalare un warning: assets/media/studio/3-anno/programmazione-web/presentazione-progetto.pptx (50.2 MB)
+
+NOTA: l’assenza di errori non dimostra che tutte le funzionalità del sito siano corrette. I collegamenti generati solo dopo click/interazioni complesse richiedono test specifici.
