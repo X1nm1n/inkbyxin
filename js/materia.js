@@ -17,7 +17,7 @@
   const isLocalDocument = r => r && typeof r.file === 'string' &&
     r.file.startsWith('./assets/media/studio/') &&
     !r.file.includes('..') && !r.file.includes('\\') &&
-    /\.(pdf|docx|pptx|mp4|zip)$/i.test(r.file);
+    /\.(pdf|docx|pptx|mp4)$/i.test(r.file);
 
   if (!item) {
     $('subjectTitle').textContent = 'Materia non trovata.';
@@ -120,7 +120,7 @@
   }
 
 
-  /* Azioni sulla materia: preferiti, condivisione, archivio ZIP e segnalazioni. */
+  /* Azioni sulla materia: preferiti, condivisione e segnalazioni. */
   const features = window.XIN_STUDY;
   const favorite = $('subjectFavorite');
   const feedback = $('subjectActionFeedback');
@@ -154,29 +154,6 @@
     const message = await features.share(item);
     if (message) say(message);
   });
-
-  const zipBlock = $('subjectZipBlock');
-  const parts = window.XIN_ZIP_MANIFEST?.[item.id];
-  if (zipBlock) {
-    zipBlock.append(node('strong', '', 'Archivio completo della materia'));
-    if (!resources.length) {
-      zipBlock.append(node('p', '', 'Nessun documento disponibile per questa materia.'));
-    } else if (!Array.isArray(parts) || !parts.length) {
-      zipBlock.append(node('p', '', 'ZIP in preparazione. Intanto puoi scaricare i singoli documenti qui sotto.'));
-    } else {
-      zipBlock.append(node('p', '', parts.length === 1 ? 'Scarica tutti i materiali con un clic.' : 'Archivio diviso in ' + parts.length + ' parti, ciascuna sotto 99 MB. Scaricale tutte per avere i materiali completi.'));
-      const list = node('div', 'xin-zip-downloads');
-      for (const [idx, part] of parts.entries()) {
-        if (!part || typeof part.file !== 'string' || !part.file.startsWith('./assets/media/studio/zip/') || part.file.includes('..') || !/\.zip$/i.test(part.file)) continue;
-        const link = node('a', 'xin-zip-link', parts.length === 1 ? '↓ Scarica ZIP' : '↓ Scarica parte ' + (idx + 1));
-        link.href = part.file;
-        link.download = '';
-        if (Number.isFinite(part.bytes)) link.textContent += ' · ' + (part.bytes / 1000000).toFixed(1) + ' MB';
-        list.append(link);
-      }
-      zipBlock.append(list);
-    }
-  }
 
   const dialog = $('reportDialog'), form = $('reportForm'), reportStatus = $('reportStatus');
   const reportDocument = $('reportDocument'), reportContext = $('reportContext');

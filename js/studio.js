@@ -26,7 +26,7 @@
     return Array.isArray(item.risorse)
       ? item.risorse.filter(r => r && typeof r.file === 'string' &&
         r.file.startsWith('./assets/media/studio/') && !r.file.includes('..') &&
-        !r.file.includes('\\') && /\.(pdf|docx|pptx|mp4|zip)$/i.test(r.file)).length
+        !r.file.includes('\\') && /\.(pdf|docx|pptx|mp4)$/i.test(r.file)).length
       : 0;
   }
 
