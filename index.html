@@ -19,7 +19,10 @@
 <script>try{document.documentElement.dataset.theme=localStorage.getItem('xin-theme')==='dark'?'dark':'light'}catch(e){}</script>
 <script defer="" src="./js/config.js?v=20261010-ART-3-IMMAGINI"></script><script defer="" src="./js/projects.js?v=20261010-PORTFOLIO-TESTI"></script><script defer="" src="./js/main.js?v=20261010-ART-3-IMMAGINI"></script><script defer="" src="./js/atelier.js?v=20261010-ART-3-IMMAGINI"></script><script defer="" src="./js/experimental.js?v=20261010-ART-3-IMMAGINI"></script><script defer="" src="./js/material.js?v=20261010-ART-3-IMMAGINI"></script><script defer="" src="./js/behind-art.js?v=20261010-ART-3-IMMAGINI"></script><script defer="" src="./js/portrait-lab.js?v=20261010-ART-3-IMMAGINI"></script>
 <link href="./css/intro.css?v=20261009-INTRO-STATIC" rel="stylesheet"/>
+<link href="./css/home-extras.css?v=20261012-HOME-V3" rel="stylesheet"/>
 <script defer src="./js/intro.js?v=20261009-INTRO-STATIC"></script>
+<script defer src="./js/home-data.js?v=20261012-HOME-V3"></script>
+<script defer src="./js/home-extras.js?v=20261012-HOME-V3"></script>
 <title>XIN — Graphic Design Portfolio | Xinmin Farano</title>
 </head>
 <body>
@@ -96,6 +99,23 @@
 <div class="hero-vertical-end wrap"><span class="vertical-index">01 — 05 / SCORRI IL RACCONTO</span><div aria-hidden="true" class="ink-stem"><i></i></div><span>OGNI IDEA LASCIA UN SEGNO.</span></div>
 </section>
 <div aria-hidden="true" class="marquee"><div class="marquee-track"><span>IMAGINE <i>✳</i> DESIGN <i>✳</i> ILLUSTRATE <i>✳</i> CAPTURE <i>✳</i></span><span>IMAGINE <i>✳</i> DESIGN <i>✳</i> ILLUSTRATE <i>✳</i> CAPTURE <i>✳</i></span><span>IMAGINE <i>✳</i> DESIGN <i>✳</i> ILLUSTRATE <i>✳</i> CAPTURE <i>✳</i></span></div></div>
+
+<!-- Ultime novità: contenuti modificabili da js/home-data.js -->
+<section class="xin-updates" id="updates" aria-labelledby="updatesTitle">
+  <div class="wrap">
+    <div class="xin-updates-top">
+      <div>
+        <span class="section-kicker"><span class="dot-index"></span> DIARIO / ULTIMI AGGIORNAMENTI</span>
+        <h2 id="updatesTitle">Cosa c'è <em>di nuovo.</em></h2>
+      </div>
+      <p>Un piccolo diario in movimento: nuove idee, materiali universitari e cose che sto costruendo.</p>
+    </div>
+    <div id="xinUpdatesGrid" class="xin-updates-grid" aria-live="polite">
+      <p class="xin-updates-fallback">Le ultime novità sono in preparazione.</p>
+    </div>
+    <div class="xin-updates-bottom"><span>IL PROGETTO CRESCE / UN AGGIORNAMENTO ALLA VOLTA</span><a href="#work">Esplora i progetti <span aria-hidden="true">↗</span></a></div>
+  </div>
+</section>
 <section aria-labelledby="journeyTitle" class="behind-art section-space" id="journey">
   <div class="wrap">
     <div class="section-kicker" data-reveal=""><span class="dot-index"></span>02 — BEHIND THE ART / PROCESSO</div>
@@ -140,6 +160,33 @@
       </article>
     </div>
     <div class="behind-gallery-foot" data-reveal=""><span>UNO SCATTO <i>→</i> UN DISEGNO <i>→</i> UNA NUOVA STORIA</span><span>CLICCA UN'IMMAGINE PER ESPLORARE I DETTAGLI ↗</span></div>
+    <!-- Comparatore accessibile: fotografia e illustrazione già esistenti in assets/custom -->
+    <div class="xin-compare" id="compare" aria-labelledby="xinCompareTitle">
+      <div class="xin-compare-copy">
+        <span class="xin-mini-index">04 / DALLO SCATTO AL SEGNO</span>
+        <h3 id="xinCompareTitle">Un'immagine.<br><em>Due modi di vederla.</em></h3>
+        <p>Trascina la linea per passare dalla fotografia originale al risultato illustrato. I dettagli restano gli stessi, cambia il modo di raccontarli.</p>
+        <div class="xin-compare-aside"><span class="xin-comparison-swatch" aria-hidden="true">✳</span><span>SCORRI ORIZZONTALMENTE NELL'IMMAGINE, OPPURE USA IL CURSORE QUI SOTTO.</span></div>
+        <a class="xin-editorial-link" href="#work">Altri lavori <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="xin-compare-ui">
+        <div class="xin-compare-stage" id="xinCompareStage" style="--split:50%;" aria-hidden="true">
+          <img class="xin-compare-image xin-compare-before" src="./assets/custom/behind-photo.jpg" alt="" loading="lazy" decoding="async" width="873" height="1080" />
+          <img class="xin-compare-image xin-compare-after" src="./assets/custom/behind-final.png" alt="" loading="lazy" decoding="async" width="1100" height="1362" />
+          <span class="xin-compare-label xin-compare-label-after">ILLUSTRAZIONE</span>
+          <span class="xin-compare-label xin-compare-label-before">FOTOGRAFIA</span>
+          <span class="xin-compare-divider"><span class="xin-compare-handle">↔</span></span>
+        </div>
+        <div class="xin-compare-range-row">
+          <span aria-hidden="true">ILLUSTRAZIONE</span>
+          <label class="xin-compare-slider-label" for="xinCompareRange"><span class="sr-only">Confronta illustrazione e fotografia, da 0 a 100 per cento di illustrazione</span></label>
+          <input id="xinCompareRange" type="range" min="0" max="100" value="50" step="1" aria-label="Quantità di illustrazione visibile: sposta il cursore per confrontare il disegno con la foto originale" aria-describedby="xinCompareDescription" />
+          <span aria-hidden="true">FOTOGRAFIA</span>
+        </div>
+        <p class="sr-only" id="xinCompareDescription">A sinistra si vede l'illustrazione, a destra la fotografia originale. Con i tasti freccia puoi spostare la separazione.</p>
+      </div>
+    </div>
+
   </div>
   <dialog class="behind-image-dialog" id="behindImageDialog" aria-label="Dettaglio del processo creativo">
     <div class="behind-dialog-shell">
@@ -200,6 +247,34 @@
 </div>
 </div>
 </section>
+
+<!-- Strumenti + social: card compatte; i profili si configurano in js/home-data.js -->
+<section class="xin-toolkit" id="toolkit" aria-labelledby="xinToolkitTitle">
+ <div class="wrap">
+   <div class="xin-toolkit-header">
+     <div>
+       <span class="section-kicker"><span class="dot-index"></span> METODO / STRUMENTI</span>
+       <h2 id="xinToolkitTitle">Dall'idea<br><em>alla pratica.</em></h2>
+     </div>
+     <p>Tra disegno e sviluppo, mi piace scegliere lo strumento giusto e curare il risultato fino ai dettagli.</p>
+   </div>
+   <div class="xin-toolkit-grid">
+     <div class="xin-skill-panel">
+       <div class="xin-panel-top"><span>01 — LA MIA CASSETTA DEGLI ATTREZZI</span><span aria-hidden="true">✳</span></div>
+       <div id="xinSkillsGrid" class="xin-skills-grid" aria-label="Strumenti e competenze"></div>
+       <div class="xin-workflow" aria-label="Le tre fasi del mio metodo"><span>OSSERVA <b>↗</b></span><span>COSTRUISCI <b>↗</b></span><span>RIFINISCI <b>✳</b></span></div>
+       <div class="xin-panel-foot"><span>DESIGN ↗ TECNOLOGIA</span><span>WORK IN PROGRESS / ALWAYS</span></div>
+     </div>
+     <div class="xin-social-panel" id="social">
+       <div class="xin-panel-top"><span>02 — TROVIAMOCI ONLINE</span><span aria-hidden="true">↗</span></div>
+       <h3>Continuiamo<br><em>altrove.</em></h3>
+       <p>Progetti, esperimenti e idee anche fuori da questo sito. Questi sono i miei spazi di contatto.</p>
+       <div id="xinSocialLinks" class="xin-social-links" aria-label="Profili social e contatti"></div>
+       <div class="xin-panel-foot"><span>LINK IN AGGIORNAMENTO</span><span>© XIN STUDIO</span></div>
+     </div>
+   </div>
+ </div>
+</section>
 <section aria-labelledby="universityTitle" class="university-bridge" id="university">
 <div class="wrap university-bridge-layout" data-reveal="">
 <div class="university-bridge-copy">
@@ -232,7 +307,7 @@
 </div>
 </section>
 </main>
-<footer class="footer"><div class="wrap"><div class="footer-top"><a class="footer-brand" href="#top"><img alt="" height="58" src="./assets/logo-xin.svg" width="58"/><span>XIN.</span></a><span>VISUAL DESIGN. ILLUSTRATION. PHOTOGRAPHY.</span><a class="footer-top-btn" href="#top">TORNA SU ↑</a></div><div class="footer-base"><span>© <span id="year">2026</span> Xinmin Giuseppe Farano.</span><nav aria-label="Collegamenti utili"><a href="#work">Portfolio</a><a href="./studio.html">Università</a><a href="./privacy.html">Privacy</a><a href="./diritti.html">Diritti &amp; utilizzo</a></nav><span>DESIGNED WITH INTENTION ✳</span></div></div></footer>
+<footer class="footer"><div class="wrap"><div class="footer-top"><a class="footer-brand" href="#top"><img alt="" height="58" src="./assets/logo-xin.svg" width="58"/><span>XIN.</span></a><span>VISUAL DESIGN. ILLUSTRATION. PHOTOGRAPHY.</span><a class="footer-top-btn" href="#top">TORNA SU ↑</a></div><div class="footer-base"><span>© <span id="year">2026</span> Xinmin Giuseppe Farano.</span><nav aria-label="Collegamenti utili"><a href="#updates">Novità</a><a href="#work">Portfolio</a><a href="./studio.html">Università</a><a href="./privacy.html">Privacy</a><a href="./diritti.html">Diritti &amp; utilizzo</a></nav><span>DESIGNED WITH INTENTION ✳</span></div></div></footer>
 <dialog aria-labelledby="dialogTitle" class="project-modal" id="projectDialog"><div class="dialog-shell"><button aria-label="Chiudi dettagli" class="dialog-close" id="closeProject" type="button">×</button><div class="dialog-visual" id="dialogVisual"></div><div class="dialog-inner"><div class="dialog-eyebrow" id="dialogEyebrow"></div><h2 id="dialogTitle"></h2><p id="dialogDescription"></p><div class="dialog-info"><div><span>IL MIO RUOLO</span><strong id="dialogRole"></strong></div><div><span>STATO</span><strong id="dialogStatus"></strong></div></div><h3>Nel progetto</h3><ul id="dialogHighlights"></ul><div class="dialog-tags" id="dialogTech"></div><p class="dialog-rights" hidden="" id="dialogRights"></p><a class="button button-dark" hidden="" href="#" id="dialogResource" rel="noopener noreferrer" target="_blank">Apri la risorsa ↗</a></div></div></dialog>
 <dialog aria-labelledby="commandTitle" class="command-modal" id="commandDialog"><div class="command-head"><h2 id="commandTitle">Navigazione rapida</h2><button aria-label="Chiudi" id="closeCommand" type="button">×</button></div><label><span>⌕</span><input id="commandSearch" placeholder="Cerca una pagina o una sezione..." type="search"/></label><div id="commandResults"></div><div class="command-hint">APRI CON <kbd>CTRL</kbd> + <kbd>K</kbd> · ESC PER CHIUDERE</div></dialog>
 </body>
