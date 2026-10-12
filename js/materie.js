@@ -2077,7 +2077,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Lezione 01 — Serie numeriche",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/01-lezione-01-serie-numeriche.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/LEZIONE 1 SERIE NUMERICHE_261011_190251.pdf",
         "pagine": 13,
         "gruppo": "Teoria",
         "numero": "01",
@@ -2086,7 +2086,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Lezione 02 — Serie numeriche",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/02-lezione-02-serie-numeriche.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/LEZIONE 2 SERIE NUMERICHE _261011_190255.pdf",
         "pagine": 19,
         "gruppo": "Teoria",
         "numero": "02",
@@ -2095,7 +2095,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Lezione 04 — Serie di funzioni",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/03-lezione-04-serie-di-funzioni.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/LEZIONE 4 SERIE DI FUNZIONI _261011_190301.pdf",
         "pagine": 6,
         "gruppo": "Teoria",
         "numero": "03",
@@ -2104,7 +2104,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Lezione 05 — Appunti di lezione",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/04-lezione-05-appunti-di-lezione.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/LEZIONE 5_261011_190304.pdf",
         "pagine": 8,
         "gruppo": "Teoria",
         "numero": "04",
@@ -2113,7 +2113,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Lezione 05 — Serie di potenze",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/05-lezione-05-serie-di-potenze.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/LEZIONE 5 SERIE DI POTENZE_261011_190306.pdf",
         "pagine": 6,
         "gruppo": "Teoria",
         "numero": "05",
@@ -2122,7 +2122,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Lezione 06 — Funzioni di più variabili",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/06-lezione-06-funzioni-di-piu-variabili.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/LEZIONE 6 FUNZIONI DI PIÙ VARIABILI_261011_190308.pdf",
         "pagine": 9,
         "gruppo": "Teoria",
         "numero": "06",
@@ -2131,7 +2131,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Lezione 07 — Derivate parziali",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/07-lezione-07-derivate-parziali.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/LEZIONE 7 DERIVATE PARZIALI_261011_190312.pdf",
         "pagine": 16,
         "gruppo": "Teoria",
         "numero": "07",
@@ -2140,7 +2140,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Lezione 08 — Piano tangente",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/08-lezione-08-piano-tangente.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/LEZIONE 8 PIANO TANGENTE_261011_190327.pdf",
         "pagine": 3,
         "gruppo": "Teoria",
         "numero": "08",
@@ -2149,7 +2149,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Lezione 09 — Forme quadratiche",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/09-lezione-09-forme-quadratiche.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/LEZIONE 9 FORME QUADRATICHE_261011_190328.pdf",
         "pagine": 9,
         "gruppo": "Teoria",
         "numero": "09",
@@ -2158,7 +2158,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Lezione 10 — Massimi e minimi vincolati",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/10-lezione-10-massimi-e-minimi-vincolati.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/LEZIONE 10 Massimi e minimi vincolati_261011_190332.pdf",
         "pagine": 11,
         "gruppo": "Teoria",
         "numero": "10",
@@ -2167,7 +2167,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Lezione 10 — Problema di Cauchy",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/11-lezione-10-problema-di-cauchy.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/LEZIONE 10 PROBLEMA DI CAUCHY_261011_190333.pdf",
         "pagine": 2,
         "gruppo": "Teoria",
         "numero": "11",
@@ -2176,7 +2176,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Lezione 11 — Funzioni convesse",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/12-lezione-11-funzioni-convesse.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/LEZIONE 11 FUNZIONI CONVESSE_261011_190333.pdf",
         "pagine": 2,
         "gruppo": "Teoria",
         "numero": "12",
@@ -2185,7 +2185,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Lezione 12 — Integrali multipli",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/13-lezione-12-integrali-multipli.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/LEZIONE 12 INTEGRALI MULTIPLI_261011_190334.pdf",
         "pagine": 9,
         "gruppo": "Teoria",
         "numero": "13",
@@ -2194,7 +2194,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Lezione 15 — Appunti di lezione",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/14-lezione-15-appunti-di-lezione.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/LEZIONE 15_261011_190338.pdf",
         "pagine": 12,
         "gruppo": "Teoria",
         "numero": "14",
@@ -2203,7 +2203,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Lezione 16 — Appunti di lezione",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/15-lezione-16-appunti-di-lezione.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/LEZIONE 16_261011_190342.pdf",
         "pagine": 13,
         "gruppo": "Teoria",
         "numero": "15",
@@ -2212,7 +2212,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Lezione 17 — Appunti di lezione",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/16-lezione-17-appunti-di-lezione.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/LEZIONE 17_261011_190347.pdf",
         "pagine": 8,
         "gruppo": "Teoria",
         "numero": "16",
@@ -2221,7 +2221,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Successioni di funzioni — convergenza puntuale e uniforme",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/17-successioni-di-funzioni-convergenza-puntuale-e-uniforme.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/1 SUCCESSIONI FUNZIONI CONV PUNTUALE ED UNIFORME_261011_190523.pdf",
         "pagine": 8,
         "gruppo": "Appunti",
         "numero": "17",
@@ -2230,7 +2230,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Massimi e minimi relativi",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/18-massimi-e-minimi-relativi.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/2 MAX E MIN RELATIVI_261011_190528.pdf",
         "pagine": 21,
         "gruppo": "Appunti",
         "numero": "18",
@@ -2239,7 +2239,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Massimi e minimi assoluti",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/19-massimi-e-minimi-assoluti.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/21 MAX E MIN ASSOLUTI_261011_190526.pdf",
         "pagine": 6,
         "gruppo": "Appunti",
         "numero": "19",
@@ -2248,7 +2248,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Integrale doppio",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/20-integrale-doppio.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/3 INTEGRALE DOPPIO_261011_190530.pdf",
         "pagine": 4,
         "gruppo": "Appunti",
         "numero": "20",
@@ -2257,7 +2257,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Teorema di Green–Gauss",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/21-teorema-di-greengauss.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/5 GREEN GAUSS_261011_190532.pdf",
         "pagine": 3,
         "gruppo": "Appunti",
         "numero": "21",
@@ -2266,7 +2266,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Integrali curvilinei",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/22-integrali-curvilinei.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/8 INTEGRALI CURVILINEI_261011_190533.pdf",
         "pagine": 3,
         "gruppo": "Appunti",
         "numero": "22",
@@ -2275,7 +2275,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Integrali superficiali",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/23-integrali-superficiali.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/9 INTEGRALI SUPERFICIALI_261011_190534.pdf",
         "pagine": 4,
         "gruppo": "Appunti",
         "numero": "23",
@@ -2284,7 +2284,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Derivate parziali — schemi e formule",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/24-derivate-parziali-schemi-e-formule.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/10 DERIVATE PARZIALI_261011_190535.pdf",
         "pagine": 3,
         "gruppo": "Appunti",
         "numero": "24",
@@ -2293,7 +2293,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Serie di potenze — approfondimento",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/25-serie-di-potenze-approfondimento.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/serie_di_potenze_261011_190354.pdf",
         "pagine": 12,
         "gruppo": "Approfondimenti",
         "numero": "25",
@@ -2302,7 +2302,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Note integrative di Analisi Matematica 2",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/26-note-integrative-di-analisi-matematica-2.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/Note_261011_190356.pdf",
         "pagine": 14,
         "gruppo": "Appunti",
         "numero": "26",
@@ -2311,7 +2311,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Esercizi sulle serie numeriche",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/27-esercizi-sulle-serie-numeriche.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/ESERCIZI SERIE NUMERICHE _261011_190536.pdf",
         "pagine": 3,
         "gruppo": "Esercitazioni",
         "numero": "27",
@@ -2320,7 +2320,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Esercizi su serie a segno variabile, positivo e negativo",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/28-esercizi-su-serie-a-segno-variabile-positivo-e-negativo.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/ESERCIZI SERIE SEGNO VARIABILE, POSITIVO O NEGATIV_261011_190536.pdf",
         "pagine": 11,
         "gruppo": "Esercitazioni",
         "numero": "28",
@@ -2329,7 +2329,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Green–Gauss — esercizi e appunti",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/29-greengauss-esercizi-e-appunti.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/GreenGauss_261011_190540.pdf",
         "pagine": 5,
         "gruppo": "Esercitazioni",
         "numero": "29",
@@ -2338,7 +2338,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Mappa per lo svolgimento degli esercizi",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/30-mappa-per-lo-svolgimento-degli-esercizi.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/MAPPA SVOLGIMENTO ESERCIZI _261011_190351.pdf",
         "pagine": 7,
         "gruppo": "Ripasso",
         "numero": "30",
@@ -2347,7 +2347,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Teoria per l’esame — versione 1",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/31-teoria-per-lesame-versione-1.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/0 TEORIA ESAME_261011_190237.pdf",
         "pagine": 13,
         "gruppo": "Ripasso",
         "numero": "31",
@@ -2356,7 +2356,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Teoria per l’esame — versione 2",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/32-teoria-per-lesame-versione-2.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/0 TEORIA ESAME_261011_190608.pdf",
         "pagine": 13,
         "gruppo": "Ripasso",
         "numero": "32",
@@ -2365,7 +2365,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Prova d’esame — 20 gennaio 2021",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/33-prova-desame-20-gennaio-2021.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/ESAME 20 GENNAIO 2021_261011_190249.pdf",
         "pagine": 3,
         "gruppo": "Prove d’esame",
         "numero": "33",
@@ -2374,7 +2374,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Prova d’esame — 31 gennaio 2024",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/34-prova-desame-31-gennaio-2024.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/ESAME 31 GENNAIO 2024_261011_190250.pdf",
         "pagine": 4,
         "gruppo": "Prove d’esame",
         "numero": "34",
@@ -2383,7 +2383,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Prova d’esame — 14 febbraio 2024",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/35-prova-desame-14-febbraio-2024.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/ESAME 14 FEBBRAIO 2024_261011_190241.pdf",
         "pagine": 5,
         "gruppo": "Prove d’esame",
         "numero": "35",
@@ -2392,7 +2392,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Prova d’esame — 19 aprile 2024",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/36-prova-desame-19-aprile-2024.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/ESAME 19 APRILE 2024_261011_190243.pdf",
         "pagine": 7,
         "gruppo": "Prove d’esame",
         "numero": "36",
@@ -2401,7 +2401,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Prova d’esame — 19 settembre 2024",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/37-prova-desame-19-settembre-2024.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/ESAME 19 SETTEMBRE 2024_261011_190246.pdf",
         "pagine": 7,
         "gruppo": "Prove d’esame",
         "numero": "37",
@@ -2410,7 +2410,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Scheda del corso — Analisi Matematica 2",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/38-scheda-del-corso-analisi-matematica-2.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/report ANALISI MATEMATICA 2_261011_190354.pdf",
         "pagine": 3,
         "gruppo": "Riferimenti",
         "numero": "38",
@@ -2419,7 +2419,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Tutoraggio completo 2024 — appunti ed esercizi",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/39-tutoraggio-completo-2024.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/Tutoraggio analisi 2_261011_190635.pdf",
         "pagine": 122,
         "gruppo": "Tutorati",
         "numero": "39",
@@ -2428,7 +2428,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Tutorato 01 — Lista 1: serie numeriche e serie di potenze",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/40-tutorato-01-lista-01.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/4TUTOR 1   LISTA 1_261011_190612.pdf",
         "pagine": 5,
         "gruppo": "Tutorati",
         "numero": "40",
@@ -2437,7 +2437,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Tutorato 02 — Lista 2: convergenza e domini",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/41-tutorato-02-lista-02.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/TUTOR 2  LISTA 2_261011_190613.pdf",
         "pagine": 3,
         "gruppo": "Tutorati",
         "numero": "41",
@@ -2446,7 +2446,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Tutorato 03 — Lista 3: limiti e differenziabilità",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/42-tutorato-03-lista-03.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/TUTOR 3  LISTA 3_261011_190614.pdf",
         "pagine": 5,
         "gruppo": "Tutorati",
         "numero": "42",
@@ -2455,7 +2455,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Tutorato 04 — Lista 4: massimi e minimi",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/43-tutorato-04-lista-04.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/TUTOR 4  LISTA 4_261011_190616.pdf",
         "pagine": 9,
         "gruppo": "Tutorati",
         "numero": "43",
@@ -2464,7 +2464,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Tutorato 05 — Lista 5: integrali doppi",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/44-tutorato-05-lista-05.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/TUTOR 5  LISTA 5_261011_190620.pdf",
         "pagine": 4,
         "gruppo": "Tutorati",
         "numero": "44",
@@ -2473,7 +2473,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Tutorato 06 — Simulazione del primo parziale",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/45-tutorato-06-simulazione-primo-parziale.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/TUTOR 6  SIMULAZIONE PARZIALE 1_261011_190621.pdf",
         "pagine": 4,
         "gruppo": "Prove d’esame",
         "numero": "45",
@@ -2482,7 +2482,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Tutorato 07 — Lista 6: integrali curvilinei e forme differenziali",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/46-tutorato-07-lista-06.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/TUTOR 7  LISTA 6_261011_190622.pdf",
         "pagine": 11,
         "gruppo": "Tutorati",
         "numero": "46",
@@ -2491,7 +2491,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Tutorato 08 — Lista 7: superfici e integrali superficiali",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/47-tutorato-08-lista-07.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/TUTOR 8  LISTA 7_261011_190627.pdf",
         "pagine": 6,
         "gruppo": "Tutorati",
         "numero": "47",
@@ -2500,7 +2500,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Tutorato 09 — Lista 8: formule di Green–Gauss",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/48-tutorato-09-lista-08.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/TUTOR 9  LISTA 8_261011_190630.pdf",
         "pagine": 4,
         "gruppo": "Tutorati",
         "numero": "48",
@@ -2509,7 +2509,7 @@ window.XIN_MATERIE = [
       {
         "titolo": "Tutorato 10 — Lista 9: flussi e teorema di Stokes",
         "tipo": "PDF",
-        "file": "./assets/media/studio/2-anno/analisi-2/49-tutorato-10-lista-09.pdf",
+        "file": "./assets/media/studio/2-anno/analisi-2/TUTOR 10  LISTA 9_261011_190633.pdf",
         "pagine": 4,
         "gruppo": "Tutorati",
         "numero": "49",
